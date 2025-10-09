@@ -1,17 +1,12 @@
-import {
-  pgTable,
-  text,
-  uuid,
-  integer,
-  boolean,
-  timestamp,
-} from "drizzle-orm/pg-core";
+import { pgTable, text, uuid, integer, boolean, timestamp } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 import { user } from "../schemas/auth";
 
 export const subscription = pgTable("subscription", {
   id: uuid("id").primaryKey().defaultRandom(),
-  userId: text("user_id").notNull().references(()=> user.id),
+  userId: text("user_id")
+    .notNull()
+    .references(() => user.id),
   planId: text("plan_id").notNull(),
   customerId: text("customer_id"),
   subscriptionId: text("subscription_id"),

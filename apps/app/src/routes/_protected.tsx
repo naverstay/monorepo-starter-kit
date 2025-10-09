@@ -1,10 +1,10 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { Protected } from '@/auth'
+import { createFileRoute } from "@tanstack/react-router";
+import { Protected } from "@/auth";
 
-export const Route = createFileRoute('/_protected')({
+export const Route = createFileRoute("/_protected")({
   component: RouteComponent,
-})
+});
 
 function RouteComponent() {
-  return <Protected/>
+  return <Protected />;
 }

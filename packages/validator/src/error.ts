@@ -20,27 +20,23 @@ export const APP_ERROR_CODES_BY_KEY = {
 export type APP_ERROR_CODE_KEY = keyof typeof APP_ERROR_CODES_BY_KEY;
 
 export class AppError extends Error {
-  
   public readonly statusCode: number;
   public readonly name: APP_ERROR_CODE_KEY;
-  
-  constructor( 
-    name: APP_ERROR_CODE_KEY, 
-    message: string, 
-  ){
+
+  constructor(name: APP_ERROR_CODE_KEY, message: string) {
     super();
-     
+
     this.name = name;
     this.message = message;
     this.statusCode = APP_ERROR_CODES_BY_KEY[this.name];
-  
+
     Object.setPrototypeOf(this, AppError.prototype);
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, this.constructor);
     }
   }
 
-  public override toString(){
+  public override toString() {
     return JSON.stringify(
       {
         message: this.message,
@@ -52,19 +48,14 @@ export class AppError extends Error {
   }
 }
 
-export const errorHandler = ( error: any, _req: Request, res: Response, _next: NextFunction ) => {
-
-  if( error instanceof AppError ) {
+export const errorHandler = (error: any, _req: Request, res: Response, _next: NextFunction) => {
+  if (error instanceof AppError) {
     res.status(error.statusCode).json(error);
     return;
   }
 
-  const internalError = new AppError(
-    'internal_server_error', 
-    'Something went wrong. If the problem persist, contact with support.',
-  );
+  const internalError = new AppError("internal_server_error", "Something went wrong. If the problem persist, contact with support.");
 
   res.status(internalError.statusCode).json(internalError);
   return;
-
-}
+};

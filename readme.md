@@ -2,7 +2,7 @@
 
 Monorepo starter-Kit is a monorepo created with all the essential configurations to help you build and scale applications easily and efficiently
 
-With Monorepo Starter-Kit, you will work with: 
+With Monorepo Starter-Kit, you will work with:
 
 - Package Manager (pnpm)
 - Frontend App (React + vite)
@@ -38,7 +38,6 @@ pnpm run dev
 
 Launching your postgres database in local
 
-
 Execute the command below:
 
 ```
@@ -62,7 +61,6 @@ postgresql://raburuz:mysecretpassword@localhost/dev
 Download the Stripe CLI
 
 https://docs.stripe.com/stripe-cli
-
 
 Unzip the file in your desktop and open the window terminal (Command Prompt)
 

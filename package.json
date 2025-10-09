@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.18.1",
   "scripts": {
     "dev:app": "pnpm turbo --filter app dev",
     "dev:api": "pnpm turbo --filter api dev",
@@ -12,10 +12,14 @@
     "better-auth:migrate": "pnpm dlx @better-auth/cli@latest migrate --config packages/auth/server.ts --output packages/db/src/schemas/auth.ts",
     "build": "pnpm turbo build",
     "build:app": "pnpm turbo --filter app build",
-    "build:api": "pnpm turbo --filter api build"
+    "build:api": "pnpm turbo --filter api build",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write --list-different ."
   },
   "devDependencies": {
     "@types/node": "^24.0.13",
+    "dotenv": "^17.2.3",
+    "prettier": "^3.6.2",
     "turbo": "^2.5.4"
   }
 }

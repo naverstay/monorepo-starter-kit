@@ -1,14 +1,13 @@
-
 /* LIBRARIES */
-import { QueryClient } from '@tanstack/react-query'
-import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
-import { createAsyncStoragePersister } from '@tanstack/query-async-storage-persister'
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import { createRouter, RouterProvider } from '@tanstack/react-router';
-import { routeTree } from './routeTree.gen'
+import { QueryClient } from "@tanstack/react-query";
+import { PersistQueryClientProvider } from "@tanstack/react-query-persist-client";
+import { createAsyncStoragePersister } from "@tanstack/query-async-storage-persister";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { createRouter, RouterProvider } from "@tanstack/react-router";
+import { routeTree } from "./routeTree.gen";
 
 /* APP */
-import { AxiosProvider } from './Axios';
+import { AxiosProvider } from "./Axios";
 
 const queryClient = new QueryClient();
 const persister = createAsyncStoragePersister({ storage: window.localStorage });
@@ -19,34 +18,30 @@ const router = createRouter({
   context: {
     queryClient,
   },
-  defaultPreload: 'intent',
+  defaultPreload: "intent",
   // Since we're using React Query, we don't want loader calls to ever be stale
   // This will ensure that the loader is always called when the route is preloaded or visited
   defaultPreloadStaleTime: 0,
   scrollRestoration: true,
-})
+});
 
 // Register things for typesafety
-declare module '@tanstack/react-router' {
+declare module "@tanstack/react-router" {
   interface Register {
-    router: typeof router
+    router: typeof router;
   }
 }
 
 /* COMPONENT */
 export const Providers = () => {
-
   return (
     <>
-      <PersistQueryClientProvider 
-        client={queryClient} 
-        persistOptions={{ persister }}
-      >
+      <PersistQueryClientProvider client={queryClient} persistOptions={{ persister }}>
         <AxiosProvider>
-          <RouterProvider router={router}/>
+          <RouterProvider router={router} />
         </AxiosProvider>
         <ReactQueryDevtools initialIsOpen={false} />
       </PersistQueryClientProvider>
     </>
-  )
-}
+  );
+};

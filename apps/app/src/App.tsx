@@ -1,12 +1,11 @@
 import { Providers } from "@/shared/providers/Providers";
 
 function App() {
-
   return (
     <>
-      <Providers/>
+      <Providers />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

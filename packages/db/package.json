@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "studio": "drizzle-kit studio --port=8082",
-    "generate" : "drizzle-kit generate",
-    "migrate" : "drizzle-kit migrate"
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "drizzle-orm": "^0.44.2",

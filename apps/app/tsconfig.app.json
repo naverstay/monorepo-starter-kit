@@ -22,12 +22,12 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    
+
     /* Paths */
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"],
-      "@/*": ["./src/modules/*"],
+      "@/*": ["./src/modules/*"]
     }
   },
   "include": ["src"]

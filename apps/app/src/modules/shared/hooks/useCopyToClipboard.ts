@@ -1,11 +1,9 @@
-
 import toast from "react-hot-toast";
 
 export const useCopyToClipboard = () => {
-
-  const copyToClipboard = async (text : string) => {
+  const copyToClipboard = async (text: string) => {
     if (!navigator?.clipboard) {
-      console.warn('Clipboard not supported');
+      console.warn("Clipboard not supported");
       toast.error("Clipboard not supported");
       return;
     }
@@ -15,10 +13,10 @@ export const useCopyToClipboard = () => {
       await navigator.clipboard.writeText(text);
       toast.success("Copied to clipboard");
     } catch (error) {
-      console.warn('Copy failed', error);
+      console.warn("Copy failed", error);
       toast.error("Cannot copy to clipboard");
     }
-  }
+  };
 
-  return copyToClipboard
-}
+  return copyToClipboard;
+};
