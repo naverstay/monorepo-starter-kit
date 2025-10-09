@@ -4,15 +4,9 @@
   "license": "MIT",
   "scripts": {
     "studio": "drizzle-kit studio --port=8082",
-    "generate": "drizzle-kit generate",
-    "migrate": "drizzle-kit migrate"
-  },
-  "dependencies": {
-    "drizzle-orm": "^0.44.2",
-    "pg": "^8.16.3"
-  },
-  "devDependencies": {
-    "@types/pg": "^8.15.4",
-    "drizzle-kit": "^0.31.4"
+    "generate": "drizzle-kit generate --config=drizzle.config.ts",
+    "migrate": "drizzle-kit migrate --config=drizzle.config.ts",
+    "clean": "rimraf drizzle/* --glob",
+    "seed": "tsx src/scripts/seed.ts"
   }
 }

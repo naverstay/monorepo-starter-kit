@@ -48,6 +48,34 @@ docker run -dp 5432:5432  --name postgresdb  -e POSTGRES_USER=raburuz  -e POSTGR
 
 ```
 
+OR 
+
+```bash
+docker compose up --build -d
+docker exec -it postgresdb bash
+```
+
+Inside psql:
+
+```
+psql -U raburuz -d dev
+CREATE EXTENSION pg_uuidv7;
+\q
+```
+
+Verify PostgreSQL is working:
+
+```bash
+docker exec -it postgresdb psql -U raburuz -d dev
+```
+
+Inside psql:
+
+```sql
+\dx                          -- list installed extensions
+SELECT uuid_generate_v7();   -- generate UUIDv7
+```
+
 Postgresql string connection
 
 ```

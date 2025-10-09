@@ -14,12 +14,29 @@
     "build:app": "pnpm turbo --filter app build",
     "build:api": "pnpm turbo --filter api build",
     "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write --list-different ."
+    "prettier:fix": "prettier --write --list-different .",
+    "db:drop": "docker exec -i postgresdb psql -U raburuz -d postgres -c \"DROP DATABASE IF EXISTS dev;\"",
+    "db:create": "docker exec -i postgresdb psql -U raburuz -d postgres -c \"CREATE DATABASE dev;\"",
+    "db:uuidv7": "docker exec -i postgresdb bash -c \"psql -U raburuz -d dev -c 'CREATE EXTENSION IF NOT EXISTS pg_uuidv7;' && psql -U raburuz -d dev -c '\\dx' && psql -U raburuz -d dev -c 'SELECT uuid_generate_v7();'\"",
+    "db:generate": "pnpm --filter db run generate",
+    "db:migrate": "pnpm --filter db run migrate",
+    "db:seed": "pnpm --filter db run seed",
+    "db:clean": "pnpm --filter db run clean",
+    "db:reset": "pnpm db:clean && pnpm db:drop && pnpm db:create && pnpm db:uuidv7 && pnpm db:generate && pnpm db:migrate && pnpm db:seed"
   },
   "devDependencies": {
     "@types/node": "^24.0.13",
     "dotenv": "^17.2.3",
     "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.20.6",
     "turbo": "^2.5.4"
+  },
+  "dependencies": {
+    "@types/pg": "^8.15.5",
+    "drizzle-kit": "^0.31.5",
+    "drizzle-orm": "^0.44.6",
+    "pg": "^8.16.3",
+    "postgres": "^3.4.7"
   }
 }
