@@ -8,7 +8,13 @@ export const Route = createFileRoute("/_protected/")({
 function RouteComponent() {
   const auth = useSession();
 
-  if (auth.data?.user) return <>user es</>;
+  if (auth.data?.user)
+    return (
+      <>
+        <div>user</div>
+        <div>{JSON.stringify(auth.data?.user ?? {})}</div>
+      </>
+    );
 
   return <div>Hello "/"!</div>;
 }

@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader } from "~/shadcn/ui/card";
 import { Button } from "~/shadcn/ui/button";
 /* APP */
 import { config } from "config";
-import { useAuthActions, useSession, useVerificationEmail } from "../hooks/useAuth";
+import { useAuthActions, useSession, useVerificationEmail } from "@/auth";
 
 export default function VerifyEmailPage() {
   const { signOutFn } = useAuthActions();

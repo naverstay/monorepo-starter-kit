@@ -1,5 +1,5 @@
 import { Button } from "~/shadcn/ui/button";
-import { useAuthActions } from "../hooks/useAuth";
+import { useAuthActions } from "@/auth";
 
 export const Google = () => {
   const { googleFn } = useAuthActions();

@@ -11,7 +11,7 @@ import { Card, CardContent, CardHeader } from "~/shadcn/ui/card";
 
 /* APP */
 import { Form, FormField, FormLabel, FormMessage, Input } from "@/shared/form";
-import { useAuthActions, useSession } from "../hooks/useAuth";
+import { useAuthActions, useSession } from "@/auth";
 import { Google } from "../components/Google";
 import { Honeypot } from "../components/Honeypot";
 

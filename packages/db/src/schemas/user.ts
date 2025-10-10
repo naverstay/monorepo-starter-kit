@@ -32,17 +32,15 @@ export const user = pgTable("user", {
   banReason: text("ban_reason"),
   banExpires: timestamp("ban_expires"),
   email: text("email").notNull().unique(),
-  emailVerified: boolean("email_verified")
-    .$defaultFn(() => false)
-    .notNull(),
+  emailVerified: boolean("email_verified").notNull().default(false),
   image: text("image"),
-  isAnonymous: boolean("is_anonymous").$default(() => true),
+  isAnonymous: boolean("is_anonymous").notNull().default(true),
   // Timestamps
-  createdAt: timestamp("created_at", { withTimezone: true, mode: "date" }).defaultNow().notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true, mode: "date" }).notNull().defaultNow(),
   updatedAt: timestamp("updated_at", { withTimezone: true, mode: "date" })
+    .notNull()
     .defaultNow()
-    .$onUpdate(() => new Date())
-    .notNull(),
+    .$onUpdate(() => new Date()),
 });
 
 /**

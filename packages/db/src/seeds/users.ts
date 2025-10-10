@@ -3,9 +3,9 @@
 
 import { PostgresJsDatabase } from "drizzle-orm/postgres-js";
 import { schema as Db } from "../schemas/index";
+import { user as DbUser } from "../schemas/user";
 
-type UserInsert = typeof Db.user.$inferInsert;
-
+type UserInsert = typeof DbUser.$inferInsert;
 /**
  * Seeds the database with test user accounts.
  */
@@ -31,7 +31,7 @@ export async function seedUsers(db: PostgresJsDatabase<typeof Db>) {
   ];
 
   for (const user of users) {
-    await db.insert(Db.user).values(user).onConflictDoNothing();
+    await db.insert(DbUser).values(user).onConflictDoNothing();
   }
 
   console.log(`✅ Seeded ${users.length} test users`);

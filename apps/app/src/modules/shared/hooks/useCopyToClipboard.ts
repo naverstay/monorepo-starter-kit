@@ -1,7 +1,7 @@
 import toast from "react-hot-toast";
 
 export const useCopyToClipboard = () => {
-  const copyToClipboard = async (text: string) => {
+  return async (text: string) => {
     if (!navigator?.clipboard) {
       console.warn("Clipboard not supported");
       toast.error("Clipboard not supported");
@@ -17,6 +17,4 @@ export const useCopyToClipboard = () => {
       toast.error("Cannot copy to clipboard");
     }
   };
-
-  return copyToClipboard;
 };

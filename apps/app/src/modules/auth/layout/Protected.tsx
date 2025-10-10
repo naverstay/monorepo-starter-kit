@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Outlet, useNavigate } from "@tanstack/react-router";
 /* APP */
 import { LoadingPage } from "@/shared/pages/Loading";
-import { useSession } from "../hooks/useAuth";
+import { useSession } from "@/auth";
 
 /* COMPONENT */
 export const Protected = () => {

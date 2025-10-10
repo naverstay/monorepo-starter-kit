@@ -2,6 +2,7 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import schema from "../schemas/index";
 import { seedProducts } from "../seeds/products";
+import { seedUsers } from "../seeds/users";
 
 // Import drizzle config to trigger environment loading
 import "../../drizzle.config";
@@ -13,8 +14,8 @@ console.log("🌱 Starting database seeding...");
 
 async function run() {
   try {
-    // await seedUsers(db);
-    // console.log("✅ Users seeded successfully!");
+    await seedUsers(db);
+    console.log("✅ Users seeded successfully!");
 
     await seedProducts(db);
     console.log("✅ Products seeded successfully!");
