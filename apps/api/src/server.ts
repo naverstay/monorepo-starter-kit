@@ -35,7 +35,7 @@ app.use(bodyParser.urlencoded(BodyParser.optionsUrlencoded));
 
 //Routes
 app.use(userRouter);
-app.use("/api", usersRouter);
+app.use(usersRouter);
 app.use(errorHandler);
 
 app.listen(port, () => {

@@ -1,4 +1,4 @@
-import { Providers } from "../src/modules/shared/providers/Providers.tsx";
+import { Providers } from "@modules/shared/providers/Providers";
 import { Toaster } from "react-hot-toast";
 
 function App() {

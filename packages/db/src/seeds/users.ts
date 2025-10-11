@@ -11,20 +11,23 @@ export async function seedUsers(db: PostgresJsDatabase<typeof Db>) {
 
   // Test user data with realistic names and email addresses
   const users: UserInsert[] = [
-    { name: "Alice Johnson", email: "alice@example.com", emailVerified: true },
-    { name: "Bob Smith", email: "bob@example.com", emailVerified: true },
+    { name: "Alice Johnson", role: "admin", email: "alice@example.com", emailVerified: true },
+    { name: "Bob Smith", role: "moderator", email: "bob@example.com", emailVerified: true },
     {
       name: "Charlie Brown",
+      role: "user",
       email: "charlie@example.com",
       emailVerified: false,
+      banned: false,
+      banReason: "Fake e-mail",
     },
-    { name: "Diana Prince", email: "diana@example.com", emailVerified: true },
-    { name: "Eve Davis", email: "eve@example.com", emailVerified: true },
-    { name: "Frank Miller", email: "frank@example.com", emailVerified: false },
-    { name: "Grace Lee", email: "grace@example.com", emailVerified: true },
-    { name: "Henry Wilson", email: "henry@example.com", emailVerified: true },
-    { name: "Ivy Chen", email: "ivy@example.com", emailVerified: false },
-    { name: "Jack Thompson", email: "jack@example.com", emailVerified: true },
+    { name: "Diana Prince", role: "user", email: "diana@example.com", emailVerified: true },
+    { name: "Eve Davis", role: "user", email: "eve@example.com", emailVerified: true },
+    { name: "Frank Miller", role: "user", email: "frank@example.com", emailVerified: false },
+    { name: "Grace Lee", role: "user", email: "grace@example.com", emailVerified: true },
+    { name: "Henry Wilson", role: "user", email: "henry@example.com", emailVerified: true },
+    { name: "Ivy Chen", role: "user", email: "ivy@example.com", emailVerified: false },
+    { name: "Jack Thompson", role: "user", email: "jack@example.com", emailVerified: true },
   ];
 
   for (const user of users) {

@@ -1,16 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useSession } from "@modules/auth";
-
-// import { useUsers } from "~/shared/queries/useUsers";
-import { useUsers } from "../../../../../apps/app/src/modules/shared/queries/useUsers";
+import { useUsers } from "@modules/shared/queries/useUsers";
 
 import type { User } from "@shared-types/db";
+import { UserListWithFilters } from "@modules/shared/components/UserListWithFilters";
 
 export const UsersPage = () => {
-  const { data, isLoading, isError } = useUsers();
+  const { data, isLoading } = useUsers({
+    filters: { banned: false, role: "admin" },
+    page: 2,
+    pageSize: 10,
+    orderBy: { field: "createdAt", direction: "desc" },
+  });
 
   if (isLoading) return <div>⏳ Загрузка...</div>;
-  if (isError) return <div>❌ Ошибка загрузки</div>;
+
+  console.log("data", data);
 
   const { userList } = data;
 
@@ -42,5 +47,6 @@ function UsersRouteComponent() {
     return <div>⛔ Доступ запрещён. Войдите в систему.</div>;
   }
 
-  return <UsersPage />;
+  return <UserListWithFilters />;
+  // return <UsersPage />;
 }
