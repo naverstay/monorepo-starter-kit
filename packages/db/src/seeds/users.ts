@@ -1,6 +1,3 @@
-/* SPDX-FileCopyrightText: 2014-present Kriasoft */
-/* SPDX-License-Identifier: MIT */
-
 import { PostgresJsDatabase } from "drizzle-orm/postgres-js";
 import { schema as Db } from "../schemas/index";
 import { user as DbUser } from "../schemas/user";

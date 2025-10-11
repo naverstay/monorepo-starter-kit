@@ -1,6 +1,6 @@
 import { eq } from "drizzle-orm";
 import { db } from "../db";
-import { user } from "../schemas/auth";
+import { user } from "../schemas/user";
 
 export const updateUserInformationByUserId = async (userId: string, data: { name?: string; image?: string }) => {
   await db

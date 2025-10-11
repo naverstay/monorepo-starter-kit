@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "@types/pg": "^8.15.5",
+    "detect-port": "^2.1.0",
     "drizzle-kit": "^0.31.5",
     "drizzle-orm": "^0.44.6",
     "pg": "^8.16.3",

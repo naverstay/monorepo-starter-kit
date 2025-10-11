@@ -1,52 +1,61 @@
 /* REACT */
-import { createContext } from "react";
+import { createContext, useContext, useMemo } from "react";
 
 /* LIBRARIES */
-import AxiosAPI from "axios";
+import axios from "axios";
 import toast from "react-hot-toast";
 
 /* APP */
 import { config } from "config";
 
-const axios = AxiosAPI.create({
-  baseURL: config.url.api,
-  headers: {
-    "Content-Type": "application/json",
-    // Clean the axios cache by default
-    "Cache-Control": "no-cache",
-    Pragma: "no-cache",
-    Expires: "0",
-  },
-  withCredentials: true,
-});
+/* TYPES */
+type AxiosInstance = ReturnType<typeof axios.create>;
 
-//Component
-export const AxiosContext = createContext(axios);
+/* CONTEXT */
+const AxiosContext = createContext<AxiosInstance | null>(null);
 
-axios.interceptors.request.use(
-  (config) => config,
-  (error) => {
-    Promise.reject(error.response || error.message);
-  },
-);
-
-axios.interceptors.response.use(
-  (response) => {
-    return response;
-  },
-  (error) => {
-    const httpStatus = error?.response?.status || 0;
-
-    /* HTTP status is 401 NOT AUTHENTICATED -> Logout from application */
-    if (httpStatus === 401) {
-      console.log(error?.response);
-      toast.error("The session is expired, please log in to continue");
-    }
-
-    return Promise.reject(error?.response || error?.message);
-  },
-);
-
+/* PROVIDER */
 export const AxiosProvider = ({ children }: { children: React.ReactNode }) => {
-  return <AxiosContext.Provider value={axios}>{children}</AxiosContext.Provider>;
+  const axiosInstance = useMemo(() => {
+    const instance = axios.create({
+      baseURL: config.url.api,
+      headers: {
+        "Content-Type": "application/json",
+        "Cache-Control": "no-cache",
+        Pragma: "no-cache",
+        Expires: "0",
+      },
+      withCredentials: true,
+    });
+
+    instance.interceptors.request.use(
+      (config) => config,
+      (error) => Promise.reject(error?.response || error?.message),
+    );
+
+    instance.interceptors.response.use(
+      (response) => response,
+      (error) => {
+        const status = error?.response?.status || 0;
+        if (status === 401) {
+          console.warn("Unauthorized:", error?.response);
+          toast.error("Session expired. Please log in again.");
+        }
+        return Promise.reject(error?.response || error?.message);
+      },
+    );
+
+    return instance;
+  }, []);
+
+  return <AxiosContext.Provider value={axiosInstance}>{children}</AxiosContext.Provider>;
+};
+
+/* HOOK */
+export const useAxios = (): AxiosInstance => {
+  const context = useContext(AxiosContext);
+  if (!context) {
+    throw new Error("useAxios must be used within an AxiosProvider");
+  }
+  return context;
 };

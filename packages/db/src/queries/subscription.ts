@@ -1,7 +1,7 @@
 import { eq } from "drizzle-orm";
 import { db } from "../db";
 import { subscription } from "../schemas/subscription";
-import { user } from "../schemas/auth";
+import { user } from "../schemas/user";
 
 export const createOrUpdateUserToFreePlan = async (userId: string) => {
   const existing = await db.select().from(subscription).where(eq(subscription.userId, userId)).limit(1);

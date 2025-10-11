@@ -23,8 +23,10 @@ export const useAuthActions = () => {
           toast.success("Welcome back 🎉");
         },
         onError: (err) => {
-          console.log("Cannot login with those credentials");
-          toast.error(err.error.message);
+          toast.error(err.error.message || err.error.statusText || "ERROR", {
+            duration: 5000,
+          });
+          console.log("Cannot login with those credentials", err.error);
         },
       },
     );
@@ -45,8 +47,10 @@ export const useAuthActions = () => {
           }, 1000);
         },
         onError: (err) => {
-          toast.error(err.error.message);
-          console.log("Cannot signup with those credentials");
+          toast.error(err.error.message, {
+            duration: 5000,
+          });
+          console.log("Cannot signup with those credentials", err.error);
         },
       },
     );

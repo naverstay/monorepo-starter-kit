@@ -10,7 +10,12 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "~/*": ["./src/*"],
+      "@/*": ["./src/modules/*"],
+      "@db/*": ["../../packages/db/src/*"],
+      "@shared-types/*": ["../../types/*"]
+    }
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist"]

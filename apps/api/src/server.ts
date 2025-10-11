@@ -10,6 +10,7 @@ import { errorHandler } from "validator";
 /* APP */
 import { BodyParser } from "./lib/bodyParser";
 import { userRouter } from "./routes/user";
+import { usersRouter } from "./routes/users";
 import cookieParser from "cookie-parser";
 
 const port = process.env.PORT ?? "8080";
@@ -34,6 +35,7 @@ app.use(bodyParser.urlencoded(BodyParser.optionsUrlencoded));
 
 //Routes
 app.use(userRouter);
+app.use("/api", usersRouter);
 app.use(errorHandler);
 
 app.listen(port, () => {

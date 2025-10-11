@@ -4,7 +4,6 @@ import * as passkey from "./passkey";
 import * as team from "./team";
 import * as user from "./user";
 import * as product from "./product";
-import * as auth from "./auth";
 import * as subscription from "./subscription";
 
 export const schema = {
@@ -13,7 +12,6 @@ export const schema = {
   ...passkey,
   ...team,
   ...user,
-  ...auth,
   ...product,
   ...subscription,
 } as const;
