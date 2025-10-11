@@ -1,5 +1,5 @@
 /* BOILERPLATE */
-import { cn } from "~/lib/utils";
+import { cn } from "@/lib/utils";
 
 /* COMPONENT */
 interface Props {

@@ -6,14 +6,14 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 
 /* SHADCN */
-import { Button } from "~/shadcn/ui/button";
-import { Card, CardContent, CardHeader } from "~/shadcn/ui/card";
+import { Button } from "@/shadcn/ui/button";
+import { Card, CardContent, CardHeader } from "@/shadcn/ui/card";
 
 /* APP */
-import { Form, FormField, FormLabel, FormMessage, Input } from "@/shared/form";
-import { useAuthActions, useSession } from "@/auth";
+import { Form, FormField, FormLabel, FormMessage, Input } from "@modules/shared/form";
+import { useAuthActions, useSession } from "@modules/auth";
 import { Google } from "../components/Google";
-import { Honeypot } from "../components/Honeypot";
+import { Honeypot } from "../components/Honeypot"; /* COMPONENT */
 
 /* COMPONENT */
 const schema = z.object({

@@ -1,7 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useSession } from "@/auth";
+import { useSession } from "@modules/auth";
 
-import { useUsers } from "@/shared/queries/useUsers";
+// import { useUsers } from "~/shared/queries/useUsers";
+import { useUsers } from "../../../../../apps/app/src/modules/shared/queries/useUsers";
+
 import type { User } from "@shared-types/db";
 
 export const UsersPage = () => {

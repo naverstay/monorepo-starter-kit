@@ -3,9 +3,9 @@ import { useId } from "react";
 import { Bone, Eye } from "lucide-react";
 import styles from "./Honeypot.module.css";
 /* SHADCN */
-import { Button } from "~/shadcn/ui/button";
+import { Button } from "@/shadcn/ui/button";
 /* APP */
-import { Form, FormField, FormLabel, FormMessage, Input } from "@/shared/form";
+import { Form, FormField, FormLabel, FormMessage, Input } from "@modules/shared/form"; /* SECURITY COMPONENT */
 
 /* SECURITY COMPONENT */
 export const Honeypot = () => {

@@ -12,7 +12,7 @@ import { config } from "config";
 type AxiosInstance = ReturnType<typeof axios.create>;
 
 /* CONTEXT */
-const AxiosContext = createContext<AxiosInstance | null>(null);
+export const AxiosContext = createContext<AxiosInstance | null>(null);
 
 /* PROVIDER */
 export const AxiosProvider = ({ children }: { children: React.ReactNode }) => {

@@ -2,7 +2,7 @@
 import { type LabelHTMLAttributes } from "react";
 
 /* BOILERPLATE */
-import { cn } from "~/lib/utils";
+import { cn } from "@/lib/utils";
 
 /* COMPONENT */
 interface IProps extends LabelHTMLAttributes<HTMLLabelElement> {}

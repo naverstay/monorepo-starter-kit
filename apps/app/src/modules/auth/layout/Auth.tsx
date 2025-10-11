@@ -5,8 +5,8 @@ import { useEffect } from "react";
 import { Outlet } from "@tanstack/react-router";
 
 /* APP */
-import { useKillAppData } from "@/shared/hooks/useKillAppData";
-import { config } from "config";
+import { useKillAppData } from "@modules/shared/hooks/useKillAppData";
+import { config } from "config"; /* COMPONENT */
 
 /* COMPONENT */
 export const AuthLayout = () => {

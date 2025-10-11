@@ -1,11 +1,11 @@
 /* LIBRARIES */
 import { LogOut } from "lucide-react";
 /* SHADCN */
-import { Card, CardContent, CardHeader } from "~/shadcn/ui/card";
-import { Button } from "~/shadcn/ui/button";
+import { Card, CardContent, CardHeader } from "@/shadcn/ui/card";
+import { Button } from "@/shadcn/ui/button";
 /* APP */
 import { config } from "config";
-import { useAuthActions, useSession, useVerificationEmail } from "@/auth";
+import { useAuthActions, useSession, useVerificationEmail } from "@modules/auth";
 
 export default function VerifyEmailPage() {
   const { signOutFn } = useAuthActions();

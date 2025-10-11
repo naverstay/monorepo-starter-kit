@@ -28,8 +28,8 @@ export default defineConfig(async () => {
     ],
     resolve: {
       alias: [
-        { find: "~", replacement: path.resolve(__dirname, "src") },
-        { find: "@", replacement: path.resolve(__dirname, "src/modules") },
+        { find: "@", replacement: path.resolve(__dirname, "src") },
+        { find: "@modules", replacement: path.resolve(__dirname, "src/modules") },
       ],
     },
     server: {

@@ -2,8 +2,10 @@ import { useEffect } from "react";
 /* LIBRARIES */
 import { Outlet, useNavigate } from "@tanstack/react-router";
 /* APP */
-import { LoadingPage } from "@/shared/pages/Loading";
-import { useSession } from "@/auth";
+// import { LoadingPage } from "@modules/shared/pages/Loading";
+// import { useSession } from "@modules/auth";
+import { LoadingPage } from "@modules/shared/pages/Loading";
+import { useSession } from "@modules/auth"; /* COMPONENT */
 
 /* COMPONENT */
 export const Protected = () => {

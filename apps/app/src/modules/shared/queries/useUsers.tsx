@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { useAxios } from "@/shared/providers/Axios";
+import { useAxios } from "@modules/shared/providers/Axios.tsx";
 
 export const useUsers = () => {
   const axios = useAxios();

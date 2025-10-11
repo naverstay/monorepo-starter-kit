@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Outlet, createRootRoute } from "@tanstack/react-router";
-import { Branding } from "@/shared/components/Branding";
+import { createRootRoute, Outlet } from "@tanstack/react-router";
+import { Branding } from "../../../app/src/modules/shared/components/Branding";
 import { config } from "config";
 
 export const Route = createRootRoute({

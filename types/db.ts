@@ -1,4 +1,4 @@
-import { InferInsertModel, InferSelectModel } from "drizzle-orm";
+import type { InferInsertModel, InferSelectModel } from "drizzle-orm";
 import schema from "../packages/db/src/schemas/index";
 
 export type User = InferSelectModel<typeof schema.user>;

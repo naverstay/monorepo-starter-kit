@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useSession } from "@/auth";
+import { useSession } from "@modules/auth";
 
 export const Route = createFileRoute("/_protected/")({
   component: RouteComponent,

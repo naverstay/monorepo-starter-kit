@@ -1,7 +1,7 @@
 /* REACT */
 import React, { type InputHTMLAttributes } from "react";
 /* BOILERPLATE */
-import { cn } from "~/lib/utils";
+import { cn } from "@/lib/utils";
 
 /* COMPONENT SELECT */
 interface ISelectProps extends InputHTMLAttributes<HTMLSelectElement> {}

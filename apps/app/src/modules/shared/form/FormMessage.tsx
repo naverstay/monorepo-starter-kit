@@ -2,7 +2,7 @@
 import { type HTMLAttributes } from "react";
 
 /* BOILERPLATE */
-import { cn } from "~/lib/utils";
+import { cn } from "@/lib/utils";
 import { AlertCircle } from "lucide-react";
 
 /* COMPONENT */
