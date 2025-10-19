@@ -4,6 +4,9 @@ import schema from "../packages/db/src/schemas/index";
 export type User = InferSelectModel<typeof schema.user>;
 export type NewUser = InferInsertModel<typeof schema.user>;
 
+export type Product = InferSelectModel<typeof schema.product>;
+export type NewProduct = InferInsertModel<typeof schema.product>;
+
 export type Session = InferSelectModel<typeof schema.session>;
 export type NewSession = InferInsertModel<typeof schema.session>;
 

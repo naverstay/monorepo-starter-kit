@@ -4,7 +4,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Button } from "@/shadcn/ui/button";
 import { Spinner } from "@/shadcn/ui/spinner";
 import { UserList } from "./UserList";
-import { useUsers } from "@modules/shared/queries/useUsers.tsx";
+import { useUsers } from "@modules/shared/queries/useUsers";
 
 export const UserListWithFilters = () => {
   const [filters, setFilters] = useState({

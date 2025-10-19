@@ -12,8 +12,8 @@ export const product = pgTable("product", {
 
   imageUrl: text("image_url"),
 
-  gi: real("gi").notNull(),
-  gl: real("gl").notNull(),
+  g_index: real("g_index").notNull(),
+  g_load: real("g_load").notNull(),
 
   createdAt: timestamp("created_at", { withTimezone: true, mode: "date" }).defaultNow().notNull(),
   updatedAt: timestamp("updated_at", { withTimezone: true, mode: "date" }).defaultNow().notNull(),
