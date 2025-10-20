@@ -7,10 +7,10 @@ export const product = pgTable("product", {
     .default(sql`uuid_generate_v7()`),
 
   name_de: text("name_de").notNull(),
-  name_en: text("name_en"),
-  name_ru: text("name_ru"),
+  name_en: text("name_en").notNull(),
+  name_ru: text("name_ru").notNull(),
 
-  imageUrl: text("image_url"),
+  image_url: text("image_url"),
 
   g_index: real("g_index").notNull(),
   g_load: real("g_load").notNull(),

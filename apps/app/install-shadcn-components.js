@@ -12,6 +12,7 @@ const components = [
   "table",
   "textarea",
   //
+  "slider",
   "spinner",
   "switch",
 ];

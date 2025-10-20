@@ -11,12 +11,14 @@ type UseUsersOptions = {
     field: keyof Product;
     direction?: "asc" | "desc";
   };
+  enabled?: boolean;
 };
 
 export const useProducts = ({
                               filters = {},
                               page = 1,
                               pageSize = 20,
+                              enabled = true,
                               orderBy = {field: "createdAt", direction: "desc"}
                             }: UseUsersOptions) => {
   const axios = useAxios();
@@ -36,6 +38,8 @@ export const useProducts = ({
 
   const queryString = queryParams.toString();
 
+  console.log('filters', filters);
+
   return useQuery({
     queryKey: ["products", {filters, page, pageSize, orderBy}],
     queryFn: async () => {
@@ -43,5 +47,6 @@ export const useProducts = ({
       return data;
     },
     staleTime: 1000 * 60 * 5,
+    enabled,
   });
 };

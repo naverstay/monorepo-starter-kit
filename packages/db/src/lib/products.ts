@@ -1,17 +1,16 @@
 import {db} from "../db";
 import {product} from "../schemas/product";
-import {and, asc, count, desc, eq, ilike, gte, lte} from "drizzle-orm";
+import {or, and, asc, count, desc, between, ilike, gte, lte} from "drizzle-orm";
 import {Product} from "@shared-types/db";
-import type {GI_GL} from "@shared-types/global";
+import {GI_GL, SortOption} from "@shared-types/global";
+
+type TableFilter = Partial<Pick<Product, "name_de" | "name_ru" | "name_en"> & GI_GL>;
 
 export async function getAllProducts(options?: {
-  filters?: Partial<Pick<Product, "name_de" | "name_ru" | "name_en"> & GI_GL>;
+  filters?: TableFilter;
   page?: number;
   pageSize?: number;
-  orderBy?: {
-    field: keyof typeof product;
-    direction?: "asc" | "desc";
-  };
+  orderBy?: SortOption<TableFilter>;
 }): Promise<{
   total: number;
   page: number;
@@ -19,43 +18,70 @@ export async function getAllProducts(options?: {
   productList: Product[];
 }> {
   const {filters, page = 1, pageSize = 20, orderBy} = options || {};
+  const {
+    g_index_min = 0,
+    g_index_max = 120,
+    g_load_min = 0,
+    g_load_max = 100,
+    ...restFilters
+  } = filters || {};
+
   const conditions = [];
+  const nameConditions = [];
 
-  if (filters?.name_de) {
-    conditions.push(ilike(product.name_de, `%${filters.name_de}%`));
+  // 🔍 Фильтрация по имени (только непустые строки)
+  const nameFields: (keyof Pick<Product, "name_de" | "name_en" | "name_ru">)[] = [
+    "name_de",
+    "name_en",
+    "name_ru",
+  ];
+
+  for (const field of nameFields) {
+    const value = restFilters?.[field];
+    if (typeof value === "string" && value.trim()) {
+      nameConditions.push(ilike(product[field], `%${value.trim()}%`));
+    }
   }
 
-  if (filters?.name_en) {
-    conditions.push(ilike(product.name_en, `%${filters.name_en}%`));
+  if (nameConditions.length > 0) {
+    conditions.push(or(...nameConditions));
   }
 
-  if (filters?.name_ru) {
-    conditions.push(ilike(product.name_ru, `%${filters.name_ru}%`));
+  // 📊 Диапазон гликемического индекса
+  if (g_index_min !== undefined && g_index_max !== undefined) {
+    conditions.push(between(product.g_index, g_index_min, g_index_max));
+  } else {
+    if (g_index_min !== undefined) {
+      conditions.push(gte(product.g_index, g_index_min));
+    }
+    if (g_index_max !== undefined) {
+      conditions.push(lte(product.g_index, g_index_max));
+    }
   }
 
-  if (filters?.g_index_min !== undefined) {
-    conditions.push(gte(product.g_index, filters.g_index_min));
+  // 📊 Диапазон гликемической нагрузки
+  if (g_load_min !== undefined && g_load_max !== undefined) {
+    conditions.push(between(product.g_load, g_load_min, g_load_max));
+  } else {
+    if (g_load_min !== undefined) {
+      conditions.push(gte(product.g_load, g_load_min));
+    }
+    if (g_load_max !== undefined) {
+      conditions.push(lte(product.g_load, g_load_max));
+    }
   }
 
-  if (filters?.g_index_max !== undefined) {
-    conditions.push(lte(product.g_index, filters.g_index_max));
-  }
+  const whereClause = conditions.length > 0 ? and(...conditions) : undefined;
 
-  if (filters?.g_load_min !== undefined) {
-    conditions.push(gte(product.g_load, filters.g_load_min));
-  }
-
-  if (filters?.g_load_max !== undefined) {
-    conditions.push(lte(product.g_load, filters.g_load_max));
-  }
-
-  const whereClause = conditions.length ? and(...conditions) : undefined;
-
-  // 🔢 Получаем общее количество
-  const totalResult = await db.select({count: count()}).from(product).where(whereClause);
+  // 📦 Получение общего количества
+  const totalResult = await db
+    .select({count: count()})
+    .from(product)
+    .where(whereClause);
 
   const total = Number(totalResult[0]?.count ?? 0);
 
+  // 📦 Получение списка продуктов
   let query = db.select().from(product);
 
   if (whereClause) {
@@ -63,7 +89,10 @@ export async function getAllProducts(options?: {
   }
 
   if (orderBy?.field) {
-    const direction = orderBy.direction === "desc" ? desc(product[orderBy.field]) : asc(product[orderBy.field]);
+    const direction =
+      orderBy.direction === "desc"
+        ? desc(product[orderBy.field])
+        : asc(product[orderBy.field]);
     query = query.orderBy(direction);
   }
 

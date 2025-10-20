@@ -2,15 +2,15 @@ import {db} from "../db";
 import {user} from "../schemas/user";
 import {and, asc, count, desc, eq, ilike} from "drizzle-orm";
 import {User} from "@shared-types/db";
+import {SortOption} from "@shared-types/global";
+
+type TableFilter = Partial<Pick<User, "email" | "name" | "role" | "banned" | "isAnonymous">>;
 
 export async function getAllUsers(options?: {
-  filters?: Partial<Pick<User, "email" | "name" | "role" | "banned" | "isAnonymous">>;
+  filters?: TableFilter;
   page?: number;
   pageSize?: number;
-  orderBy?: {
-    field: keyof typeof user;
-    direction?: "asc" | "desc";
-  };
+  orderBy?: SortOption<TableFilter> | undefined;
 }): Promise<{
   total: number;
   page: number;
