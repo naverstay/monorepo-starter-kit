@@ -1,5 +1,5 @@
 import {Card, CardContent, CardHeader} from "@/shadcn/ui/card";
-import {Avatar, AvatarFallback, AvatarImage} from "@/shadcn/ui/avatar";
+import {Avatar, AvatarFallback, AvatarImage} from "@/shadcn/custom/avatar";
 import type {Product} from "@shared-types/db";
 
 export const ProductList = ({productList}: { productList: Product[] }) => {

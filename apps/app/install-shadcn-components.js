@@ -1,25 +1,25 @@
 import { spawn } from "child_process";
 
 const components = [
-  "button",
-  "input",
-  "select",
-  "card",
-  "badge",
   "avatar",
+  "badge",
+  "button",
+  "card",
   "dialog",
-  "tooltip",
-  "table",
-  "textarea",
-  //
+  "input",
+  "pagination",
+  "select",
   "slider",
   "spinner",
   "switch",
+  "table",
+  "textarea",
+  "tooltip",
 ];
 
-function installComponent(name) {
+function installComponent(name, index) {
   return new Promise((resolve, reject) => {
-    console.log(`\n📦 Installing component: ${name}`);
+    console.log(`\n📦 Installing component: ${name}, ${index} of ${components.length}`);
     const command = `pnpm dlx shadcn@latest add ${name} -o`;
     const child = spawn(command, {
       stdio: "inherit",
@@ -39,9 +39,9 @@ function installComponent(name) {
 }
 
 async function run() {
-  for (const component of components) {
+  for (const [index, component] of components.entries()) {
     try {
-      await installComponent(component);
+      await installComponent(component, index);
     } catch (err) {
       console.warn(`⚠️ Skipping ${component} due to error.`);
     }

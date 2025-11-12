@@ -4,13 +4,17 @@ import {Button} from "@/shadcn/ui/button";
 import {Spinner} from "@/shadcn/ui/spinner";
 import {Slider} from "@/shadcn/ui/slider"
 import {ProductList} from "./ProductList";
+import {PaginationControls} from "./PaginationControls";
 import {useProducts} from "@modules/shared/queries/useProducts";
+
 import {cn} from "@/lib/utils.ts";
 
 const G_INDEX_MAX = 120;
 const G_LOAD_MAX = 100;
 
 export const ProductListWithFilters = () => {
+  const pageSize = 30;
+  const [page, setPage] = useState(1);
   const [filters, setFilters] = useState({
     name: "",
     g_index_min: 0,
@@ -42,8 +46,8 @@ export const ProductListWithFilters = () => {
       g_load_min: activeFilters.g_load_min,
       g_load_max: activeFilters.g_load_max,
     },
-    page: 1,
-    pageSize: 30,
+    page,
+    pageSize,
     orderBy: {field: "createdAt", direction: "desc"},
   });
 
@@ -52,13 +56,14 @@ export const ProductListWithFilters = () => {
   };
 
   const handleSearch = () => {
+    setPage(1);
     setActiveFilters(filters);
   };
 
   useEffect(() => {
     refetch().then(() => {
     });
-  }, [activeFilters]);
+  }, [activeFilters, page]);
 
   useEffect(() => {
     handleSearch();
@@ -71,7 +76,8 @@ export const ProductListWithFilters = () => {
           <Spinner className="h-6 w-6 text-primary"/>
         </div>
       ) : null}
-      <div className="space-y-6">
+
+      <div className="sticky bg-background top-0 p-4 mx-[-1rem] z-1">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="relative w-full flex pl-8">
             <div className="absolute top-[50%] translate-y-[-50%] left-0">
@@ -124,8 +130,23 @@ export const ProductListWithFilters = () => {
             <Button onClick={handleSearch} className="absolute w-10 top-0 right-0">🔍</Button>
           </div>
         </div>
+      </div>
 
-        {data?.productList?.length ? <ProductList productList={data.productList}/> : (isLoading ? null : <div className="text-center p-10">-= ❌ 🛒 ❌ =-</div>)}
+      {data?.productList?.length ?
+        <div className="flex-1"><ProductList productList={data.productList}/></div> : (isLoading ? null :
+          <div className="text-center p-10 flex-1 flex items-center justify-center">-= ❌ 🔍 ❌ =-</div>)}
+
+      <div className="sticky bg-background bottom-0 p-4 mx-[-1rem] z-1">
+        {data?.total > pageSize && (
+          <div className="flex justify-center">
+            <PaginationControls
+              total={data.total}
+              page={page}
+              pageSize={pageSize}
+              onPageChange={(newPage) => setPage(newPage)}
+            />
+          </div>
+        )}
       </div>
     </>
   );

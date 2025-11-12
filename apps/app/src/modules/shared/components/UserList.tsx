@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from "@/shadcn/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/shadcn/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/shadcn/custom/avatar";
 import { Badge } from "@/shadcn/ui/badge";
 import type { User } from "@shared-types/db";
 
