@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 // import { getAllUsers } from "@db/lib/users";
 import type { User } from "@shared-types/db";
-import { getAllUsers } from "../../../../../../packages/db/src/lib/users.ts";
+import { getAllUsers } from "@db/lib/users.ts";
 
 type UseUsersPageOptions = {
   filters?: Partial<Pick<User, "email" | "name" | "role" | "banned" | "isAnonymous">>;
@@ -31,6 +31,6 @@ export const useUsersPage = (options: UseUsersPageOptions) => {
       pageSize,
       userList: [],
     }),
-    staleTime: 1000 * 60 * 5,
+    // staleTime: 1000 * 60 * 5,
   });
 };

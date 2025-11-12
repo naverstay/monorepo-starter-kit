@@ -36,6 +36,6 @@ export const useUsers = ({ filters = {}, page = 1, pageSize = 20, orderBy = { fi
       const { data } = await axios.get(`/api/users?${queryString}`);
       return data;
     },
-    staleTime: 1000 * 60 * 5,
+    // staleTime: 1000 * 60 * 5,
   });
 };

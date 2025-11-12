@@ -38,7 +38,7 @@ export const useProducts = ({
 
   const queryString = queryParams.toString();
 
-  console.log('filters', filters);
+  console.log('filters', filters, queryString);
 
   return useQuery({
     queryKey: ["products", {filters, page, pageSize, orderBy}],
@@ -46,7 +46,7 @@ export const useProducts = ({
       const {data} = await axios.get(`/api/products?${queryString}`);
       return data;
     },
-    staleTime: 1000 * 60 * 5,
+    // staleTime: 1000 * 60 * 5,
     enabled,
   });
 };
