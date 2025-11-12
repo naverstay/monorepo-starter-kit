@@ -29,7 +29,6 @@ export async function getAllProducts(options?: {
   const conditions = [];
   const nameConditions = [];
 
-  // 🔍 Фильтрация по имени (только непустые строки)
   const nameFields: (keyof Pick<Product, "name_de" | "name_en" | "name_ru">)[] = [
     "name_de",
     "name_en",
@@ -47,7 +46,6 @@ export async function getAllProducts(options?: {
     conditions.push(or(...nameConditions));
   }
 
-  // 📊 Диапазон гликемического индекса
   if (g_index_min !== undefined && g_index_max !== undefined) {
     conditions.push(between(product.g_index, g_index_min, g_index_max));
   } else {
@@ -59,7 +57,6 @@ export async function getAllProducts(options?: {
     }
   }
 
-  // 📊 Диапазон гликемической нагрузки
   if (g_load_min !== undefined && g_load_max !== undefined) {
     conditions.push(between(product.g_load, g_load_min, g_load_max));
   } else {
@@ -73,7 +70,6 @@ export async function getAllProducts(options?: {
 
   const whereClause = conditions.length > 0 ? and(...conditions) : undefined;
 
-  // 📦 Получение общего количества
   const totalResult = await db
     .select({count: count()})
     .from(product)
@@ -81,7 +77,8 @@ export async function getAllProducts(options?: {
 
   const total = Number(totalResult[0]?.count ?? 0);
 
-  // 📦 Получение списка продуктов
+  // console.log('total conditions', total, filters, restFilters);
+
   let query = db.select().from(product);
 
   if (whereClause) {

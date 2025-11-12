@@ -38,7 +38,7 @@ export const useProducts = ({
 
   const queryString = queryParams.toString();
 
-  console.log('filters', filters, queryString);
+  // console.log('filters', filters, queryString);
 
   return useQuery({
     queryKey: ["products", {filters, page, pageSize, orderBy}],

@@ -53,12 +53,12 @@ export const ProductListWithFilters = () => {
 
   const handleSearch = () => {
     setActiveFilters(filters);
-    refetch();
   };
 
   useEffect(() => {
-    console.log('productList', data?.productList);
-  }, [data]);
+    refetch().then(() => {
+    });
+  }, [activeFilters]);
 
   useEffect(() => {
     handleSearch();
@@ -81,7 +81,6 @@ export const ProductListWithFilters = () => {
               <Slider
                 value={[filters.g_index_min, filters.g_index_max]}
                 onValueChange={(range: [number, number]) => {
-                  console.log('onValueChange', range);
                   setFilters({...filters, g_index_min: range[0], g_index_max: range[1]});
                 }}
                 min={0}
@@ -105,7 +104,6 @@ export const ProductListWithFilters = () => {
               <Slider
                 value={[filters.g_load_min, filters.g_load_max]}
                 onValueChange={(range: [number, number]) => {
-                  console.log('onValueChange', range);
                   setFilters({...filters, g_load_min: range[0], g_load_max: range[1]});
                 }}
                 min={0}
@@ -127,7 +125,7 @@ export const ProductListWithFilters = () => {
           </div>
         </div>
 
-        {data?.productList && <ProductList productList={data.productList}/>}
+        {data?.productList?.length ? <ProductList productList={data.productList}/> : (isLoading ? null : <div className="text-center p-10">-= ❌ 🛒 ❌ =-</div>)}
       </div>
     </>
   );

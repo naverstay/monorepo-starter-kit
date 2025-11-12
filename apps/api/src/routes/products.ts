@@ -12,14 +12,22 @@ router.get("/api/products", async (req, res) => {
       name_de,
       name_ru,
       name_en,
-      g_index,
-      g_load,
+      g_index_min,
+      g_index_max,
+      g_load_min,
+      g_load_max,
       orderByField,
       orderByDirection
     } = req.query;
 
     const filters = {
-      name_de, name_ru, name_en, g_index, g_load
+      name_de,
+      name_ru,
+      name_en,
+      g_index_min,
+      g_index_max,
+      g_load_min,
+      g_load_max
     };
 
     const orderBy = orderByField
@@ -42,11 +50,5 @@ router.get("/api/products", async (req, res) => {
     res.status(500).json({error: "Не удалось получить продукты"});
   }
 });
-
-function parseBoolean(value: unknown): boolean | undefined {
-  if (value === "true") return true;
-  if (value === "false") return false;
-  return undefined;
-}
 
 export {router as productsRouter};
