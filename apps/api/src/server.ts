@@ -12,6 +12,7 @@ import {BodyParser} from "./lib/bodyParser";
 import {userRouter} from "./routes/user";
 import {usersRouter} from "./routes/users";
 import {productsRouter} from "./routes/products";
+import {nutritionRouter} from "./routes/nutrition";
 import cookieParser from "cookie-parser";
 
 const port = process.env.PORT ?? "8080";
@@ -38,6 +39,7 @@ app.use(bodyParser.urlencoded(BodyParser.optionsUrlencoded));
 app.use(userRouter);
 app.use(usersRouter);
 app.use(productsRouter);
+app.use(nutritionRouter);
 app.use(errorHandler);
 
 app.listen(port, () => {
