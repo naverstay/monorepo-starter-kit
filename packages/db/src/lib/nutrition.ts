@@ -5,7 +5,7 @@ import {or, and, asc, count, desc, between, ilike, gte, lte, eq} from "drizzle-o
 import {Product} from "@shared-types/db";
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY!,
+  apiKey: '' // process.env.OPENAI_API_KEY!,
 });
 
 export async function getRecommendation({selectedProduct = "", goal = ""}) {

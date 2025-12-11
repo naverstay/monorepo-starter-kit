@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {Input} from "@/shadcn/ui/input";
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/shadcn/ui/select";
 import {Button} from "@/shadcn/ui/button";
@@ -16,6 +16,8 @@ export const UserListWithFilters = () => {
     role: "",
   });
 
+  const [activeFilters, setActiveFilters] = useState(filters);
+
   // const { data, refetch } = useUsersPage({
   //   filters: {
   //     name: filters.name || undefined,
@@ -28,9 +30,9 @@ export const UserListWithFilters = () => {
 
   const {data, isLoading, refetch} = useUsers({
     filters: {
-      name: filters.name || undefined,
-      email: filters.email || undefined,
-      role: filters.role || undefined,
+      name: activeFilters.name || undefined,
+      email: activeFilters.email || undefined,
+      role: activeFilters.role || undefined,
     },
     page,
     pageSize,
@@ -42,8 +44,14 @@ export const UserListWithFilters = () => {
   };
 
   const handleSearch = () => {
-    refetch();
+    setPage(1);
+    setActiveFilters(filters);
   };
+
+  useEffect(() => {
+    refetch().then(() => {
+    });
+  }, [activeFilters, page]);
 
   return (
     <>
@@ -53,13 +61,25 @@ export const UserListWithFilters = () => {
         </div>
       ) : null}
 
-      <div className="sticky bg-background top-0 p-4 mx-[-1rem] z-1">
+      <div className="sticky bg-background top-0 p-4 pb-8 mx-[-1rem] z-1">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
           <Input placeholder="Поиск по имени" value={filters.name}
-                 onChange={(e) => handleChange("name", e.target.value)}/>
+                 onChange={(e) => handleChange("name", e.target.value)}
+                 onKeyUp={(e) => {
+                   if (e.key.toLowerCase() === 'enter') {
+                     handleSearch()
+                   }
+                 }}
+          />
           <Input placeholder="Поиск по email" value={filters.email}
-                 onChange={(e) => handleChange("email", e.target.value)}/>
+                 onChange={(e) => handleChange("email", e.target.value)}
+                 onKeyUp={(e) => {
+                   if (e.key.toLowerCase() === 'enter') {
+                     handleSearch()
+                   }
+                 }}
+          />
 
           <div className="relative pr-12">
             <Select onValueChange={(value) => handleChange("role", value)}>

@@ -77,7 +77,7 @@ export const ProductListWithFilters = () => {
         </div>
       ) : null}
 
-      <div className="sticky bg-background top-0 p-4 mx-[-1rem] z-1">
+      <div className="sticky bg-background top-0 p-4 pb-8 mx-[-1rem] z-1">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="relative w-full flex pl-8">
             <div className="absolute top-[50%] translate-y-[-50%] left-0">
@@ -94,7 +94,7 @@ export const ProductListWithFilters = () => {
                 step={1}
               />
 
-              <div className="absolute top-4 left-[50%] translate-x-[-50%] flex">
+              <div className="absolute top-2 left-[50%] translate-x-[-50%] flex">
                 <div className={cn(
                   "bg-foreground text-background z-50 w-fit origin-(--radix-tooltip-content-transform-origin) rounded-md px-2 py-1 text-xs text-balance"
                 )}>{filters.g_index_min} - {filters.g_index_max}</div>
@@ -116,7 +116,7 @@ export const ProductListWithFilters = () => {
                 max={G_LOAD_MAX}
                 step={1}
               />
-              <div className="absolute top-4 left-[50%] translate-x-[-50%] flex">
+              <div className="absolute top-2 left-[50%] translate-x-[-50%] flex">
                 <div className={cn(
                   "bg-foreground text-background z-50 w-fit origin-(--radix-tooltip-content-transform-origin) rounded-md px-2 py-1 text-xs text-balance"
                 )}>{filters.g_load_min} - {filters.g_load_max}</div>
@@ -126,7 +126,13 @@ export const ProductListWithFilters = () => {
 
           <div className="relative pr-12">
             <Input id="name" placeholder="Поиск по имени" value={filters.name}
-                   onChange={(e) => handleChange("name", e.target.value)}/>
+                   onChange={(e) => handleChange("name", e.target.value)}
+                   onKeyUp={(e) => {
+                     if (e.key.toLowerCase() === 'enter') {
+                       handleSearch()
+                     }
+                   }}
+            />
             <Button onClick={handleSearch} className="absolute w-10 top-0 right-0">🔍</Button>
           </div>
         </div>
