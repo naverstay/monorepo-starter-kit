@@ -78,7 +78,7 @@ export const ProductListWithFilters = () => {
       ) : null}
 
       <div className="sticky bg-background top-0 p-4 mx-[-1rem] z-1">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-4">
           <div className="relative w-full flex pl-8">
             <div className="absolute top-[50%] translate-y-[-50%] left-0">
               ГИ
@@ -125,7 +125,14 @@ export const ProductListWithFilters = () => {
           </div>
 
           <div className="relative pr-12">
-            <Input id="name" placeholder="Поиск по имени" value={filters.name}
+            <Input id="name"
+
+                   placeholder="Поиск по имени" value={filters.name}
+                   onKeyDown={(e) => {
+                     if (e.key.toLowerCase() === 'enter') {
+                       handleSearch()
+                     }
+                   }}
                    onChange={(e) => handleChange("name", e.target.value)}/>
             <Button onClick={handleSearch} className="absolute w-10 top-0 right-0">🔍</Button>
           </div>
