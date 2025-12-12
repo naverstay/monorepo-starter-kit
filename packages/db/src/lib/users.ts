@@ -1,8 +1,8 @@
 import {db} from "../db";
 import {user} from "../schemas/user";
 import {and, asc, count, desc, eq, ilike} from "drizzle-orm";
-import {User} from "@shared-types/db";
-import {SortOption} from "@shared-types/global";
+import type {User} from "@shared-types/db";
+import type {SortOption} from "@shared-types/global";
 
 type TableFilter = Partial<Pick<User, "email" | "name" | "role" | "banned" | "isAnonymous">>;
 
@@ -47,20 +47,15 @@ export async function getAllUsers(options?: {
 
   const total = Number(totalResult[0]?.count ?? 0);
 
-  let query = db.select().from(user);
-
-  if (whereClause) {
-    query = query.where(whereClause);
-  }
+  let sorted = undefined;
+  let query = db.select().from(user).where(whereClause);
 
   if (orderBy?.field) {
     const direction = orderBy.direction === "desc" ? desc(user[orderBy.field]) : asc(user[orderBy.field]);
-    query = query.orderBy(direction);
+    sorted = query.orderBy(direction);
   }
 
-  query = query.limit(pageSize).offset((page - 1) * pageSize);
-
-  const userList = await query;
+  const userList = await (sorted ? sorted : query).limit(pageSize).offset((page - 1) * pageSize);
 
   return {
     total,

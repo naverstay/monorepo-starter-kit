@@ -9,7 +9,7 @@ export const ProductList = ({productList}: { productList: Product[] }) => {
         <Card key={product.id} className="shadow-sm border">
           <CardHeader className="flex items-center gap-4">
             <Avatar sizeClassName={"size-10"}>
-              <AvatarImage src={product.image_url ?? ""} alt={product.name_ru} />
+              <AvatarImage src={product.image_url ?? ""} alt={product.name_ru}/>
               <AvatarFallback>{product.name_ru?.[0] ?? "?"}</AvatarFallback>
             </Avatar>
             <div>
@@ -20,8 +20,8 @@ export const ProductList = ({productList}: { productList: Product[] }) => {
             <h3 className="text-lg font-semibold">{product.name_de}</h3>
             <h3 className="text-lg font-semibold">{product.name_en}</h3>
             <div className="flex gap-2">
-              ГИ <p className="text-sm text-muted-foreground">{product.g_index}</p>
-              ГН <p className="text-sm text-muted-foreground">{product.g_load}</p>
+              <span className="text-sm text-muted-foreground">ГИ {product.g_index}</span>
+              <span className="text-sm text-muted-foreground">ГН {product.g_load}</span>
             </div>
           </CardContent>
         </Card>

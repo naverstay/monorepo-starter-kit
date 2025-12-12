@@ -23,7 +23,7 @@ export const useUsersPage = (options: UseUsersPageOptions) => {
         filters,
         page,
         pageSize,
-        orderBy,
+        // orderBy,
       }),
     placeholderData: () => ({
       total: 0,

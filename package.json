@@ -25,17 +25,21 @@
     "db:reset": "pnpm db:clean && pnpm db:drop && pnpm db:create && pnpm db:uuidv7 && pnpm db:generate && pnpm db:migrate && pnpm db:seed"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
     "@types/node": "^24.0.13",
     "dotenv": "^17.2.3",
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
     "tsx": "^4.20.6",
-    "turbo": "^2.5.4"
+    "turbo": "^2.5.4",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@capacitor/android": "^8.0.0",
     "@types/pg": "^8.15.5",
     "detect-port": "^2.1.0",
-    "drizzle-kit": "^0.31.5",
+    "drizzle-kit": "^0.18.1",
     "drizzle-orm": "^0.44.6",
     "openai": "^6.8.1",
     "pg": "^8.16.3",
