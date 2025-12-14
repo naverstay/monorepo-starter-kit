@@ -1,8 +1,8 @@
-import {db} from "../db";
-import {user} from "../schemas/user";
-import {and, asc, count, desc, eq, ilike} from "drizzle-orm";
-import type {User} from "@shared-types/db";
-import type {SortOption} from "@shared-types/global";
+import { db } from "../db";
+import { user } from "../schemas/user";
+import { and, asc, count, desc, eq, ilike } from "drizzle-orm";
+import type { User } from "@shared-types/db";
+import type { SortOption } from "@shared-types/global";
 
 type TableFilter = Partial<Pick<User, "email" | "name" | "role" | "banned" | "isAnonymous">>;
 
@@ -17,7 +17,7 @@ export async function getAllUsers(options?: {
   pageSize: number;
   userList: User[];
 }> {
-  const {filters, page = 1, pageSize = 20, orderBy} = options || {};
+  const { filters, page = 1, pageSize = 20, orderBy } = options || {};
   const conditions = [];
 
   if (filters?.email) {
@@ -43,7 +43,7 @@ export async function getAllUsers(options?: {
   const whereClause = conditions.length ? and(...conditions) : undefined;
 
   // 🔢 Получаем общее количество
-  const totalResult = await db.select({count: count()}).from(user).where(whereClause);
+  const totalResult = await db.select({ count: count() }).from(user).where(whereClause);
 
   const total = Number(totalResult[0]?.count ?? 0);
 

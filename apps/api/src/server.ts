@@ -4,15 +4,15 @@ import express from "express";
 import cors from "cors";
 import helmet from "helmet";
 import bodyParser from "body-parser";
-import {authHandler} from "auth/server";
-import {errorHandler} from "validator";
+import { authHandler } from "auth/server";
+import { errorHandler } from "validator";
 
 /* APP */
-import {BodyParser} from "./lib/bodyParser";
-import {userRouter} from "./routes/user";
-import {usersRouter} from "./routes/users";
-import {productsRouter} from "./routes/products";
-import {nutritionRouter} from "./routes/nutrition";
+import { BodyParser } from "./lib/bodyParser";
+import { userRouter } from "./routes/user";
+import { usersRouter } from "./routes/users";
+import { productsRouter } from "./routes/products";
+import { nutritionRouter } from "./routes/nutrition";
 import cookieParser from "cookie-parser";
 
 const port = process.env.PORT ?? "8080";
@@ -21,7 +21,7 @@ const app = express();
 
 //Middlewares
 app.set("trust proxy", true);
-app.use(cors({origin: process.env.FRONTEND_URL ?? "*", credentials: true}));
+app.use(cors({ origin: process.env.FRONTEND_URL ?? "*", credentials: true }));
 app.use(helmet());
 app.use(cookieParser());
 

@@ -15,12 +15,7 @@ interface PaginationControlsProps {
   onPageChange: (page: number) => void;
 }
 
-export function PaginationControls({
-                                     total,
-                                     page,
-                                     pageSize,
-                                     onPageChange,
-                                   }: PaginationControlsProps) {
+export function PaginationControls({ total, page, pageSize, onPageChange }: PaginationControlsProps) {
   const totalPages = Math.max(1, Math.ceil(total / pageSize));
 
   const getVisiblePages = () => {
@@ -64,7 +59,7 @@ export function PaginationControls({
             </PaginationItem>
             {visiblePages[0] > 2 && (
               <PaginationItem>
-                <PaginationEllipsis/>
+                <PaginationEllipsis />
               </PaginationItem>
             )}
           </>
@@ -89,7 +84,7 @@ export function PaginationControls({
           <>
             {visiblePages[visiblePages.length - 1] < totalPages - 1 && (
               <PaginationItem>
-                <PaginationEllipsis/>
+                <PaginationEllipsis />
               </PaginationItem>
             )}
             <PaginationItem>

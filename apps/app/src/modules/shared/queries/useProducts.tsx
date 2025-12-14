@@ -1,7 +1,7 @@
-import {useQuery} from "@tanstack/react-query";
-import {useAxios} from "@modules/shared/providers/Axios.tsx";
-import type {Product} from "@shared-types/db";
-import type {GI_GL} from "@shared-types/global";
+import { useQuery } from "@tanstack/react-query";
+import { useAxios } from "@modules/shared/providers/Axios.tsx";
+import type { Product } from "@shared-types/db";
+import type { GI_GL } from "@shared-types/global";
 
 type UseUsersOptions = {
   filters?: Partial<Pick<Product, "name_de" | "name_ru" | "name_en"> & GI_GL>;
@@ -15,12 +15,12 @@ type UseUsersOptions = {
 };
 
 export const useProducts = ({
-                              filters = {},
-                              page = 1,
-                              pageSize = 20,
-                              enabled = true,
-                              orderBy = {field: "createdAt", direction: "desc"}
-                            }: UseUsersOptions) => {
+  filters = {},
+  page = 1,
+  pageSize = 20,
+  enabled = true,
+  orderBy = { field: "createdAt", direction: "desc" },
+}: UseUsersOptions) => {
   const axios = useAxios();
 
   const queryParams = new URLSearchParams();
@@ -41,9 +41,9 @@ export const useProducts = ({
   // console.log('filters', filters, queryString);
 
   return useQuery({
-    queryKey: ["products", {filters, page, pageSize, orderBy}],
+    queryKey: ["products", { filters, page, pageSize, orderBy }],
     queryFn: async () => {
-      const {data} = await axios.get(`/api/products?${queryString}`);
+      const { data } = await axios.get(`/api/products?${queryString}`);
       return data;
     },
     // staleTime: 1000 * 60 * 5,

@@ -1,6 +1,6 @@
-import {Router} from "express";
-import {getAllProducts} from "db/src/lib/products";
-import {product} from "db";
+import { Router } from "express";
+import { getAllProducts } from "db/src/lib/products";
+import { product } from "db";
 
 const router = Router();
 
@@ -17,7 +17,7 @@ router.get("/api/products", async (req, res) => {
       g_load_min,
       g_load_max,
       orderByField,
-      orderByDirection
+      orderByDirection,
     } = req.query;
 
     const filters = {
@@ -27,14 +27,14 @@ router.get("/api/products", async (req, res) => {
       g_index_min,
       g_index_max,
       g_load_min,
-      g_load_max
+      g_load_max,
     };
 
     const orderBy = orderByField
       ? {
-        field: orderByField as keyof typeof product,
-        direction: orderByDirection === "asc" ? "asc" : "desc",
-      }
+          field: orderByField as keyof typeof product,
+          direction: orderByDirection === "asc" ? "asc" : "desc",
+        }
       : undefined;
 
     const products = await getAllProducts({
@@ -47,8 +47,8 @@ router.get("/api/products", async (req, res) => {
     res.json(products);
   } catch (err) {
     console.error("Ошибка при получении продуктов:", err);
-    res.status(500).json({error: "Не удалось получить продукты"});
+    res.status(500).json({ error: "Не удалось получить продукты" });
   }
 });
 
-export {router as productsRouter};
+export { router as productsRouter };

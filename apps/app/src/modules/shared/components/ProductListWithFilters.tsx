@@ -1,13 +1,14 @@
-import {useEffect, useState} from "react";
-import {Input} from "@/shadcn/ui/input";
-import {Button} from "@/shadcn/ui/button";
-import {Spinner} from "@/shadcn/ui/spinner";
-import {Slider} from "@/shadcn/ui/slider"
-import {ProductList} from "./ProductList";
-import {PaginationControls} from "./PaginationControls";
-import {useProducts} from "@modules/shared/queries/useProducts";
+import { useEffect, useState } from "react";
+import { Input } from "@/shadcn/ui/input";
+import { Button } from "@/shadcn/ui/button";
+import { Spinner } from "@/shadcn/ui/spinner";
+import { Slider } from "@/shadcn/ui/slider";
+import { ProductList } from "./ProductList";
+import { PaginationControls } from "./PaginationControls";
+import { useProducts } from "@modules/shared/queries/useProducts";
+import { Search, X } from "lucide-react";
 
-import {cn} from "@/lib/utils.ts";
+import { cn } from "@/lib/utils.ts";
 
 const G_INDEX_MAX = 120;
 const G_LOAD_MAX = 100;
@@ -35,7 +36,7 @@ export const ProductListWithFilters = () => {
   //   pageSize: 20,
   // });
 
-  const {data, isLoading, refetch} = useProducts({
+  const { data, isLoading, refetch } = useProducts({
     enabled: false,
     filters: {
       name_ru: activeFilters.name || undefined,
@@ -48,11 +49,11 @@ export const ProductListWithFilters = () => {
     },
     page,
     pageSize,
-    orderBy: {field: "createdAt", direction: "desc"},
+    orderBy: { field: "createdAt", direction: "desc" },
   });
 
   const handleChange = (field: keyof typeof filters, value: string | number) => {
-    setFilters((prev) => ({...prev, [field]: value}));
+    setFilters((prev) => ({ ...prev, [field]: value }));
   };
 
   const handleSearch = () => {
@@ -61,8 +62,7 @@ export const ProductListWithFilters = () => {
   };
 
   useEffect(() => {
-    refetch().then(() => {
-    });
+    refetch().then(() => {});
   }, [activeFilters, page]);
 
   useEffect(() => {
@@ -73,21 +73,19 @@ export const ProductListWithFilters = () => {
     <>
       {isLoading ? (
         <div className="absolute inset-0 flex items-center justify-center">
-          <Spinner className="h-6 w-6 text-primary"/>
+          <Spinner className="h-6 w-6 text-primary" />
         </div>
       ) : null}
 
       <div className="sticky bg-background top-0 p-4 pb-8 mx-[-1rem] z-1">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="relative w-full flex pl-8">
-            <div className="absolute top-[50%] translate-y-[-50%] left-0">
-              ГИ
-            </div>
+            <div className="absolute top-[50%] translate-y-[-50%] left-0">ГИ</div>
             <div className="relative m-auto flex-1">
               <Slider
                 value={[filters.g_index_min, filters.g_index_max]}
                 onValueChange={(range: [number, number]) => {
-                  setFilters({...filters, g_index_min: range[0], g_index_max: range[1]});
+                  setFilters({ ...filters, g_index_min: range[0], g_index_max: range[1] });
                 }}
                 min={0}
                 max={G_INDEX_MAX}
@@ -95,62 +93,74 @@ export const ProductListWithFilters = () => {
               />
 
               <div className="absolute top-2 left-[50%] translate-x-[-50%] flex">
-                <div className={cn(
-                  "bg-foreground text-background z-50 w-fit origin-(--radix-tooltip-content-transform-origin) rounded-md px-2 py-1 text-xs text-balance"
-                )}>{filters.g_index_min} - {filters.g_index_max}</div>
+                <div
+                  className={cn(
+                    "bg-foreground text-background z-50 w-fit origin-(--radix-tooltip-content-transform-origin) rounded-md px-2 py-1 text-xs text-balance",
+                  )}
+                >
+                  {filters.g_index_min} - {filters.g_index_max}
+                </div>
               </div>
             </div>
           </div>
 
           <div className="relative w-full flex pl-8">
-            <div className="absolute top-[50%] translate-y-[-50%] left-0">
-              ГН
-            </div>
+            <div className="absolute top-[50%] translate-y-[-50%] left-0">ГН</div>
             <div className="relative m-auto flex-1">
               <Slider
                 value={[filters.g_load_min, filters.g_load_max]}
                 onValueChange={(range: [number, number]) => {
-                  setFilters({...filters, g_load_min: range[0], g_load_max: range[1]});
+                  setFilters({ ...filters, g_load_min: range[0], g_load_max: range[1] });
                 }}
                 min={0}
                 max={G_LOAD_MAX}
                 step={1}
               />
               <div className="absolute top-2 left-[50%] translate-x-[-50%] flex">
-                <div className={cn(
-                  "bg-foreground text-background z-50 w-fit origin-(--radix-tooltip-content-transform-origin) rounded-md px-2 py-1 text-xs text-balance"
-                )}>{filters.g_load_min} - {filters.g_load_max}</div>
+                <div
+                  className={cn(
+                    "bg-foreground text-background z-50 w-fit origin-(--radix-tooltip-content-transform-origin) rounded-md px-2 py-1 text-xs text-balance",
+                  )}
+                >
+                  {filters.g_load_min} - {filters.g_load_max}
+                </div>
               </div>
             </div>
           </div>
 
           <div className="relative pr-12">
-            <Input id="name" placeholder="Поиск по имени" value={filters.name}
-                   onChange={(e) => handleChange("name", e.target.value)}
-                   onKeyUp={(e) => {
-                     if (e.key.toLowerCase() === 'enter') {
-                       handleSearch()
-                     }
-                   }}
+            <Input
+              id="name"
+              placeholder="Поиск по имени"
+              value={filters.name}
+              onChange={(e) => handleChange("name", e.target.value)}
+              onKeyUp={(e) => {
+                if (e.key.toLowerCase() === "enter") {
+                  handleSearch();
+                }
+              }}
             />
-            <Button onClick={handleSearch} className="absolute w-10 top-0 right-0">🔍</Button>
+            <Button onClick={handleSearch} className="cursor-pointer absolute w-10 top-0 right-0">
+              <Search className="size-4" />
+            </Button>
           </div>
         </div>
       </div>
 
-      {data?.productList?.length ?
-        <div className="flex-1"><ProductList productList={data.productList}/></div> : (isLoading ? null :
-          <div className="text-center p-10 flex-1 flex items-center justify-center">-= ❌ 🔍 ❌ =-</div>)}
+      {data?.productList?.length ? (
+        <div className="flex-1">
+          <ProductList productList={data.productList} />
+        </div>
+      ) : isLoading ? null : (
+        <div className="text-center p-10 flex-1 flex items-center justify-center">
+          -= <X /> <Search /> <X /> =-
+        </div>
+      )}
 
       <div className="sticky bg-background bottom-0 p-4 mx-[-1rem] z-1">
         {data?.total > pageSize && (
           <div className="flex justify-center">
-            <PaginationControls
-              total={data.total}
-              page={page}
-              pageSize={pageSize}
-              onPageChange={(newPage) => setPage(newPage)}
-            />
+            <PaginationControls total={data.total} page={page} pageSize={pageSize} onPageChange={(newPage) => setPage(newPage)} />
           </div>
         )}
       </div>

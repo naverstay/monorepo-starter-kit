@@ -1,15 +1,15 @@
-import {Card, CardContent, CardHeader} from "@/shadcn/ui/card";
-import {Avatar, AvatarFallback, AvatarImage} from "@/shadcn/custom/avatar";
-import type {Product} from "@shared-types/db";
+import { Card, CardContent, CardHeader } from "@/shadcn/ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/shadcn/custom/avatar";
+import type { Product } from "@shared-types/db";
 
-export const ProductList = ({productList}: { productList: Product[] }) => {
+export const ProductList = ({ productList }: { productList: Product[] }) => {
   return (
     <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
       {productList.map((product) => (
         <Card key={product.id} className="shadow-sm border">
           <CardHeader className="flex items-center gap-4">
             <Avatar sizeClassName={"size-10"}>
-              <AvatarImage src={product.image_url ?? ""} alt={product.name_ru}/>
+              <AvatarImage src={product.image_url ?? ""} alt={product.name_ru} />
               <AvatarFallback>{product.name_ru?.[0] ?? "?"}</AvatarFallback>
             </Avatar>
             <div>

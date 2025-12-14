@@ -1,22 +1,22 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
-const OUTPUT_DIR = './images';
+const OUTPUT_DIR = "./images";
 
-const jsonPath = path.join(process.cwd(), 'gi.json');
-const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8')) //.slice(0, 3);
+const jsonPath = path.join(process.cwd(), "gi.json");
+const data = JSON.parse(fs.readFileSync(jsonPath, "utf8")); //.slice(0, 3);
 
-const errorLog = fs.createWriteStream('errors.log', {flags: 'a'});
+const errorLog = fs.createWriteStream("errors.log", { flags: "a" });
 
-const updateFile = 'update.json';
+const updateFile = "update.json";
 
 let updates = [];
 
 function sanitizeFilename(str) {
   return str
     .toLowerCase()
-    .replace(/[^a-z0-9]+/gi, '_')
-    .replace(/^_+|_+$/g, '');
+    .replace(/[^a-z0-9]+/gi, "_")
+    .replace(/^_+|_+$/g, "");
 }
 
 async function downloadImage(url, filepath) {
@@ -37,7 +37,7 @@ async function runWithLimit(tasks, limit = 5) {
   const executing = [];
 
   for (const task of tasks) {
-    const p = task().then(res => {
+    const p = task().then((res) => {
       executing.splice(executing.indexOf(p), 1);
       return res;
     });
@@ -54,7 +54,7 @@ async function runWithLimit(tasks, limit = 5) {
 
 async function main() {
   if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR, {recursive: true});
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
   let completed = 0;
@@ -63,7 +63,7 @@ async function main() {
   const tasks = data.map((item) => async () => {
     const url = item.image_url;
 
-    const baseName = path.basename(url) // sanitizeFilename(item.name_en || item.name_ru || item.name_de || 'image');
+    const baseName = path.basename(url); // sanitizeFilename(item.name_en || item.name_ru || item.name_de || 'image');
     const ext = path.extname(url);
     const filename = `${baseName}`;
 
@@ -74,10 +74,10 @@ async function main() {
       console.log(`⏭ Уже существует: ${filename} (${completed}/${total})`);
 
       // Добавляем в update.json, если записи нет
-      if (!updates.find(u => u.old_url === url)) {
+      if (!updates.find((u) => u.old_url === url)) {
         updates.push({
           ...item,
-          image_url: filepath
+          image_url: filepath,
         });
       }
 
@@ -91,7 +91,7 @@ async function main() {
 
       updates.push({
         ...item,
-        image_url: filepath
+        image_url: filepath,
       });
     } catch (err) {
       const msg = `Ошибка при скачивании ${url}: ${err.message}\n`;
@@ -104,7 +104,7 @@ async function main() {
 
   fs.writeFileSync(updateFile, JSON.stringify(updates, null, 2));
 
-  console.log('\n🎉 Готово! Все изображения обработаны.');
+  console.log("\n🎉 Готово! Все изображения обработаны.");
 }
 
 main();

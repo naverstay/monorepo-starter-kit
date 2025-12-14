@@ -4,6 +4,7 @@ import { Link } from "@tanstack/react-router";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
+import { Eye, EyeOff } from "lucide-react";
 
 /* SHADCN */
 import { Button } from "@/shadcn/ui/button";
@@ -26,6 +27,7 @@ type ISignupSchema = z.infer<typeof schema>;
 
 export default function SignUpPage() {
   const [showEmailAndPasswordOption, setShowEmailAndPasswordOption] = useState(false);
+  const [showPasswordText, setShowPasswordText] = useState(false);
   const { signUpFn } = useAuthActions();
   const { isPending } = useSession();
   //hooks
@@ -65,8 +67,16 @@ export default function SignUpPage() {
                 </FormField>
                 <FormField>
                   <FormLabel htmlFor="password">Password</FormLabel>
-                  <div className="flex flex-row items-center">
-                    <Input id="password" type={"text"} {...form.register("p")} className="border-r-0 rounded-r-none" />
+                  <div className="flex flex-row items-center relative">
+                    <Input id="password" type={showPasswordText ? "text" : "password"} {...form.register("p")} className="pr-10" />
+                    <span
+                      onClick={() => {
+                        setShowPasswordText(!showPasswordText);
+                      }}
+                      className="absolute cursor-pointer flex items-center justify-center w-10 top-0 bottom-0 right-0"
+                    >
+                      {showPasswordText ? <EyeOff /> : <Eye />}
+                    </span>
                   </div>
                   <FormMessage message={form.formState.errors["p"]?.message} />
                 </FormField>

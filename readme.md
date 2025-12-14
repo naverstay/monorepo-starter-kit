@@ -48,7 +48,7 @@ docker run -dp 5432:5432  --name postgresdb  -e POSTGRES_USER=raburuz  -e POSTGR
 
 ```
 
-OR 
+OR
 
 ```bash
 docker compose up --build -d
