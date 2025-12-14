@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.18.1",
+  "packageManager": "pnpm@10.25.0",
   "scripts": {
     "dev:app": "pnpm turbo --filter app dev",
     "dev:api": "pnpm turbo --filter api dev",
@@ -27,21 +27,21 @@
   "devDependencies": {
     "@capacitor/cli": "^8.0.0",
     "@capacitor/core": "^8.0.0",
-    "@types/node": "^24.0.13",
+    "@types/node": "^25.0.2",
     "dotenv": "^17.2.3",
-    "prettier": "^3.6.2",
-    "rimraf": "^6.0.1",
-    "tsx": "^4.20.6",
-    "turbo": "^2.5.4",
+    "prettier": "^3.7.4",
+    "rimraf": "^6.1.2",
+    "tsx": "^4.21.0",
+    "turbo": "^2.6.3",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@capacitor/android": "^8.0.0",
-    "@types/pg": "^8.15.5",
+    "@types/pg": "^8.16.0",
     "detect-port": "^2.1.0",
-    "drizzle-kit": "^0.18.1",
-    "drizzle-orm": "^0.44.6",
-    "openai": "^6.8.1",
+    "drizzle-kit": "^0.31.8",
+    "drizzle-orm": "^0.45.1",
+    "openai": "^6.10.0",
     "pg": "^8.16.3",
     "postgres": "^3.4.7"
   }

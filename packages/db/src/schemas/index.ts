@@ -1,19 +1,19 @@
-import * as invitation from "./invitation";
-import * as organization from "./organization";
-import * as passkey from "./passkey";
-import * as team from "./team";
-import * as user from "./user";
-import * as product from "./product";
-import * as subscription from "./subscription";
+import {invitation} from "./invitation";
+import {organization} from "./organization";
+import {passkey} from "./passkey";
+import {team} from "./team";
+import {user} from "./user";
+import {product} from "./product";
+import {subscription} from "./subscription";
 
 export const schema = {
-  ...invitation,
-  ...organization,
-  ...passkey,
-  ...team,
-  ...user,
-  ...product,
-  ...subscription,
+  invitation,
+  organization,
+  passkey,
+  team,
+  user,
+  product,
+  subscription,
 } as const;
 
 export type DbSchema = typeof schema;

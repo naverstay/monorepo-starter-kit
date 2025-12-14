@@ -28,8 +28,8 @@ export const useProducts = ({
   queryParams.set("page", page.toString());
   queryParams.set("pageSize", pageSize.toString());
 
-  if (orderBy?.field) queryParams.set("orderByField", orderBy.field);
-  if (orderBy?.direction) queryParams.set("orderByDirection", orderBy.direction);
+  if (orderBy?.field) queryParams.set("orderByField", String(orderBy.field));
+  if (orderBy?.direction) queryParams.set("orderByDirection", String(orderBy.direction));
 
   Object.entries(filters).forEach(([key, value]) => {
     const trimValue = String(value).trim();

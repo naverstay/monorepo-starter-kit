@@ -7,11 +7,11 @@ export type NewUser = InferInsertModel<typeof schema.user>;
 export type Product = InferSelectModel<typeof schema.product>;
 export type NewProduct = InferInsertModel<typeof schema.product>;
 
-export type Session = InferSelectModel<typeof schema.session>;
-export type NewSession = InferInsertModel<typeof schema.session>;
-
-export type Identity = InferSelectModel<typeof schema.identity>;
-export type NewIdentity = InferInsertModel<typeof schema.identity>;
-
-export type Verification = InferSelectModel<typeof schema.verification>;
-export type NewVerification = InferInsertModel<typeof schema.verification>;
+// export type Session = InferSelectModel<typeof schema.session>;
+// export type NewSession = InferInsertModel<typeof schema.session>;
+//
+// export type Identity = InferSelectModel<typeof schema.identity>;
+// export type NewIdentity = InferInsertModel<typeof schema.identity>;
+//
+// export type Verification = InferSelectModel<typeof schema.verification>;
+// export type NewVerification = InferInsertModel<typeof schema.verification>;
