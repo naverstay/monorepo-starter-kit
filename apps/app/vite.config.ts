@@ -29,6 +29,7 @@ export default defineConfig(async () => {
     resolve: {
       alias: [
         { find: "@", replacement: path.resolve(__dirname, "src") },
+        { find: "@qr", replacement: path.resolve(__dirname, "../../packages/qr/src") },
         { find: "@modules", replacement: path.resolve(__dirname, "src/modules") },
       ],
     },

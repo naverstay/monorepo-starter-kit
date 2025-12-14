@@ -14,6 +14,7 @@
       "@/*": ["./src/*"],
       "@modules/*": ["./src/modules/*"],
       "@db/*": ["../../packages/db/src/*"],
+      "@qr/*": ["../../packages/qr/src/*"],
       "@shared-types/*": ["../../types/*"]
     }
   },

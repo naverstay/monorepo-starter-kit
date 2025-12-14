@@ -8,6 +8,7 @@ import { routeTree } from "./routeTree.gen";
 
 /* APP */
 import { AxiosProvider } from "./Axios";
+import { TouchProvider } from "@/shadcn/custom/hybrid-tooltip.tsx";
 
 const queryClient = new QueryClient();
 const persister = createAsyncStoragePersister({ storage: window.localStorage });
@@ -38,7 +39,9 @@ export const Providers = () => {
     <>
       <PersistQueryClientProvider client={queryClient} persistOptions={{ persister }}>
         <AxiosProvider>
-          <RouterProvider router={router} />
+          <TouchProvider>
+            <RouterProvider router={router} />
+          </TouchProvider>
         </AxiosProvider>
         <ReactQueryDevtools initialIsOpen={false} />
       </PersistQueryClientProvider>

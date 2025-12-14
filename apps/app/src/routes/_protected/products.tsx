@@ -37,10 +37,10 @@ export const UsersPage = () => {
 };
 
 export const Route = createFileRoute("/_protected/products")({
-  component: UsersRouteComponent,
+  component: ProductsRouteComponent,
 });
 
-function UsersRouteComponent() {
+function ProductsRouteComponent() {
   const auth = useSession();
 
   if (!auth.data?.user) {

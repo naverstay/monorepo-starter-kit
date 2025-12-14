@@ -78,7 +78,7 @@ export const ProductListWithFilters = () => {
       ) : null}
 
       <div className="sticky bg-background top-0 p-4 pb-8 mx-[-1rem] z-1">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4">
           <div className="relative w-full flex pl-8">
             <div className="absolute top-[50%] translate-y-[-50%] left-0">ГИ</div>
             <div className="relative m-auto flex-1">

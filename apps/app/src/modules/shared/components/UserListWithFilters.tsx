@@ -62,7 +62,7 @@ export const UserListWithFilters = () => {
       ) : null}
 
       <div className="sticky bg-background top-0 p-4 pb-8 mx-[-1rem] z-1">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4">
           <Input
             placeholder="Поиск по имени"
             value={filters.name}

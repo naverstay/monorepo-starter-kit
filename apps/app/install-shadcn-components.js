@@ -8,6 +8,7 @@ const components = [
   "dialog",
   "input",
   "pagination",
+  "popover",
   "select",
   "slider",
   "spinner",
