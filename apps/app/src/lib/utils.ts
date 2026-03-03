@@ -11,7 +11,6 @@ export function buildQueryString(filters: Record<string, any>) {
   Object.entries(filters).forEach(([key, value]) => {
     if (value === undefined || value === null) return;
 
-    // массив → несколько параметров
     if (Array.isArray(value)) {
       value.forEach(v => {
         const trimmed = String(v).trim();
@@ -20,7 +19,6 @@ export function buildQueryString(filters: Record<string, any>) {
       return;
     }
 
-    // обычное значение
     const trimmed = String(value).trim();
     if (trimmed) queryParams.set(key, trimmed);
   });

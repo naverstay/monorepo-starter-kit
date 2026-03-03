@@ -15,7 +15,7 @@ router.get("/api/nutrition", async (req, res) => {
     } = req.query;
 
     const param = {
-      ids: ids?.length && typeof ids === 'string' ? [ids] : [],
+      ids: ids?.length && typeof ids === 'string' ? [ids] : ids,
       g_index_min: Number(g_index_min) || 0,
       g_load_min: Number(g_load_min) || 0,
       g_index_max: Number(g_index_max) || 0,
