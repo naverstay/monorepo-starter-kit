@@ -1,7 +1,7 @@
 import { stripe } from "./stripe";
 import { config } from "config";
 
-export const checkout = async ( { priceId, customerId } : { priceId: string, customerId: string } ) => {
+export const checkout = async ({ priceId, customerId }: { priceId: string; customerId: string }) => {
   return await stripe.checkout.sessions.create({
     // Payment Mode
     mode: "subscription",
@@ -20,7 +20,7 @@ export const checkout = async ( { priceId, customerId } : { priceId: string, cus
     customer: customerId,
     //Payment Options
     allow_promotion_codes: true,
-    payment_method_types:["card"],
-    billing_address_collection: 'required',
+    payment_method_types: ["card"],
+    billing_address_collection: "required",
   });
-}
+};

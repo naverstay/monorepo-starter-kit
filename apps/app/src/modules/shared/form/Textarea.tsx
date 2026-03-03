@@ -1,14 +1,13 @@
-
 /* REACT */
-import React, { type TextareaHTMLAttributes }from "react"
+import React, { type TextareaHTMLAttributes } from "react";
 
 /* BOILERPLATE */
-import { cn } from "~/lib/utils";
+import { cn } from "@/lib/utils";
 
 /* COMPONENT */
 interface IProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {}
 
-const Component = ( { className, ...props }: IProps, ref: any ) => {
+const Component = ({ className, ...props }: IProps, ref: any) => {
   return (
     <>
       <textarea
@@ -19,15 +18,15 @@ const Component = ( { className, ...props }: IProps, ref: any ) => {
             placeholder:text-muted-foreground placeholder:font-semibold focus-visible:outline-none focus-visible:ring-1 
             focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 
           `,
-          className
+          className,
         )}
-        {...props} 
+        {...props}
       />
     </>
-  )
-}
+  );
+};
 
-const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaHTMLAttributes<HTMLTextAreaElement>> ( Component )
+const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaHTMLAttributes<HTMLTextAreaElement>>(Component);
 
 Textarea.displayName = "Textarea";
 

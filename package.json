@@ -3,19 +3,46 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.30.3",
   "scripts": {
     "dev:app": "pnpm turbo --filter app dev",
     "dev:api": "pnpm turbo --filter api dev",
     "dev": "pnpm turbo dev",
-    "better-auth:generate": "pnpm dlx @better-auth/cli@latest generate --config packages/auth/server.ts --output packages/db/src/schemas/auth.ts",
-    "better-auth:migrate": "pnpm dlx @better-auth/cli@latest migrate --config packages/auth/server.ts --output packages/db/src/schemas/auth.ts",
+    "better-auth:generate": "pnpm dlx @better-auth/cli@latest generate --config packages/auth/server.ts --output packages/db/src/schemas/user.ts",
+    "better-auth:migrate": "pnpm dlx @better-auth/cli@latest migrate --config packages/auth/server.ts --output packages/db/src/schemas/user.ts",
     "build": "pnpm turbo build",
     "build:app": "pnpm turbo --filter app build",
-    "build:api": "pnpm turbo --filter api build"
+    "build:api": "pnpm turbo --filter api build",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write --list-different .",
+    "db:drop": "docker exec -i postgresdb psql -U raburuz -d postgres -c \"DROP DATABASE IF EXISTS dev;\"",
+    "db:create": "docker exec -i postgresdb psql -U raburuz -d postgres -c \"CREATE DATABASE dev;\"",
+    "db:uuidv7": "docker exec -i postgresdb bash -c \"psql -U raburuz -d dev -c 'CREATE EXTENSION IF NOT EXISTS pg_uuidv7;' && psql -U raburuz -d dev -c '\\dx' && psql -U raburuz -d dev -c 'SELECT uuid_generate_v7();'\"",
+    "db:generate": "pnpm --filter db run generate",
+    "db:migrate": "pnpm --filter db run migrate",
+    "db:seed": "pnpm --filter db run seed",
+    "db:clean": "pnpm --filter db run clean",
+    "db:reset": "pnpm db:clean && pnpm db:drop && pnpm db:create && pnpm db:uuidv7 && pnpm db:generate && pnpm db:migrate && pnpm db:seed"
   },
   "devDependencies": {
-    "@types/node": "^24.0.13",
-    "turbo": "^2.5.4"
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@types/node": "^25.0.2",
+    "dotenv": "^17.2.3",
+    "prettier": "^3.7.4",
+    "rimraf": "^6.1.2",
+    "tsx": "^4.21.0",
+    "turbo": "^2.6.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@types/pg": "^8.16.0",
+    "detect-port": "^2.1.0",
+    "drizzle-kit": "^0.31.8",
+    "drizzle-orm": "^0.45.1",
+    "openai": "^6.10.0",
+    "pg": "^8.16.3",
+    "postgres": "^3.4.7"
   }
 }

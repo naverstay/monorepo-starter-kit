@@ -1,0 +1,4738 @@
+[
+  {
+    "image_url": "images/ahwW0uM2TL_small.webp",
+    "name_de": "Acerola, Barbados Cherry (frisch)",
+    "g_index": 20,
+    "g_load": 0.1,
+    "name_ru": "Ацерола, Барбадосская вишня (свежая)",
+    "name_en": "Acerola, Barbados Cherry (fresh)"
+  },
+  {
+    "image_url": "images/3CjoGLpDIo_small.webp",
+    "name_de": "Agavendicksaft)",
+    "g_index": 15,
+    "g_load": 11.4,
+    "name_ru": "Сироп агавы",
+    "name_en": "Agave syrup"
+  },
+  {
+    "image_url": "images/siKCB3r6Mn_small.webp",
+    "name_de": "Ahornsirup",
+    "g_index": 55,
+    "g_load": 36.9,
+    "name_ru": "Кленовый сироп",
+    "name_en": "Maple syrup"
+  },
+  {
+    "image_url": "images/Q3vMG1G5AY_small.webp",
+    "name_de": "Amaranth-Samen (nicht zubereitet)",
+    "g_index": 35,
+    "g_load": 19.9,
+    "name_ru": "Семена амаранта (неприготовленные)",
+    "name_en": "Amaranth seeds (uncooked)"
+  },
+  {
+    "image_url": "images/hnzha4PdAG_small.webp",
+    "name_de": "Ananassaft (ungesüßt)",
+    "g_index": 50,
+    "g_load": 6.8,
+    "name_ru": "Ананасовый сок (без сахара)",
+    "name_en": "Pineapple juice (unsweetened)"
+  },
+  {
+    "image_url": "images/RlpJpCHZ8S_small.webp",
+    "name_de": "Ananassaft (zuckerfrei)",
+    "g_index": 50,
+    "g_load": 6.4,
+    "name_ru": "Ананасовый сок (без сахара)",
+    "name_en": "Pineapple juice (sugar-free)"
+  },
+  {
+    "image_url": "images/4dG70P8zfH_small.webp",
+    "name_de": "Apfelmus (ungesüßt)",
+    "g_index": 35,
+    "g_load": 4,
+    "name_ru": "Яблочное пюре (без сахара)",
+    "name_en": "Apple sauce (unsweetened)"
+  },
+  {
+    "image_url": "images/cCXy8qeuwb_small.webp",
+    "name_de": "Apfelsaft",
+    "g_index": 41,
+    "g_load": 4.5,
+    "name_ru": "Яблочный сок",
+    "name_en": "Apple juice"
+  },
+  {
+    "image_url": "images/Ijd1kHiuj4_small.webp",
+    "name_de": "Apfelsaft (ungesüßt)",
+    "g_index": 40,
+    "g_load": 4.9,
+    "name_ru": "Яблочный сок (без сахара)",
+    "name_en": "Apple juice (unsweetened)"
+  },
+  {
+    "image_url": "images/ogjwI69crE_small.webp",
+    "name_de": "Apfelsaft (zuckerfrei)",
+    "g_index": 50,
+    "g_load": 5.7,
+    "name_ru": "Яблочный сок (без сахара)",
+    "name_en": "Apple juice (sugar-free)"
+  },
+  {
+    "image_url": "images/BFIlOPnZz4_small.webp",
+    "name_de": "Apfelwein (brut)",
+    "g_index": 40,
+    "g_load": 0,
+    "name_ru": "Яблочное вино (брют)",
+    "name_en": "Apple wine (brut)"
+  },
+  {
+    "image_url": "images/fRjqU7PTwF_small.webp",
+    "name_de": "Aprikose",
+    "g_index": 34,
+    "g_load": 3.8,
+    "name_ru": "Абрикос",
+    "name_en": "Apricot"
+  },
+  {
+    "image_url": "images/1d4bn58WAS_small.webp",
+    "name_de": "Artischocke",
+    "g_index": 20,
+    "g_load": 1.2,
+    "name_ru": "Артишок",
+    "name_en": "Artichoke"
+  },
+  {
+    "image_url": "images/O6NyLgxze9_small.webp",
+    "name_de": "Aubergine",
+    "g_index": 20,
+    "g_load": 1.7,
+    "name_ru": "Баклажан",
+    "name_en": "Eggplant"
+  },
+  {
+    "image_url": "images/tRgdkRxZGX_small.webp",
+    "name_de": "Auberginenkaviar",
+    "g_index": 40,
+    "g_load": 5.3,
+    "name_ru": "Баклажанная икра",
+    "name_en": "Eggplant caviar"
+  },
+  {
+    "image_url": "images/8peopoG2xe_small.webp",
+    "name_de": "Avocado",
+    "g_index": 10,
+    "g_load": 0.9,
+    "name_ru": "Авокадо",
+    "name_en": "Avocado"
+  },
+  {
+    "image_url": "images/iNGuJRk9Dz_small.webp",
+    "name_de": "Azuki-Bohnen",
+    "g_index": 35,
+    "g_load": 22,
+    "name_ru": "Бобы адзуки",
+    "name_en": "Azuki beans"
+  },
+  {
+    "image_url": "images/2IvNNiERsz_small.webp",
+    "name_de": "Balsamico Essig",
+    "g_index": 5,
+    "g_load": 2.8,
+    "name_ru": "Бальзамический уксус",
+    "name_en": "Balsamic vinegar"
+  },
+  {
+    "image_url": "images/9Z0EIjkt2b_small.webp",
+    "name_de": "Bambussprossen",
+    "g_index": 20,
+    "g_load": 1,
+    "name_ru": "Побеги бамбука",
+    "name_en": "Bamboo shoots"
+  },
+  {
+    "image_url": "images/yDbX2xGsd8_small.webp",
+    "name_de": "Banane",
+    "g_index": 48,
+    "g_load": 10.1,
+    "name_ru": "Банан",
+    "name_en": "Banana"
+  },
+  {
+    "image_url": "images/OHYOEJA4T3_small.webp",
+    "name_de": "Bananen (getrocknet)",
+    "g_index": 48,
+    "g_load": 42.4,
+    "name_ru": "Бананы (сушеные)",
+    "name_en": "Bananas (dried)"
+  },
+  {
+    "image_url": "images/GFjQzLnAXd_small.webp",
+    "name_de": "Bananenkuchen",
+    "g_index": 47,
+    "g_load": 17.1,
+    "name_ru": "Банановый торт",
+    "name_en": "Banana cake"
+  },
+  {
+    "image_url": "images/2WVqoUvNGi_small.webp",
+    "name_de": "Basilikum",
+    "g_index": 5,
+    "g_load": 0.1,
+    "name_ru": "Базилик",
+    "name_en": "Basil"
+  },
+  {
+    "image_url": "images/vTHpg7HtmV_small.webp",
+    "name_de": "Basmati-Reis",
+    "g_index": 50,
+    "g_load": 37.5,
+    "name_ru": "Рис басмати",
+    "name_en": "Basmati rice"
+  },
+  {
+    "image_url": "images/TGY0LIR1Re_small.webp",
+    "name_de": "Birne (frisches Obst)",
+    "g_index": 30,
+    "g_load": 4.7,
+    "name_ru": "Груша (свежий фрукт)",
+    "name_en": "Pear (fresh fruit)"
+  },
+  {
+    "image_url": "images/jNPZAM6f5s_small.webp",
+    "name_de": "Birnen (getrocknet)",
+    "g_index": 43,
+    "g_load": 26.9,
+    "name_ru": "Груши (сушеные)",
+    "name_en": "Pears (dried)"
+  },
+  {
+    "image_url": "images/GGH43X4dE9_small.webp",
+    "name_de": "Birnensaft",
+    "g_index": 50,
+    "g_load": 5.5,
+    "name_ru": "Грушевый сок",
+    "name_en": "Pear juice"
+  },
+  {
+    "image_url": "images/4Wfxb8Baom_small.webp",
+    "name_de": "Blaubeere",
+    "g_index": 25,
+    "g_load": 2,
+    "name_ru": "Черника",
+    "name_en": "Blueberry"
+  },
+  {
+    "image_url": "images/Ub9RWxuI2j_small.webp",
+    "name_de": "Blaubeeren",
+    "g_index": 53,
+    "g_load": 4,
+    "name_ru": "Черника",
+    "name_en": "Blueberries"
+  },
+  {
+    "image_url": "images/BXiDyNCRUt_small.webp",
+    "name_de": "Blumenkohl",
+    "g_index": 15,
+    "g_load": 0.8,
+    "name_ru": "Цветная капуста",
+    "name_en": "Cauliflower"
+  },
+  {
+    "image_url": "images/5GaqMbIM19_small.webp",
+    "name_de": "Blumenkohl (frisch)",
+    "g_index": 15,
+    "g_load": 0.8,
+    "name_ru": "Цветная капуста (свежая)",
+    "name_en": "Cauliflower (fresh)"
+  },
+  {
+    "image_url": "images/NOL4NTt5Ht_small.webp",
+    "name_de": "Bohnen (frisch)",
+    "g_index": 35,
+    "g_load": 5.9,
+    "name_ru": "Бобы (свежие)",
+    "name_en": "Beans (fresh)"
+  },
+  {
+    "image_url": "images/kzaieCQPk6_small.webp",
+    "name_de": "Bohnen (frisch)",
+    "g_index": 30,
+    "g_load": 1.1,
+    "name_ru": "Бобы (свежие)",
+    "name_en": "Beans (fresh)"
+  },
+  {
+    "image_url": "images/3qGP0gXQWj_small.webp",
+    "name_de": "Bohnen, fava (roh)",
+    "g_index": 40,
+    "g_load": 7.2,
+    "name_ru": "Бобы фава (сырые)",
+    "name_en": "Fava beans (raw)"
+  },
+  {
+    "image_url": "images/UWWlVUhauQ_small.webp",
+    "name_de": "Brauhefe",
+    "g_index": 35,
+    "g_load": 0,
+    "name_ru": "Пивные дрожжи",
+    "name_en": "Brewer's yeast"
+  },
+  {
+    "image_url": "images/fMDfbP6BQP_small.webp",
+    "name_de": "Brokkoli",
+    "g_index": 15,
+    "g_load": 0.5,
+    "name_ru": "Брокколи",
+    "name_en": "Broccoli"
+  },
+  {
+    "image_url": "images/qidwzyYaKm_small.webp",
+    "name_de": "Brokkoli (gekocht)",
+    "g_index": 45,
+    "g_load": 3.1,
+    "name_ru": "Брокколи (приготовленный)",
+    "name_en": "Broccoli (cooked)"
+  },
+  {
+    "image_url": "images/uFnPRneSNu_small.webp",
+    "name_de": "Brombeere (frische Beere)",
+    "g_index": 25,
+    "g_load": 2.5,
+    "name_ru": "Ежевика (свежая ягода)",
+    "name_en": "Blackberry (fresh berry)"
+  },
+  {
+    "image_url": "images/ZSAs6KPWMg_small.webp",
+    "name_de": "Brot (Haferflocken)",
+    "g_index": 47,
+    "g_load": 19.2,
+    "name_ru": "Хлеб (овсяные хлопья)",
+    "name_en": "Bread (oat flakes)"
+  },
+  {
+    "image_url": "images/S11NMCJpiu_small.webp",
+    "name_de": "Brühwurst",
+    "g_index": 34,
+    "g_load": 9.5,
+    "name_ru": "Вареная колбаса",
+    "name_en": "Boiled sausage"
+  },
+  {
+    "image_url": "images/asgQJCHvub_small.webp",
+    "name_de": "Buchweizen",
+    "g_index": 50,
+    "g_load": 22,
+    "name_ru": "Гречка",
+    "name_en": "Buckwheat"
+  },
+  {
+    "image_url": "images/z5MVnDf3oY_small.webp",
+    "name_de": "Buchweizen-Pfannkuchen",
+    "g_index": 40,
+    "g_load": 3.6,
+    "name_ru": "Гречневые блины",
+    "name_en": "Buckwheat pancakes"
+  },
+  {
+    "image_url": "images/hHvoLuPaKi_small.webp",
+    "name_de": "Buchweizenbrei",
+    "g_index": 40,
+    "g_load": 12.4,
+    "name_ru": "Гречневая каша",
+    "name_en": "Buckwheat porridge"
+  },
+  {
+    "image_url": "images/8zyVhyjhKg_small.webp",
+    "name_de": "Buchweizenbrot",
+    "g_index": 50,
+    "g_load": 22.9,
+    "name_ru": "Гречневый хлеб",
+    "name_en": "Buckwheat bread"
+  },
+  {
+    "image_url": "images/lxfnzM12V1_small.webp",
+    "name_de": "Buchweizenmehl",
+    "g_index": 40,
+    "g_load": 28.2,
+    "name_ru": "Гречневая мука",
+    "name_en": "Buckwheat flour"
+  },
+  {
+    "image_url": "images/qinE6yDVOw_small.webp",
+    "name_de": "Buchweizennudeln",
+    "g_index": 40,
+    "g_load": 28.4,
+    "name_ru": "Гречневая лапша",
+    "name_en": "Buckwheat noodles"
+  },
+  {
+    "image_url": "images/shRSHi3r4k_small.webp",
+    "name_de": "Bulgur",
+    "g_index": 55,
+    "g_load": 41.8,
+    "name_ru": "Булгур",
+    "name_en": "Bulgur"
+  },
+  {
+    "image_url": "images/XVpup0JEP8_small.webp",
+    "name_de": "Bunte Bohnen, Borlotti, römische Bohnen",
+    "g_index": 35,
+    "g_load": 12.4,
+    "name_ru": "Пестрые бобы, Борлотти, римские бобы",
+    "name_en": "Colorful beans, Borlotti, Roman beans"
+  },
+  {
+    "image_url": "images/H7tLEOzAG6_small.webp",
+    "name_de": "Butter",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Масло",
+    "name_en": "Butter"
+  },
+  {
+    "image_url": "images/EPkvSYaRdq_small.webp",
+    "name_de": "Butter (fettreich)",
+    "g_index": 14,
+    "g_load": 0.1,
+    "name_ru": "Масло (жирное)",
+    "name_en": "Butter (high fat)"
+  },
+  {
+    "image_url": "images/22Qww81qoh_small.webp",
+    "name_de": "Butterkekse (Mehl, Butter, Zucker)",
+    "g_index": 55,
+    "g_load": 29.1,
+    "name_ru": "Песочное печенье (мука, масло, сахар)",
+    "name_en": "Shortbread cookies (flour, butter, sugar)"
+  },
+  {
+    "image_url": "images/rfxf2bRoQD_small.webp",
+    "name_de": "Capellini (Nudeln)",
+    "g_index": 45,
+    "g_load": 32.9,
+    "name_ru": "Капеллини (лапша)",
+    "name_en": "Capellini (pasta)"
+  },
+  {
+    "image_url": "images/a3DIxo8sCL_small.webp",
+    "name_de": "Cashewnüsse",
+    "g_index": 15,
+    "g_load": 4.5,
+    "name_ru": "Кешью",
+    "name_en": "Cashew nuts"
+  },
+  {
+    "image_url": "images/2v8yfZAKst_small.webp",
+    "name_de": "Cashewnüsse",
+    "g_index": 25,
+    "g_load": 3.1,
+    "name_ru": "Кешью",
+    "name_en": "Cashew nuts"
+  },
+  {
+    "image_url": "images/UGJmAwsX1B_small.webp",
+    "name_de": "Cashewnüsse (gesalzen)",
+    "g_index": 22,
+    "g_load": 6.6,
+    "name_ru": "Кешью (соленые)",
+    "name_en": "Cashew nuts (salted)"
+  },
+  {
+    "image_url": "images/3VGiVVttVV_small.webp",
+    "name_de": "Cassava (bitter, süß)",
+    "g_index": 55,
+    "g_load": 20.9,
+    "name_ru": "Кассава (горькая, сладкая)",
+    "name_en": "Cassava (bitter, sweet)"
+  },
+  {
+    "image_url": "images/E6v98RdRa2_small.webp",
+    "name_de": "Chayote (mexikanische Gurke), daraus püriert",
+    "g_index": 50,
+    "g_load": 2.3,
+    "name_ru": "Чайот (мексиканский огурец), пюре из него",
+    "name_en": "Chayote (Mexican cucumber), pureed from it"
+  },
+  {
+    "image_url": "images/C4yjqAoOmL_small.webp",
+    "name_de": "Cheddar",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Чеддер",
+    "name_en": "Cheddar"
+  },
+  {
+    "image_url": "images/udYCjL4S7S_small.webp",
+    "name_de": "Chees Feta",
+    "g_index": 30,
+    "g_load": 1.2,
+    "name_ru": "Сыр Фета",
+    "name_en": "Feta cheese"
+  },
+  {
+    "image_url": "images/nF7TO1Z5o1_small.webp",
+    "name_de": "Chia Samen (Getrocknet)",
+    "g_index": 30,
+    "g_load": 12.6,
+    "name_ru": "Семена чиа (сушеные)",
+    "name_en": "Chia seeds (dried)"
+  },
+  {
+    "image_url": "images/o3Z7xR6qlL_small.webp",
+    "name_de": "Chicoree",
+    "g_index": 15,
+    "g_load": 0.6,
+    "name_ru": "Цикорий",
+    "name_en": "Chicory"
+  },
+  {
+    "image_url": "images/DW03Fa2ZQm_small.webp",
+    "name_de": "Chicorée (Getränk)",
+    "g_index": 40,
+    "g_load": 1.1,
+    "name_ru": "Цикорий (напиток)",
+    "name_en": "Chicory (drink)"
+  },
+  {
+    "image_url": "images/tX5XQYK8of_small.webp",
+    "name_de": "Chicorée-Sirup",
+    "g_index": 55,
+    "g_load": 5.2,
+    "name_ru": "Сироп цикория",
+    "name_en": "Chicory syrup"
+  },
+  {
+    "image_url": "images/4VneAgHNVe_small.webp",
+    "name_de": "Chili",
+    "g_index": 15,
+    "g_load": 1.4,
+    "name_ru": "Чили",
+    "name_en": "Chili"
+  },
+  {
+    "image_url": "images/t39CrMsGgS_small.webp",
+    "name_de": "Chilli Green (Frisch)",
+    "g_index": 15,
+    "g_load": 1.2,
+    "name_ru": "Зеленый перец чили (свежий)",
+    "name_en": "Green chili (fresh)"
+  },
+  {
+    "image_url": "images/VUagXuBV2g_small.webp",
+    "name_de": "Chinakohl",
+    "g_index": 20,
+    "g_load": 0.4,
+    "name_ru": "Пекинская капуста",
+    "name_en": "Chinese cabbage"
+  },
+  {
+    "image_url": "images/n3VSoZjnD1_small.webp",
+    "name_de": "Cranberries (frisch)",
+    "g_index": 45,
+    "g_load": 5.5,
+    "name_ru": "Клюква (свежая)",
+    "name_en": "Cranberries (fresh)"
+  },
+  {
+    "image_url": "images/8J3UabrTAD_small.webp",
+    "name_de": "Cranberry-Saft (ungesüßt)",
+    "g_index": 50,
+    "g_load": 7.3,
+    "name_ru": "Клюквенный сок (без сахара)",
+    "name_en": "Cranberry juice (unsweetened)"
+  },
+  {
+    "image_url": "images/GU9OblLc1E_small.webp",
+    "name_de": "Cranberrysaft (zuckerfrei)",
+    "g_index": 50,
+    "g_load": 7.3,
+    "name_ru": "Клюквенный сок (без сахара)",
+    "name_en": "Cranberry juice (sugar-free)"
+  },
+  {
+    "image_url": "images/EhBFZk8Hlz_small.webp",
+    "name_de": "Dessert Banane (grün)",
+    "g_index": 45,
+    "g_load": 15.7,
+    "name_ru": "Десертный банан (зеленый)",
+    "name_en": "Dessert banana (green)"
+  },
+  {
+    "image_url": "images/16zs9SQ6vK_small.webp",
+    "name_de": "Dill (frisch)",
+    "g_index": 25,
+    "g_load": 1.6,
+    "name_ru": "Укроп (свежий)",
+    "name_en": "Dill (fresh)"
+  },
+  {
+    "image_url": "images/YclX8r4xmD_small.webp",
+    "name_de": "Dillgurken",
+    "g_index": 15,
+    "g_load": 0.2,
+    "name_ru": "Соленые огурцы с укропом",
+    "name_en": "Dill pickles"
+  },
+  {
+    "image_url": "images/Ed6saYe0JG_small.webp",
+    "name_de": "Dinkelmehl",
+    "g_index": 45,
+    "g_load": 30.5,
+    "name_ru": "Полбяная мука",
+    "name_en": "Spelt flour"
+  },
+  {
+    "image_url": "images/radHsUC6ox_small.webp",
+    "name_de": "Dinkelweizen",
+    "g_index": 40,
+    "g_load": 24.5,
+    "name_ru": "Полба",
+    "name_en": "Spelt wheat"
+  },
+  {
+    "image_url": "images/iISrbxAGPy_small.webp",
+    "name_de": "Dunkle Schokolade",
+    "g_index": 23,
+    "g_load": 13.8,
+    "name_ru": "Темный шоколад",
+    "name_en": "Dark chocolate"
+  },
+  {
+    "image_url": "images/jN3gGbLdow_small.webp",
+    "name_de": "Dunkle Schokolade (mit 85% Kakaoanteil)",
+    "g_index": 20,
+    "g_load": 9.6,
+    "name_ru": "Темный шоколад (с 85% содержанием какао)",
+    "name_en": "Dark chocolate (with 85% cocoa content)"
+  },
+  {
+    "image_url": "images/Co6g9cJUJe_small.webp",
+    "name_de": "Ei",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Яйцо",
+    "name_en": "Egg"
+  },
+  {
+    "image_url": "images/Yzd4f48rU6_small.webp",
+    "name_de": "Eicheln",
+    "g_index": 25,
+    "g_load": 10.3,
+    "name_ru": "Желуди",
+    "name_en": "Acorns"
+  },
+  {
+    "image_url": "images/1My2o1LNDj_small.webp",
+    "name_de": "Eingemachte Birnen",
+    "g_index": 55,
+    "g_load": 8.6,
+    "name_ru": "Консервированные груши",
+    "name_en": "Canned pears"
+  },
+  {
+    "image_url": "images/zkM0leMEMd_small.webp",
+    "name_de": "Eis (mit Fruchtzucker)",
+    "g_index": 35,
+    "g_load": 9.4,
+    "name_ru": "Мороженое (с фруктозой)",
+    "name_en": "Ice cream (with fructose)"
+  },
+  {
+    "image_url": "images/AlJGzrxGsh_small.webp",
+    "name_de": "Eis (überfliegen, Vanille)",
+    "g_index": 46,
+    "g_load": 13.8,
+    "name_ru": "Мороженое (мягкое, ванильное)",
+    "name_en": "Ice cream (soft, vanilla)"
+  },
+  {
+    "image_url": "images/3BfFy2I8w4_small.webp",
+    "name_de": "Endivie",
+    "g_index": 15,
+    "g_load": 0,
+    "name_ru": "Эндивий",
+    "name_en": "Endive"
+  },
+  {
+    "image_url": "images/u0pv5dl9HV_small.webp",
+    "name_de": "Energieriegel (zuckerfrei)",
+    "g_index": 50,
+    "g_load": 23.4,
+    "name_ru": "Энергетический батончик (без сахара)",
+    "name_en": "Energy bar (sugar-free)"
+  },
+  {
+    "image_url": "images/tJsgZubgWS_small.webp",
+    "name_de": "Ente",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Утка",
+    "name_en": "Duck"
+  },
+  {
+    "image_url": "images/s26xcrXfGj_small.webp",
+    "name_de": "Entenbraten",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Утиная грудка",
+    "name_en": "Duck breast"
+  },
+  {
+    "image_url": "images/jZhGZm8sSr_small.webp",
+    "name_de": "Erbsen (gefroren, gekocht)",
+    "g_index": 51,
+    "g_load": 4.6,
+    "name_ru": "Горох (замороженный, приготовленный)",
+    "name_en": "Peas (frozen, cooked)"
+  },
+  {
+    "image_url": "images/UoJB6GDycG_small.webp",
+    "name_de": "Erbsen (grün, frisch)",
+    "g_index": 35,
+    "g_load": 4.5,
+    "name_ru": "Горох (зеленый, свежий)",
+    "name_en": "Peas (green, fresh)"
+  },
+  {
+    "image_url": "images/zPwGSLiB7f_small.webp",
+    "name_de": "Erdbeeren (frische Beeren)",
+    "g_index": 25,
+    "g_load": 1.9,
+    "name_ru": "Клубника (свежие ягоды)",
+    "name_en": "Strawberries (fresh berries)"
+  },
+  {
+    "image_url": "images/tBcW0FpBTy_small.webp",
+    "name_de": "Erdbeermarmelade (zuckerarm)",
+    "g_index": 51,
+    "g_load": 31.1,
+    "name_ru": "Клубничное варенье (с низким содержанием сахара)",
+    "name_en": "Strawberry jam (low sugar)"
+  },
+  {
+    "image_url": "images/5Bf7uGS5ZU_small.webp",
+    "name_de": "Erdnuss",
+    "g_index": 15,
+    "g_load": 2.4,
+    "name_ru": "Арахис",
+    "name_en": "Peanut"
+  },
+  {
+    "image_url": "images/BeyQwLvYFp_small.webp",
+    "name_de": "Erdnussbutter (zuckerfrei)",
+    "g_index": 25,
+    "g_load": 7,
+    "name_ru": "Арахисовое масло (без сахара)",
+    "name_en": "Peanut butter (sugar-free)"
+  },
+  {
+    "image_url": "images/VropOmUwsq_small.webp",
+    "name_de": "Erdnussöl (zuckerfrei)",
+    "g_index": 40,
+    "g_load": 8.6,
+    "name_ru": "Арахисовое масло (без сахара)",
+    "name_en": "Peanut oil (sugar-free)"
+  },
+  {
+    "image_url": "images/7ZMJqVeBaK_small.webp",
+    "name_de": "Erdnüsse (trocken geröstet)",
+    "g_index": 15,
+    "g_load": 2.3,
+    "name_ru": "Арахис (сухой обжаренный)",
+    "name_en": "Peanuts (dry roasted)"
+  },
+  {
+    "image_url": "images/mqoOkISkYA_small.webp",
+    "name_de": "Essig",
+    "g_index": 15,
+    "g_load": 0,
+    "name_ru": "Уксус",
+    "name_en": "Vinegar"
+  },
+  {
+    "image_url": "images/8RrmKbrgkU_small.webp",
+    "name_de": "Falafel (aus Bohnen, Fava)",
+    "g_index": 40,
+    "g_load": 8.4,
+    "name_ru": "Фалафель (из бобов фава)",
+    "name_en": "Falafel (from fava beans)"
+  },
+  {
+    "image_url": "images/ghAX6A7H9R_small.webp",
+    "name_de": "Feige (frisch)",
+    "g_index": 35,
+    "g_load": 6.7,
+    "name_ru": "Инжир (свежий)",
+    "name_en": "Fig (fresh)"
+  },
+  {
+    "image_url": "images/T8IdV1NjmL_small.webp",
+    "name_de": "Feige (getrocknet)",
+    "g_index": 50,
+    "g_load": 28.9,
+    "name_ru": "Инжир (сушеный)",
+    "name_en": "Fig (dried)"
+  },
+  {
+    "image_url": "images/OCIE8nECrF_small.webp",
+    "name_de": "Fenchel",
+    "g_index": 15,
+    "g_load": 1.1,
+    "name_ru": "Фенхель",
+    "name_en": "Fennel"
+  },
+  {
+    "image_url": "images/aDGqhQgmvn_small.webp",
+    "name_de": "Fett (tierisch / pflanzlich)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Жир (животный/растительный)",
+    "name_en": "Fat (animal/vegetable)"
+  },
+  {
+    "image_url": "images/9zSBsFlTI5_small.webp",
+    "name_de": "Fettarmer Hüttenkäse",
+    "g_index": 30,
+    "g_load": 0.3,
+    "name_ru": "Обезжиренный творог",
+    "name_en": "Low-fat cottage cheese"
+  },
+  {
+    "image_url": "images/ZKDtpmsLT6_small.webp",
+    "name_de": "Fettes Schweinefleisch",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Жирная свинина",
+    "name_en": "Fatty pork"
+  },
+  {
+    "image_url": "images/Xm4emNKUan_small.webp",
+    "name_de": "Fettfreier Joghurt",
+    "g_index": 33,
+    "g_load": 2.5,
+    "name_ru": "Обезжиренный йогурт",
+    "name_en": "Fat-free yogurt"
+  },
+  {
+    "image_url": "images/8dFVgZScWL_small.webp",
+    "name_de": "Fettuccine",
+    "g_index": 32,
+    "g_load": 21.6,
+    "name_ru": "Феттучине",
+    "name_en": "Fettuccine"
+  },
+  {
+    "image_url": "images/5Ee9CIXd7j_small.webp",
+    "name_de": "Fisch (Lachs, Thunfisch usw,)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Рыба (лосось, тунец и т.д.)",
+    "name_en": "Fish (salmon, tuna, etc.)"
+  },
+  {
+    "image_url": "images/1jKUr7fk7J_small.webp",
+    "name_de": "Foie Gras, Gänseleberpaste (Dosen)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Фуа-гра, паштет из гусиной печени (консервированный)",
+    "name_en": "Foie gras, goose liver pate (canned)"
+  },
+  {
+    "image_url": "images/py0XoQUeh7_small.webp",
+    "name_de": "Frischer Mais",
+    "g_index": 35,
+    "g_load": 1.8,
+    "name_ru": "Свежая кукуруза",
+    "name_en": "Fresh corn"
+  },
+  {
+    "image_url": "images/8Q8Ns6DtTK_small.webp",
+    "name_de": "Frittiertes Schweinefleisch",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Жареная свинина",
+    "name_en": "Fried pork"
+  },
+  {
+    "image_url": "images/yVMCG2tVNR_small.webp",
+    "name_de": "Fruchtjoghurt",
+    "g_index": 52,
+    "g_load": 1.5,
+    "name_ru": "Фруктовый йогурт",
+    "name_en": "Fruit yogurt"
+  },
+  {
+    "image_url": "images/CuJcPbSvDE_small.webp",
+    "name_de": "Fruchtzucker",
+    "g_index": 20,
+    "g_load": 20,
+    "name_ru": "Фруктоза",
+    "name_en": "Fructose"
+  },
+  {
+    "image_url": "images/MMG1jO7NNO_small.webp",
+    "name_de": "Gans",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Гусь",
+    "name_en": "Goose"
+  },
+  {
+    "image_url": "images/YjqRtunCMx_small.webp",
+    "name_de": "Gegrilltes Schwein",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Жареная свинина",
+    "name_en": "Grilled pork"
+  },
+  {
+    "image_url": "images/Eh7uL13iuv_small.webp",
+    "name_de": "Gekeimtes Brot",
+    "g_index": 35,
+    "g_load": 12.7,
+    "name_ru": "Пророщенный хлеб",
+    "name_en": "Sprouted bread"
+  },
+  {
+    "image_url": "images/I34w0gvAat_small.webp",
+    "name_de": "Gekochte Hähnchenbrust",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Вареная куриная грудка",
+    "name_en": "Cooked chicken breast"
+  },
+  {
+    "image_url": "images/mga9g33N84_small.webp",
+    "name_de": "Gekochte Rinderzunge",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Вареный говяжий язык",
+    "name_en": "Cooked beef tongue"
+  },
+  {
+    "image_url": "images/Wso4P4c6aK_small.webp",
+    "name_de": "Gekochtes Kalbfleisch",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Вареная телятина",
+    "name_en": "Cooked veal"
+  },
+  {
+    "image_url": "images/msynRArbnh_small.webp",
+    "name_de": "Gekochtes Lamm",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Вареная баранина",
+    "name_en": "Cooked lamb"
+  },
+  {
+    "image_url": "images/20C3k0VHNM_small.webp",
+    "name_de": "Gekochtes mageres Rindfleisch",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Вареная постная говядина",
+    "name_en": "Cooked lean beef"
+  },
+  {
+    "image_url": "images/eWXFG8m9G1_small.webp",
+    "name_de": "Gelbe Stachelbeere",
+    "g_index": 15,
+    "g_load": 1.8,
+    "name_ru": "Желтый крыжовник",
+    "name_en": "Yellow gooseberry"
+  },
+  {
+    "image_url": "images/BnLXunwqNn_small.webp",
+    "name_de": "Gemüsesuppe",
+    "g_index": 40,
+    "g_load": 2.5,
+    "name_ru": "Овощной суп",
+    "name_en": "Vegetable soup"
+  },
+  {
+    "image_url": "images/o29czTTbZ5_small.webp",
+    "name_de": "Gerstengrütze",
+    "g_index": 25,
+    "g_load": 15.8,
+    "name_ru": "Ячневая крупа",
+    "name_en": "Barley groats"
+  },
+  {
+    "image_url": "images/97NoJQlzNb_small.webp",
+    "name_de": "Gerstenmehl",
+    "g_index": 30,
+    "g_load": 16.8,
+    "name_ru": "Ячменная мука",
+    "name_en": "Barley flour"
+  },
+  {
+    "image_url": "images/mn2tuUjdju_small.webp",
+    "name_de": "Geschmorter Blumenkohl",
+    "g_index": 15,
+    "g_load": 0,
+    "name_ru": "Тушеная цветная капуста",
+    "name_en": "Braised cauliflower"
+  },
+  {
+    "image_url": "images/4m8CUwhVPU_small.webp",
+    "name_de": "Geschälte Erbsen (frisch)",
+    "g_index": 25,
+    "g_load": 15,
+    "name_ru": "Очищенный горох (свежий)",
+    "name_en": "Shelled peas (fresh)"
+  },
+  {
+    "image_url": "images/askH6YJR1n_small.webp",
+    "name_de": "Getreide, ganz (zuckerfrei)",
+    "g_index": 45,
+    "g_load": 27.3,
+    "name_ru": "Зерновые, цельные (без сахара)",
+    "name_en": "Cereal, whole (sugar-free)"
+  },
+  {
+    "image_url": "images/ANl1jITFeH_small.webp",
+    "name_de": "Getrocknete Aprikosen",
+    "g_index": 35,
+    "g_load": 21.2,
+    "name_ru": "Сушеные абрикосы",
+    "name_en": "Dried apricots"
+  },
+  {
+    "image_url": "images/Q5NlMNC7lA_small.webp",
+    "name_de": "Getrocknete Datteln",
+    "g_index": 40,
+    "g_load": 27.7,
+    "name_ru": "Сушеные финики",
+    "name_en": "Dried dates"
+  },
+  {
+    "image_url": "images/ELjBBC6wWT_small.webp",
+    "name_de": "Getrocknete Pfirsiche",
+    "g_index": 35,
+    "g_load": 20.2,
+    "name_ru": "Сушеные персики",
+    "name_en": "Dried peaches"
+  },
+  {
+    "image_url": "images/zxDSMNIdvK_small.webp",
+    "name_de": "Getrocknete Äpfel",
+    "g_index": 35,
+    "g_load": 20.6,
+    "name_ru": "Сушеные яблоки",
+    "name_en": "Dried apples"
+  },
+  {
+    "image_url": "images/wmZALpAVw9_small.webp",
+    "name_de": "Gewürze (Zimt)",
+    "g_index": 5,
+    "g_load": 4,
+    "name_ru": "Пряности (корица)",
+    "name_en": "Spices (cinnamon)"
+  },
+  {
+    "image_url": "images/SmXzPntdLT_small.webp",
+    "name_de": "Gewürzgurken",
+    "g_index": 15,
+    "g_load": 0.7,
+    "name_ru": "Соленые огурцы",
+    "name_en": "Pickles"
+  },
+  {
+    "image_url": "images/fafVAim2rr_small.webp",
+    "name_de": "Goji-Beeren",
+    "g_index": 25,
+    "g_load": 13.3,
+    "name_ru": "Ягоды годжи",
+    "name_en": "Goji berries"
+  },
+  {
+    "image_url": "images/1V0htLKAiH_small.webp",
+    "name_de": "Granatapfel (frisch)",
+    "g_index": 35,
+    "g_load": 6.7,
+    "name_ru": "Гранат (свежий)",
+    "name_en": "Pomegranate (fresh)"
+  },
+  {
+    "image_url": "images/vO9sNEvk4b_small.webp",
+    "name_de": "Grapefruit",
+    "g_index": 22,
+    "g_load": 2.4,
+    "name_ru": "Грейпфрут",
+    "name_en": "Grapefruit"
+  },
+  {
+    "image_url": "images/nXPG3NCDo1_small.webp",
+    "name_de": "Grapefruitsaft (ungesüßt)",
+    "g_index": 45,
+    "g_load": 2.7,
+    "name_ru": "Грейпфрутовый сок (без сахара)",
+    "name_en": "Grapefruit juice (unsweetened)"
+  },
+  {
+    "image_url": "images/dAshbdMr11_small.webp",
+    "name_de": "Grapefruitsaft (zuckerfrei)",
+    "g_index": 45,
+    "g_load": 4.5,
+    "name_ru": "Грейпфрутовый сок (без сахара)",
+    "name_en": "Grapefruit juice (sugar-free)"
+  },
+  {
+    "image_url": "images/frINSFa2su_small.webp",
+    "name_de": "Grüne Bohnen",
+    "g_index": 30,
+    "g_load": 2.1,
+    "name_ru": "Зеленая фасоль",
+    "name_en": "Green beans"
+  },
+  {
+    "image_url": "images/bt6I8gyJUh_small.webp",
+    "name_de": "Grüne Erbsen (Dosen)",
+    "g_index": 45,
+    "g_load": 2.9,
+    "name_ru": "Зеленый горошек (консервированный)",
+    "name_en": "Green peas (canned)"
+  },
+  {
+    "image_url": "images/6g6V6jiRSm_small.webp",
+    "name_de": "Grüne erbsen",
+    "g_index": 15,
+    "g_load": 1.5,
+    "name_ru": "Зеленый горошек",
+    "name_en": "Green peas"
+  },
+  {
+    "image_url": "images/kd69Bb6D5J_small.webp",
+    "name_de": "Grüner Apfel",
+    "g_index": 36,
+    "g_load": 5,
+    "name_ru": "Зеленое яблоко",
+    "name_en": "Green apple"
+  },
+  {
+    "image_url": "images/pmv9PBdU3P_small.webp",
+    "name_de": "Gurke",
+    "g_index": 15,
+    "g_load": 0.4,
+    "name_ru": "Огурец",
+    "name_en": "Cucumber"
+  },
+  {
+    "image_url": "images/YAqLKf66dx_small.webp",
+    "name_de": "Gänseschmalz",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Гусиный жир",
+    "name_en": "Goose fat"
+  },
+  {
+    "image_url": "images/qb6MFYGIad_small.webp",
+    "name_de": "Haferflocken Kekse",
+    "g_index": 55,
+    "g_load": 39.5,
+    "name_ru": "Овсяное печенье",
+    "name_en": "Oatmeal cookies"
+  },
+  {
+    "image_url": "images/8bxS3HnzAi_small.webp",
+    "name_de": "Hafermehl",
+    "g_index": 25,
+    "g_load": 3,
+    "name_ru": "Овсяная мука",
+    "name_en": "Oat flour"
+  },
+  {
+    "image_url": "images/yVd2cD06HM_small.webp",
+    "name_de": "Hafermilch (roh)",
+    "g_index": 69,
+    "g_load": 3.5,
+    "name_ru": "Овсяное молоко (сырое)",
+    "name_en": "Oat milk (raw)"
+  },
+  {
+    "image_url": "images/9TdbcFeilp_small.webp",
+    "name_de": "Hammelfleisch",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Баранина",
+    "name_en": "Lamb meat"
+  },
+  {
+    "image_url": "images/59filN6ayf_small.webp",
+    "name_de": "Hanfsamen (geschält)",
+    "g_index": 4,
+    "g_load": 0.3,
+    "name_ru": "Семена конопли (очищенные)",
+    "name_en": "Hemp seeds (shelled)"
+  },
+  {
+    "image_url": "images/WPbbnZFwHN_small.webp",
+    "name_de": "Hartweizen-Fadennudeln",
+    "g_index": 35,
+    "g_load": 8.1,
+    "name_ru": "Лапша из твердых сортов пшеницы",
+    "name_en": "Durum wheat noodles"
+  },
+  {
+    "image_url": "images/vCSPJ2qFU8_small.webp",
+    "name_de": "Hase",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Заяц",
+    "name_en": "Hare"
+  },
+  {
+    "image_url": "images/EUhOCK64Jt_small.webp",
+    "name_de": "Haselnuss",
+    "g_index": 15,
+    "g_load": 2.5,
+    "name_ru": "Фундук",
+    "name_en": "Hazelnut"
+  },
+  {
+    "image_url": "images/5HlEsGXbZy_small.webp",
+    "name_de": "Haselnüsse",
+    "g_index": 25,
+    "g_load": 2.5,
+    "name_ru": "Фундук",
+    "name_en": "Hazelnuts"
+  },
+  {
+    "image_url": "images/PGYLuj6x4b_small.webp",
+    "name_de": "Hefe",
+    "g_index": 35,
+    "g_load": 6.3,
+    "name_ru": "Дрожжи",
+    "name_en": "Yeast"
+  },
+  {
+    "image_url": "images/Zimblthphp_small.webp",
+    "name_de": "Himbeeren (frische Beeren)",
+    "g_index": 25,
+    "g_load": 3,
+    "name_ru": "Малина (свежие ягоды)",
+    "name_en": "Raspberries (fresh berries)"
+  },
+  {
+    "image_url": "images/wtk1W7DJKe_small.webp",
+    "name_de": "Huhn (gebraten)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Курица (жареная)",
+    "name_en": "Chicken (fried)"
+  },
+  {
+    "image_url": "images/07ZjvSLATp_small.webp",
+    "name_de": "Hummus",
+    "g_index": 25,
+    "g_load": 3.5,
+    "name_ru": "Хумус",
+    "name_en": "Hummus"
+  },
+  {
+    "image_url": "images/uuThVgsavn_small.webp",
+    "name_de": "Hähnchen",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Цыпленок",
+    "name_en": "Chicken"
+  },
+  {
+    "image_url": "images/fpOsrGKd6m_small.webp",
+    "name_de": "Hühner",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Куры",
+    "name_en": "Chickens"
+  },
+  {
+    "image_url": "images/XtnY8OGuQN_small.webp",
+    "name_de": "Hüttenkäse",
+    "g_index": 30,
+    "g_load": 0.8,
+    "name_ru": "Творог",
+    "name_en": "Cottage cheese"
+  },
+  {
+    "image_url": "images/cYOHYZr595_small.webp",
+    "name_de": "Hüttenkäse 9% Fett",
+    "g_index": 30,
+    "g_load": 2.7,
+    "name_ru": "Творог 9% жирности",
+    "name_en": "Cottage cheese 9% fat"
+  },
+  {
+    "image_url": "images/6oFpcMxZOK_small.webp",
+    "name_de": "In Büchsen konservierte Pampelmuse",
+    "g_index": 47,
+    "g_load": 4.3,
+    "name_ru": "Консервированный помело",
+    "name_en": "Canned pomelo"
+  },
+  {
+    "image_url": "images/Aybau6SglC_small.webp",
+    "name_de": "Ingwer",
+    "g_index": 15,
+    "g_load": 0.6,
+    "name_ru": "Имбирь",
+    "name_en": "Ginger"
+  },
+  {
+    "image_url": "images/4o2BtUXloN_small.webp",
+    "name_de": "Instant-Nudeln",
+    "g_index": 52,
+    "g_load": 29.5,
+    "name_ru": "Лапша быстрого приготовления",
+    "name_en": "Instant noodles"
+  },
+  {
+    "image_url": "images/YRbyiua0Bd_small.webp",
+    "name_de": "Joghurt",
+    "g_index": 35,
+    "g_load": 1.6,
+    "name_ru": "Йогурт",
+    "name_en": "Yogurt"
+  },
+  {
+    "image_url": "images/hDoXco0kcA_small.webp",
+    "name_de": "Joghurt",
+    "g_index": 32,
+    "g_load": 1.3,
+    "name_ru": "Йогурт",
+    "name_en": "Yogurt"
+  },
+  {
+    "image_url": "images/XAZ2vcWeHu_small.webp",
+    "name_de": "Joghurt 1,5% natürlich",
+    "g_index": 35,
+    "g_load": 0.5,
+    "name_ru": "Йогурт 1,5% натуральный",
+    "name_en": "Yogurt 1.5% natural"
+  },
+  {
+    "image_url": "images/et3z2A8sk9_small.webp",
+    "name_de": "Johannisbrot (Johannisbrotpulver)",
+    "g_index": 15,
+    "g_load": 11.7,
+    "name_ru": "Рожковое дерево (порошок рожкового дерева)",
+    "name_en": "Carob (carob powder)"
+  },
+  {
+    "image_url": "images/LzQyrmCG7E_small.webp",
+    "name_de": "Kaffeebohnen",
+    "g_index": 50,
+    "g_load": 0.1,
+    "name_ru": "Кофейные зерна",
+    "name_en": "Coffee beans"
+  },
+  {
+    "image_url": "images/EPFFETc4I8_small.webp",
+    "name_de": "Kakaopulver (zuckerfrei)",
+    "g_index": 20,
+    "g_load": 4.4,
+    "name_ru": "Какао-порошок (без сахара)",
+    "name_en": "Cocoa powder (sugar-free)"
+  },
+  {
+    "image_url": "images/HQboT3bWj4_small.webp",
+    "name_de": "Kaktusfeige (frisches Obst)",
+    "g_index": 35,
+    "g_load": 3.4,
+    "name_ru": "Опунция (свежий фрукт)",
+    "name_en": "Prickly pear (fresh fruit)"
+  },
+  {
+    "image_url": "images/tEvHzRjor1_small.webp",
+    "name_de": "Kalbfleisch",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Телятина",
+    "name_en": "Veal"
+  },
+  {
+    "image_url": "images/FinJe0M2Mt_small.webp",
+    "name_de": "Kamut Mehl",
+    "g_index": 45,
+    "g_load": 32.4,
+    "name_ru": "Мука Камут",
+    "name_en": "Kamut flour"
+  },
+  {
+    "image_url": "images/aeu1pyoZ3V_small.webp",
+    "name_de": "Kamut, ägyptischer Weizen (gekocht)",
+    "g_index": 40,
+    "g_load": 25.4,
+    "name_ru": "Камут, египетская пшеница (приготовленная)",
+    "name_en": "Kamut, Egyptian wheat (cooked)"
+  },
+  {
+    "image_url": "images/1GC5QzO7Qq_small.webp",
+    "name_de": "Kaninchen (gebraten)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Кролик (жареный)",
+    "name_en": "Rabbit (fried)"
+  },
+  {
+    "image_url": "images/uZn1Sderew_small.webp",
+    "name_de": "Kapern",
+    "g_index": 20,
+    "g_load": 0.8,
+    "name_ru": "Каперсы",
+    "name_en": "Capers"
+  },
+  {
+    "image_url": "images/9hGtLEN3gE_small.webp",
+    "name_de": "Karotte (frisch)",
+    "g_index": 30,
+    "g_load": 2,
+    "name_ru": "Морковь (свежая)",
+    "name_en": "Carrot (fresh)"
+  },
+  {
+    "image_url": "images/5eqrtNS5W6_small.webp",
+    "name_de": "Karottensaft (ungesüßt)",
+    "g_index": 40,
+    "g_load": 2.6,
+    "name_ru": "Морковный сок (без сахара)",
+    "name_en": "Carrot juice (unsweetened)"
+  },
+  {
+    "image_url": "images/dN6YyIuKrg_small.webp",
+    "name_de": "Kefir (1% Fett)",
+    "g_index": 31,
+    "g_load": 1.2,
+    "name_ru": "Кефир (1% жирности)",
+    "name_en": "Kefir (1% fat)"
+  },
+  {
+    "image_url": "images/p07aOhgLuj_small.webp",
+    "name_de": "Kefir (regelmäßig)",
+    "g_index": 36,
+    "g_load": 1.4,
+    "name_ru": "Кефир (обычный)",
+    "name_en": "Kefir (regular)"
+  },
+  {
+    "image_url": "images/e36KenT2Zb_small.webp",
+    "name_de": "Kefir fettarm",
+    "g_index": 25,
+    "g_load": 0,
+    "name_ru": "Кефир обезжиренный",
+    "name_en": "Kefir low-fat"
+  },
+  {
+    "image_url": "images/R4TGIv63PA_small.webp",
+    "name_de": "Kekse (Vollkornmehl, zuckerfrei)",
+    "g_index": 50,
+    "g_load": 23.4,
+    "name_ru": "Печенье (цельнозерновая мука, без сахара)",
+    "name_en": "Cookies (whole grain flour, sugar-free)"
+  },
+  {
+    "image_url": "images/xhMk9fovjP_small.webp",
+    "name_de": "Ketchup",
+    "g_index": 55,
+    "g_load": 14,
+    "name_ru": "Кетчуп",
+    "name_en": "Ketchup"
+  },
+  {
+    "image_url": "images/bgFgOouWA1_small.webp",
+    "name_de": "Kichererbsen",
+    "g_index": 10,
+    "g_load": 6.1,
+    "name_ru": "Нут",
+    "name_en": "Chickpeas"
+  },
+  {
+    "image_url": "images/hhUQfh5tMI_small.webp",
+    "name_de": "Kichererbsen (in Dosen)",
+    "g_index": 35,
+    "g_load": 6.8,
+    "name_ru": "Нут (консервированный)",
+    "name_en": "Chickpeas (canned)"
+  },
+  {
+    "image_url": "images/AskNEu0ekW_small.webp",
+    "name_de": "Kichererbsenmehl",
+    "g_index": 35,
+    "g_load": 23.1,
+    "name_ru": "Нутовая мука",
+    "name_en": "Chickpea flour"
+  },
+  {
+    "image_url": "images/IlKOmNKIGc_small.webp",
+    "name_de": "Kirsche (süß, frisch)",
+    "g_index": 25,
+    "g_load": 4,
+    "name_ru": "Вишня (сладкая, свежая)",
+    "name_en": "Cherry (sweet, fresh)"
+  },
+  {
+    "image_url": "images/8arwEOh4Au_small.webp",
+    "name_de": "Kirschpflaume",
+    "g_index": 25,
+    "g_load": 0,
+    "name_ru": "Алыча",
+    "name_en": "Cherry plum"
+  },
+  {
+    "image_url": "images/r9UtL7fFlV_small.webp",
+    "name_de": "Kiwi",
+    "g_index": 50,
+    "g_load": 7.3,
+    "name_ru": "Киви",
+    "name_en": "Kiwi"
+  },
+  {
+    "image_url": "images/TJEUOQfyyD_small.webp",
+    "name_de": "Kleie (Weizen, Hafer)",
+    "g_index": 15,
+    "g_load": 6.8,
+    "name_ru": "Отруби (пшеничные, овсяные)",
+    "name_en": "Bran (wheat, oat)"
+  },
+  {
+    "image_url": "images/ARcldg6P48_small.webp",
+    "name_de": "Knoblauch",
+    "g_index": 30,
+    "g_load": 9,
+    "name_ru": "Чеснок",
+    "name_en": "Garlic"
+  },
+  {
+    "image_url": "images/nvHQxqAQh5_small.webp",
+    "name_de": "Kohlrabi",
+    "g_index": 20,
+    "g_load": 2.1,
+    "name_ru": "Кольраби",
+    "name_en": "Kohlrabi"
+  },
+  {
+    "image_url": "images/INdRQJZ70t_small.webp",
+    "name_de": "Kokosmilch",
+    "g_index": 40,
+    "g_load": 1.1,
+    "name_ru": "Кокосовое молоко",
+    "name_en": "Coconut milk"
+  },
+  {
+    "image_url": "images/ex1paVt9fa_small.webp",
+    "name_de": "Kokosmilch (roh)",
+    "g_index": 40,
+    "g_load": 1.1,
+    "name_ru": "Кокосовое молоко (сырое)",
+    "name_en": "Coconut milk (raw)"
+  },
+  {
+    "image_url": "images/Kcyxa6Rz3Y_small.webp",
+    "name_de": "Kokosnuss",
+    "g_index": 45,
+    "g_load": 0.8,
+    "name_ru": "Кокос",
+    "name_en": "Coconut"
+  },
+  {
+    "image_url": "images/yke7maslEy_small.webp",
+    "name_de": "Kokosnusszucker",
+    "g_index": 35,
+    "g_load": 1.8,
+    "name_ru": "Кокосовый сахар",
+    "name_en": "Coconut sugar"
+  },
+  {
+    "image_url": "images/4cXd3FsCC5_small.webp",
+    "name_de": "Krebstiere (Hummer, Krabben, Langusten)",
+    "g_index": 5,
+    "g_load": 0.1,
+    "name_ru": "Ракообразные (омар, крабы, лангусты)",
+    "name_en": "Crustaceans (lobster, crabs, langoustines)"
+  },
+  {
+    "image_url": "images/7cLfkoPVus_small.webp",
+    "name_de": "Käse (Mozzarella, gepresster Hüttenkäse usw,)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Сыр (Моцарелла, прессованный творог и т.д.)",
+    "name_en": "Cheese (Mozzarella, pressed cottage cheese, etc.)"
+  },
+  {
+    "image_url": "images/I0UK8rL0CA_small.webp",
+    "name_de": "Körner (gekeimt)",
+    "g_index": 15,
+    "g_load": 6.2,
+    "name_ru": "Зерна (пророщенные)",
+    "name_en": "Grains (sprouted)"
+  },
+  {
+    "image_url": "images/sJIMOFCIts_small.webp",
+    "name_de": "Kümmel",
+    "g_index": 5,
+    "g_load": 0.6,
+    "name_ru": "Тмин",
+    "name_en": "Caraway"
+  },
+  {
+    "image_url": "images/aJjN45zUYU_small.webp",
+    "name_de": "Kürbisbrot",
+    "g_index": 40,
+    "g_load": 17,
+    "name_ru": "Тыквенный хлеб",
+    "name_en": "Pumpkin bread"
+  },
+  {
+    "image_url": "images/x1IPEqhWxo_small.webp",
+    "name_de": "Lasagne",
+    "g_index": 47,
+    "g_load": 7,
+    "name_ru": "Лазанья",
+    "name_en": "Lasagna"
+  },
+  {
+    "image_url": "images/yF5FDesw2z_small.webp",
+    "name_de": "Lauch",
+    "g_index": 15,
+    "g_load": 1.2,
+    "name_ru": "Лук-порей",
+    "name_en": "Leek"
+  },
+  {
+    "image_url": "images/yU8Ddxi9e9_small.webp",
+    "name_de": "Leinen",
+    "g_index": 35,
+    "g_load": 9.7,
+    "name_ru": "Лен",
+    "name_en": "Linen"
+  },
+  {
+    "image_url": "images/W3oADEugRI_small.webp",
+    "name_de": "Leinsamen",
+    "g_index": 35,
+    "g_load": 0.6,
+    "name_ru": "Семена льна",
+    "name_en": "Flax seeds"
+  },
+  {
+    "image_url": "images/hA5psXgx4E_small.webp",
+    "name_de": "Linsen (gelb)",
+    "g_index": 30,
+    "g_load": 19.6,
+    "name_ru": "Чечевица (желтая)",
+    "name_en": "Lentils (yellow)"
+  },
+  {
+    "image_url": "images/AuDYcOqN67_small.webp",
+    "name_de": "Linsen (grün)",
+    "g_index": 25,
+    "g_load": 12.5,
+    "name_ru": "Чечевица (зеленая)",
+    "name_en": "Lentils (green)"
+  },
+  {
+    "image_url": "images/GsPRZnSEVI_small.webp",
+    "name_de": "Linsensprossen",
+    "g_index": 25,
+    "g_load": 5.5,
+    "name_ru": "Ростки чечевицы",
+    "name_en": "Lentil sprouts"
+  },
+  {
+    "image_url": "images/XoGJb9Z365_small.webp",
+    "name_de": "Linsensuppe",
+    "g_index": 30,
+    "g_load": 2.4,
+    "name_ru": "Чечевичный суп",
+    "name_en": "Lentil soup"
+  },
+  {
+    "image_url": "images/9XEp5SRP5P_small.webp",
+    "name_de": "Linsensuppenpüree",
+    "g_index": 44,
+    "g_load": 6.6,
+    "name_ru": "Чечевичный суп-пюре",
+    "name_en": "Creamed lentil soup"
+  },
+  {
+    "image_url": "images/v8gwqvOZ83_small.webp",
+    "name_de": "Litschi (frisches Obst)",
+    "g_index": 50,
+    "g_load": 7.6,
+    "name_ru": "Личи (свежий фрукт)",
+    "name_en": "Lychee (fresh fruit)"
+  },
+  {
+    "image_url": "images/hnSoheV4da_small.webp",
+    "name_de": "Lotus (Wurzelpulver)",
+    "g_index": 33,
+    "g_load": 4.1,
+    "name_ru": "Лотос (порошок корня)",
+    "name_en": "Lotus (root powder)"
+  },
+  {
+    "image_url": "images/iD3g2Ugagq_small.webp",
+    "name_de": "Lupine",
+    "g_index": 15,
+    "g_load": 6.1,
+    "name_ru": "Люпин",
+    "name_en": "Lupin"
+  },
+  {
+    "image_url": "images/e9W8RdAnmc_small.webp",
+    "name_de": "Mageres Schweinefleisch",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Постная свинина",
+    "name_en": "Lean pork"
+  },
+  {
+    "image_url": "images/KgtVOnZgXw_small.webp",
+    "name_de": "Magermilch",
+    "g_index": 31,
+    "g_load": 1.5,
+    "name_ru": "Обезжиренное молоко",
+    "name_en": "Skim milk"
+  },
+  {
+    "image_url": "images/gmFq7H2Qq7_small.webp",
+    "name_de": "Magermilch",
+    "g_index": 27,
+    "g_load": 0.1,
+    "name_ru": "Обезжиренное молоко",
+    "name_en": "Skim milk"
+  },
+  {
+    "image_url": "images/WnIYmOZAjV_small.webp",
+    "name_de": "Mais",
+    "g_index": 48,
+    "g_load": 8.9,
+    "name_ru": "Кукуруза",
+    "name_en": "Corn"
+  },
+  {
+    "image_url": "images/6yz2XiA8zX_small.webp",
+    "name_de": "Maissirup",
+    "g_index": 15,
+    "g_load": 11.7,
+    "name_ru": "Кукурузный сироп",
+    "name_en": "Corn syrup"
+  },
+  {
+    "image_url": "images/JAnXwX02Tj_small.webp",
+    "name_de": "Makronen, Kokosmehl",
+    "g_index": 32,
+    "g_load": 18.1,
+    "name_ru": "Макроны, кокосовая мука",
+    "name_en": "Macaroons, coconut flour"
+  },
+  {
+    "image_url": "images/wh35gQB4zd_small.webp",
+    "name_de": "Mandarin",
+    "g_index": 30,
+    "g_load": 3.9,
+    "name_ru": "Мандарин",
+    "name_en": "Mandarin"
+  },
+  {
+    "image_url": "images/oEy3kx48Pv_small.webp",
+    "name_de": "Mandarine (in Dosen)",
+    "g_index": 47,
+    "g_load": 4.2,
+    "name_ru": "Мандарин (консервированный)",
+    "name_en": "Mandarin (canned)"
+  },
+  {
+    "image_url": "images/utK4OIENj7_small.webp",
+    "name_de": "Mandarinen, Mandarinen, Satsuma (frisch)",
+    "g_index": 30,
+    "g_load": 3.9,
+    "name_ru": "Мандарины, мандарины, Сацума (свежие)",
+    "name_en": "Mandarins, tangerines, Satsuma (fresh)"
+  },
+  {
+    "image_url": "images/OCWai9RgtR_small.webp",
+    "name_de": "Mandel",
+    "g_index": 15,
+    "g_load": 1.9,
+    "name_ru": "Миндаль",
+    "name_en": "Almond"
+  },
+  {
+    "image_url": "images/ywJvDrsmJ8_small.webp",
+    "name_de": "Mandelmilch",
+    "g_index": 30,
+    "g_load": 3.9,
+    "name_ru": "Миндальное молоко",
+    "name_en": "Almond milk"
+  },
+  {
+    "image_url": "images/LzvegOXf0K_small.webp",
+    "name_de": "Mandelpaste (zuckerfrei)",
+    "g_index": 35,
+    "g_load": 15.1,
+    "name_ru": "Миндальная паста (без сахара)",
+    "name_en": "Almond paste (sugar-free)"
+  },
+  {
+    "image_url": "images/AOA1AylMq8_small.webp",
+    "name_de": "Mandelöl",
+    "g_index": 25,
+    "g_load": 0,
+    "name_ru": "Миндальное масло",
+    "name_en": "Almond oil"
+  },
+  {
+    "image_url": "images/aKxzP1f1l4_small.webp",
+    "name_de": "Margarine",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Маргарин",
+    "name_en": "Margarine"
+  },
+  {
+    "image_url": "images/EA6KVk1rdP_small.webp",
+    "name_de": "Marmelade",
+    "g_index": 51,
+    "g_load": 47.5,
+    "name_ru": "Мармелад",
+    "name_en": "Marmalade"
+  },
+  {
+    "image_url": "images/rG5x3tQt9D_small.webp",
+    "name_de": "Marmelade (zuckerfrei)",
+    "g_index": 30,
+    "g_load": 22.2,
+    "name_ru": "Мармелад (без сахара)",
+    "name_en": "Marmalade (sugar-free)"
+  },
+  {
+    "image_url": "images/bzEVMPuzl6_small.webp",
+    "name_de": "Mayonnaise (hausgemacht)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Майонез (домашний)",
+    "name_en": "Mayonnaise (homemade)"
+  },
+  {
+    "image_url": "images/fNKz0UGo0R_small.webp",
+    "name_de": "Meeresfrüchte (Austern, Garnelen, Muscheln usw,)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Морепродукты (устрицы, креветки, мидии и т.д.)",
+    "name_en": "Seafood (oysters, shrimp, mussels, etc.)"
+  },
+  {
+    "image_url": "images/LB6VyJooF6_small.webp",
+    "name_de": "Meerrettich",
+    "g_index": 10,
+    "g_load": 1.1,
+    "name_ru": "Хрен",
+    "name_en": "Horseradish"
+  },
+  {
+    "image_url": "images/JC61jucNub_small.webp",
+    "name_de": "Mehrkornplätzchen",
+    "g_index": 51,
+    "g_load": 33.2,
+    "name_ru": "Многозерновое печенье",
+    "name_en": "Multigrain cookies"
+  },
+  {
+    "image_url": "images/IzGKTok2K1_small.webp",
+    "name_de": "Melonenbirne (Pepino)",
+    "g_index": 40,
+    "g_load": 8,
+    "name_ru": "Дынная груша (Пепино)",
+    "name_en": "Melon pear (Pepino)"
+  },
+  {
+    "image_url": "images/Aq4PG5y0BP_small.webp",
+    "name_de": "Milch",
+    "g_index": 31,
+    "g_load": 1.6,
+    "name_ru": "Молоко",
+    "name_en": "Milk"
+  },
+  {
+    "image_url": "images/DH95J29Bn2_small.webp",
+    "name_de": "Milchschokolade",
+    "g_index": 49,
+    "g_load": 28.9,
+    "name_ru": "Молочный шоколад",
+    "name_en": "Milk chocolate"
+  },
+  {
+    "image_url": "images/3eSdDjOkXX_small.webp",
+    "name_de": "Mispel japanische Pflaume",
+    "g_index": 55,
+    "g_load": 5.7,
+    "name_ru": "Мушмула японская слива",
+    "name_en": "Loquat Japanese plum"
+  },
+  {
+    "image_url": "images/R8PbwV4k0C_small.webp",
+    "name_de": "Mohn",
+    "g_index": 35,
+    "g_load": 9.8,
+    "name_ru": "Мак",
+    "name_en": "Poppy"
+  },
+  {
+    "image_url": "images/rbrf2L9Mf2_small.webp",
+    "name_de": "Moltebeere (frische Beeren)",
+    "g_index": 25,
+    "g_load": 1.7,
+    "name_ru": "Морошка (свежие ягоды)",
+    "name_en": "Cloudberry (fresh berries)"
+  },
+  {
+    "image_url": "images/jsX5boYUXg_small.webp",
+    "name_de": "Mungobohne Mung",
+    "g_index": 25,
+    "g_load": 15.8,
+    "name_ru": "Мунг бобы",
+    "name_en": "Mung bean"
+  },
+  {
+    "image_url": "images/fXyc7GNkSE_small.webp",
+    "name_de": "Müsli (zuckerfrei)",
+    "g_index": 50,
+    "g_load": 23.6,
+    "name_ru": "Мюсли (без сахара)",
+    "name_en": "Muesli (sugar-free)"
+  },
+  {
+    "image_url": "images/CJuxUSJcx0_small.webp",
+    "name_de": "Müsliriegel, Glutenfrei",
+    "g_index": 50,
+    "g_load": 37.1,
+    "name_ru": "Мюсли-батончик, без глютена",
+    "name_en": "Muesli bar, gluten-free"
+  },
+  {
+    "image_url": "images/Kr72oe7NYh_small.webp",
+    "name_de": "Natürliche Milch",
+    "g_index": 32,
+    "g_load": 1.3,
+    "name_ru": "Натуральное молоко",
+    "name_en": "Natural milk"
+  },
+  {
+    "image_url": "images/3VJbiXMPqZ_small.webp",
+    "name_de": "Nektarine (frisches Obst)",
+    "g_index": 35,
+    "g_load": 4.1,
+    "name_ru": "Нектарин (свежий фрукт)",
+    "name_en": "Nectarine (fresh fruit)"
+  },
+  {
+    "image_url": "images/rAvbRqZfHM_small.webp",
+    "name_de": "Nieren (geschmort)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Почки (тушеные)",
+    "name_en": "Kidneys (braised)"
+  },
+  {
+    "image_url": "images/0sEUiYPzDC_small.webp",
+    "name_de": "Nussbaum",
+    "g_index": 15,
+    "g_load": 2.1,
+    "name_ru": "Грецкий орех",
+    "name_en": "Walnut"
+  },
+  {
+    "image_url": "images/X6lyiSWTNA_small.webp",
+    "name_de": "Nüsse (mit Rosinen mischen)",
+    "g_index": 21,
+    "g_load": 9.8,
+    "name_ru": "Орехи (смесь с изюмом)",
+    "name_en": "Nuts (mixed with raisins)"
+  },
+  {
+    "image_url": "images/wz23ObtO4B_small.webp",
+    "name_de": "Obstbrot",
+    "g_index": 47,
+    "g_load": 24.4,
+    "name_ru": "Фруктовый хлеб",
+    "name_en": "Fruit bread"
+  },
+  {
+    "image_url": "images/xIop8is254_small.webp",
+    "name_de": "Oliven",
+    "g_index": 15,
+    "g_load": 0.9,
+    "name_ru": "Оливки",
+    "name_en": "Olives"
+  },
+  {
+    "image_url": "images/OHjnvj2hLa_small.webp",
+    "name_de": "Olivenöl",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Оливковое масло",
+    "name_en": "Olive oil"
+  },
+  {
+    "image_url": "images/vIOhMvy9eB_small.webp",
+    "name_de": "Omelette",
+    "g_index": 49,
+    "g_load": 7.3,
+    "name_ru": "Омлет",
+    "name_en": "Omelette"
+  },
+  {
+    "image_url": "images/7hre17eZtj_small.webp",
+    "name_de": "Orache",
+    "g_index": 53,
+    "g_load": 34,
+    "name_ru": "Лебеда садовая",
+    "name_en": "Orache"
+  },
+  {
+    "image_url": "images/rpaE64Cepa_small.webp",
+    "name_de": "Orange (frisches Obst)",
+    "g_index": 35,
+    "g_load": 4.1,
+    "name_ru": "Апельсин (свежий фрукт)",
+    "name_en": "Orange (fresh fruit)"
+  },
+  {
+    "image_url": "images/wX4P5Ns5iP_small.webp",
+    "name_de": "Orangensaft",
+    "g_index": 48,
+    "g_load": 4.8,
+    "name_ru": "Апельсиновый сок",
+    "name_en": "Orange juice"
+  },
+  {
+    "image_url": "images/ETyGQ4KY1f_small.webp",
+    "name_de": "Orangensaft (frisch gepresst und zuckerfrei)",
+    "g_index": 45,
+    "g_load": 4.8,
+    "name_ru": "Апельсиновый сок (свежевыжатый и без сахара)",
+    "name_en": "Orange juice (freshly squeezed and sugar-free)"
+  },
+  {
+    "image_url": "images/ueoIRW9iCA_small.webp",
+    "name_de": "Oregano",
+    "g_index": 5,
+    "g_load": 3.2,
+    "name_ru": "Орегано",
+    "name_en": "Oregano"
+  },
+  {
+    "image_url": "images/HtdmCDweEo_small.webp",
+    "name_de": "Palm Fruchtfleisch",
+    "g_index": 20,
+    "g_load": 1.2,
+    "name_ru": "Мякоть пальмы",
+    "name_en": "Palm pulp"
+  },
+  {
+    "image_url": "images/9b1MjxmGU2_small.webp",
+    "name_de": "Pampelmuse",
+    "g_index": 30,
+    "g_load": 3,
+    "name_ru": "Помело",
+    "name_en": "Pomelo"
+  },
+  {
+    "image_url": "images/6YmocU0iWE_small.webp",
+    "name_de": "Pampelmuse, Sheddock (frisch)",
+    "g_index": 25,
+    "g_load": 2,
+    "name_ru": "Помело, Шеддок (свежий)",
+    "name_en": "Pomelo, Sheddock (fresh)"
+  },
+  {
+    "image_url": "images/uopzFKnNAh_small.webp",
+    "name_de": "Paprika (rot, grün), Paprika",
+    "g_index": 15,
+    "g_load": 1,
+    "name_ru": "Перец (красный, зеленый), паприка",
+    "name_en": "Bell pepper (red, green), paprika"
+  },
+  {
+    "image_url": "images/kT66RpOnic_small.webp",
+    "name_de": "Passionsfrucht",
+    "g_index": 30,
+    "g_load": 6.9,
+    "name_ru": "Маракуйя",
+    "name_en": "Passion fruit"
+  },
+  {
+    "image_url": "images/LlgZyBIdx6_small.webp",
+    "name_de": "Passionsfrucht, Granadilla (frisch)",
+    "g_index": 30,
+    "g_load": 4,
+    "name_ru": "Маракуйя, Гранадилла (свежая)",
+    "name_en": "Passion fruit, Granadilla (fresh)"
+  },
+  {
+    "image_url": "images/zUopTvrRLp_small.webp",
+    "name_de": "Pasta",
+    "g_index": 50,
+    "g_load": 15.4,
+    "name_ru": "Паста",
+    "name_en": "Pasta"
+  },
+  {
+    "image_url": "images/eJyUSxvdLq_small.webp",
+    "name_de": "Pasta (aus Hartweizen)",
+    "g_index": 50,
+    "g_load": 11.6,
+    "name_ru": "Паста (из твердых сортов пшеницы)",
+    "name_en": "Pasta (from durum wheat)"
+  },
+  {
+    "image_url": "images/To0S9MaQSQ_small.webp",
+    "name_de": "Pepino, Melonenbirne",
+    "g_index": 40,
+    "g_load": 8,
+    "name_ru": "Пепино, Дынная груша",
+    "name_en": "Pepino, Melon pear"
+  },
+  {
+    "image_url": "images/VFAuFPjmr5_small.webp",
+    "name_de": "Perlovka",
+    "g_index": 25,
+    "g_load": 18.4,
+    "name_ru": "Перловка",
+    "name_en": "Pearl barley"
+  },
+  {
+    "image_url": "images/JqxMhkTLsL_small.webp",
+    "name_de": "Persimmon, Persimmon Ost (frisch)",
+    "g_index": 50,
+    "g_load": 7.7,
+    "name_ru": "Хурма, Хурма восточная (свежая)",
+    "name_en": "Persimmon, Oriental persimmon (fresh)"
+  },
+  {
+    "image_url": "images/K14f4FB7GH_small.webp",
+    "name_de": "Pesto-Sauce)",
+    "g_index": 15,
+    "g_load": 0.9,
+    "name_ru": "Соус Песто",
+    "name_en": "Pesto sauce"
+  },
+  {
+    "image_url": "images/BcBvqGxyMJ_small.webp",
+    "name_de": "Petersilie",
+    "g_index": 15,
+    "g_load": 0.9,
+    "name_ru": "Петрушка",
+    "name_en": "Parsley"
+  },
+  {
+    "image_url": "images/PPn90kZvHW_small.webp",
+    "name_de": "Petersilie (gekocht)",
+    "g_index": 52,
+    "g_load": 3.3,
+    "name_ru": "Петрушка (приготовленная)",
+    "name_en": "Parsley (cooked)"
+  },
+  {
+    "image_url": "images/FVRSYndNy8_small.webp",
+    "name_de": "Pfirsich (frisches Obst)",
+    "g_index": 35,
+    "g_load": 4,
+    "name_ru": "Персик (свежий фрукт)",
+    "name_en": "Peach (fresh fruit)"
+  },
+  {
+    "image_url": "images/HaBL3pZPpC_small.webp",
+    "name_de": "Pfirsich (in Sirup konserviert)",
+    "g_index": 55,
+    "g_load": 8.1,
+    "name_ru": "Персик (консервированный в сиропе)",
+    "name_en": "Peach (canned in syrup)"
+  },
+  {
+    "image_url": "images/DE4puH02OB_small.webp",
+    "name_de": "Pflanzenfett",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Растительный жир",
+    "name_en": "Vegetable fat"
+  },
+  {
+    "image_url": "images/8JeWvVGEHV_small.webp",
+    "name_de": "Pflaumen",
+    "g_index": 40,
+    "g_load": 25.6,
+    "name_ru": "Сливы",
+    "name_en": "Plums"
+  },
+  {
+    "image_url": "images/azVoBJd4Xb_small.webp",
+    "name_de": "Pflaumen (frisch)",
+    "g_index": 35,
+    "g_load": 3.9,
+    "name_ru": "Сливы (свежие)",
+    "name_en": "Plums (fresh)"
+  },
+  {
+    "image_url": "images/6NC6QFHgdX_small.webp",
+    "name_de": "Physalis",
+    "g_index": 15,
+    "g_load": 0.6,
+    "name_ru": "Физалис",
+    "name_en": "Physalis"
+  },
+  {
+    "image_url": "images/5Xnq0YR4LL_small.webp",
+    "name_de": "Pilze",
+    "g_index": 15,
+    "g_load": 0.8,
+    "name_ru": "Грибы",
+    "name_en": "Mushrooms"
+  },
+  {
+    "image_url": "images/dU7glVH0OI_small.webp",
+    "name_de": "Pilze (gekocht)",
+    "g_index": 36,
+    "g_load": 1.9,
+    "name_ru": "Грибы (приготовленные)",
+    "name_en": "Mushrooms (cooked)"
+  },
+  {
+    "image_url": "images/S3tSr3aP5R_small.webp",
+    "name_de": "Pinienkerne",
+    "g_index": 15,
+    "g_load": 2.9,
+    "name_ru": "Кедровые орехи",
+    "name_en": "Pine nuts"
+  },
+  {
+    "image_url": "images/0rLdgQBEjd_small.webp",
+    "name_de": "Pinienkerne",
+    "g_index": 15,
+    "g_load": 1.9,
+    "name_ru": "Кедровые орехи",
+    "name_en": "Pine nuts"
+  },
+  {
+    "image_url": "images/Ru1KySjFE5_small.webp",
+    "name_de": "Pistazien",
+    "g_index": 15,
+    "g_load": 4.2,
+    "name_ru": "Фисташки",
+    "name_en": "Pistachios"
+  },
+  {
+    "image_url": "images/ucA2AgsKRB_small.webp",
+    "name_de": "Plantano (roh)",
+    "g_index": 45,
+    "g_load": 13.6,
+    "name_ru": "Плантан (сырой)",
+    "name_en": "Plantain (raw)"
+  },
+  {
+    "image_url": "images/0whBPqr8Nz_small.webp",
+    "name_de": "Platano (roh)",
+    "g_index": 45,
+    "g_load": 14.4,
+    "name_ru": "Платано (сырой)",
+    "name_en": "Platano (raw)"
+  },
+  {
+    "image_url": "images/LTFRYZCnFS_small.webp",
+    "name_de": "Pommes, Mais, gesalzen",
+    "g_index": 42,
+    "g_load": 25.6,
+    "name_ru": "Чипсы, кукурузные, соленые",
+    "name_en": "Chips, corn, salted"
+  },
+  {
+    "image_url": "images/t9LKSY5zLU_small.webp",
+    "name_de": "Popcorn",
+    "g_index": 55,
+    "g_load": 40.7,
+    "name_ru": "Попкорн",
+    "name_en": "Popcorn"
+  },
+  {
+    "image_url": "images/ezy1Nn0KGO_small.webp",
+    "name_de": "Praline mit Süßungsmitteln",
+    "g_index": 23,
+    "g_load": 8.2,
+    "name_ru": "Пралине с подсластителями",
+    "name_en": "Praline with sweeteners"
+  },
+  {
+    "image_url": "images/9qStdGVQiU_small.webp",
+    "name_de": "Pumpernickelbrot",
+    "g_index": 45,
+    "g_load": 21.6,
+    "name_ru": "Хлеб Пумперникель",
+    "name_en": "Pumpernickel bread"
+  },
+  {
+    "image_url": "images/k6Xaw5gM9X_small.webp",
+    "name_de": "Quark",
+    "g_index": 45,
+    "g_load": 10.3,
+    "name_ru": "Творог",
+    "name_en": "Quark"
+  },
+  {
+    "image_url": "images/RDiUTiNFQH_small.webp",
+    "name_de": "Quetschen",
+    "g_index": 15,
+    "g_load": 0.7,
+    "name_ru": "Сдавливание",
+    "name_en": "Squeezing"
+  },
+  {
+    "image_url": "images/IKy75I7PSL_small.webp",
+    "name_de": "Quinoa (gekocht)",
+    "g_index": 35,
+    "g_load": 7.3,
+    "name_ru": "Киноа (приготовленная)",
+    "name_en": "Quinoa (cooked)"
+  },
+  {
+    "image_url": "images/eGTbT1ZhLy_small.webp",
+    "name_de": "Quinoa (unvorbereitet)",
+    "g_index": 40,
+    "g_load": 22.8,
+    "name_ru": "Киноа (неприготовленная)",
+    "name_en": "Quinoa (uncooked)"
+  },
+  {
+    "image_url": "images/LHsOCckULt_small.webp",
+    "name_de": "Quinoa-Mehl",
+    "g_index": 40,
+    "g_load": 22.9,
+    "name_ru": "Мука из киноа",
+    "name_en": "Quinoa flour"
+  },
+  {
+    "image_url": "images/0jKhjJfCZt_small.webp",
+    "name_de": "Quitte (Dose / Gelee ohne Zucker)",
+    "g_index": 40,
+    "g_load": 3.8,
+    "name_ru": "Айва (консервированная / желе без сахара)",
+    "name_en": "Quince (canned/jelly without sugar)"
+  },
+  {
+    "image_url": "images/7ZNvLxfXTE_small.webp",
+    "name_de": "Quitte (frisches Obst)",
+    "g_index": 35,
+    "g_load": 3.4,
+    "name_ru": "Айва (свежий фрукт)",
+    "name_en": "Quince (fresh fruit)"
+  },
+  {
+    "image_url": "images/BgIUlPljcG_small.webp",
+    "name_de": "Ratatouille",
+    "g_index": 20,
+    "g_load": 1,
+    "name_ru": "Рататуй",
+    "name_en": "Ratatouille"
+  },
+  {
+    "image_url": "images/tWJhbQuWer_small.webp",
+    "name_de": "Ravioli (aus Hartweizen)",
+    "g_index": 40,
+    "g_load": 11.6,
+    "name_ru": "Равиоли (из твердых сортов пшеницы)",
+    "name_en": "Ravioli (from durum wheat)"
+  },
+  {
+    "image_url": "images/mw0hqDb0Vb_small.webp",
+    "name_de": "Rettich",
+    "g_index": 15,
+    "g_load": 0.5,
+    "name_ru": "Редька",
+    "name_en": "Radish"
+  },
+  {
+    "image_url": "images/M8bsWZH9pU_small.webp",
+    "name_de": "Rhabarber",
+    "g_index": 15,
+    "g_load": 0.4,
+    "name_ru": "Ревень",
+    "name_en": "Rhubarb"
+  },
+  {
+    "image_url": "images/HTGRpwuPAT_small.webp",
+    "name_de": "Rinderhirne",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Говяжьи мозги",
+    "name_en": "Beef brains"
+  },
+  {
+    "image_url": "images/lHIJawTftL_small.webp",
+    "name_de": "Rindfleisch (Steak etc,)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Говядина (стейк и т.д.)",
+    "name_en": "Beef (steak etc.)"
+  },
+  {
+    "image_url": "images/BUQhsXwO84_small.webp",
+    "name_de": "Roastbeefleber",
+    "g_index": 50,
+    "g_load": 0,
+    "name_ru": "Печень ростбифа",
+    "name_en": "Roast beef liver"
+  },
+  {
+    "image_url": "images/jjbeOf9jdn_small.webp",
+    "name_de": "Roggenflocken",
+    "g_index": 45,
+    "g_load": 37.2,
+    "name_ru": "Ржаные хлопья",
+    "name_en": "Rye flakes"
+  },
+  {
+    "image_url": "images/GRVoS9UMZ7_small.webp",
+    "name_de": "Roggenmehl (mittel gemahlen)",
+    "g_index": 50,
+    "g_load": 27.9,
+    "name_ru": "Ржаная мука (среднего помола)",
+    "name_en": "Rye flour (medium ground)"
+  },
+  {
+    "image_url": "images/g21bsCR0bc_small.webp",
+    "name_de": "Roggenvollkornmehl",
+    "g_index": 45,
+    "g_load": 28.9,
+    "name_ru": "Ржаная цельнозерновая мука",
+    "name_en": "Rye whole grain flour"
+  },
+  {
+    "image_url": "images/4zgqU2MdbX_small.webp",
+    "name_de": "Rosenkohl",
+    "g_index": 15,
+    "g_load": 0.3,
+    "name_ru": "Брюссельская капуста",
+    "name_en": "Brussels sprouts"
+  },
+  {
+    "image_url": "images/7pNHzOWyJt_small.webp",
+    "name_de": "Rosenkohl (frisch)",
+    "g_index": 15,
+    "g_load": 1.1,
+    "name_ru": "Брюссельская капуста (свежая)",
+    "name_en": "Brussels sprouts (fresh)"
+  },
+  {
+    "image_url": "images/FSvdK8KYhi_small.webp",
+    "name_de": "Rote Beete",
+    "g_index": 15,
+    "g_load": 0.6,
+    "name_ru": "Свекла",
+    "name_en": "Beetroot"
+  },
+  {
+    "image_url": "images/9z70lpgdHd_small.webp",
+    "name_de": "Rote Beete (frisch)",
+    "g_index": 30,
+    "g_load": 2.6,
+    "name_ru": "Свекла (свежая)",
+    "name_en": "Beetroot (fresh)"
+  },
+  {
+    "image_url": "images/eCkzzWodo6_small.webp",
+    "name_de": "Rote Johannisbeere (frische Beere)",
+    "g_index": 25,
+    "g_load": 1.9,
+    "name_ru": "Красная смородина (свежая ягода)",
+    "name_en": "Red currant (fresh berry)"
+  },
+  {
+    "image_url": "images/8RSFA6HOhB_small.webp",
+    "name_de": "Roter Kaviar",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Красная икра",
+    "name_en": "Red caviar"
+  },
+  {
+    "image_url": "images/VwOQQ4UetN_small.webp",
+    "name_de": "Rübe (roh)",
+    "g_index": 30,
+    "g_load": 1.9,
+    "name_ru": "Репа (сырая)",
+    "name_en": "Turnip (raw)"
+  },
+  {
+    "image_url": "images/wDbWhaURYF_small.webp",
+    "name_de": "Rübe, Rübe (frisch)",
+    "g_index": 30,
+    "g_load": 1.8,
+    "name_ru": "Репа, репа (свежая)",
+    "name_en": "Turnip, turnip (fresh)"
+  },
+  {
+    "image_url": "images/wcPRYljXmn_small.webp",
+    "name_de": "Sahne",
+    "g_index": 30,
+    "g_load": 1.1,
+    "name_ru": "Сливки",
+    "name_en": "Cream"
+  },
+  {
+    "image_url": "images/NRCu0W2Vie_small.webp",
+    "name_de": "Sahne (10%)",
+    "g_index": 25,
+    "g_load": 1.1,
+    "name_ru": "Сливки (10%)",
+    "name_en": "Cream (10%)"
+  },
+  {
+    "image_url": "images/5TvXfYEeIF_small.webp",
+    "name_de": "Sahne (18%)",
+    "g_index": 30,
+    "g_load": 1.1,
+    "name_ru": "Сливки (18%)",
+    "name_en": "Cream (18%)"
+  },
+  {
+    "image_url": "images/olZpVHcQgf_small.webp",
+    "name_de": "Sahne (30%)",
+    "g_index": 33,
+    "g_load": 1.2,
+    "name_ru": "Сливки (30%)",
+    "name_en": "Cream (30%)"
+  },
+  {
+    "image_url": "images/EwIGM5MslH_small.webp",
+    "name_de": "Salat (\"Eisberg\", Blatt, Rucola usw,)",
+    "g_index": 15,
+    "g_load": 0.3,
+    "name_ru": "Салат (Айсберг, листовой, руккола и т.д.)",
+    "name_en": "Lettuce (Iceberg, leaf, arugula, etc.)"
+  },
+  {
+    "image_url": "images/zK7RYlFq6l_small.webp",
+    "name_de": "Salat (frisch)",
+    "g_index": 15,
+    "g_load": 0.5,
+    "name_ru": "Салат (свежий)",
+    "name_en": "Lettuce (fresh)"
+  },
+  {
+    "image_url": "images/qIXr6ZAE3H_small.webp",
+    "name_de": "Salzgurken",
+    "g_index": 15,
+    "g_load": 0.3,
+    "name_ru": "Соленые огурцы",
+    "name_en": "Salt pickles"
+  },
+  {
+    "image_url": "images/j6ARF7cPw2_small.webp",
+    "name_de": "Samen (Kürbis)",
+    "g_index": 25,
+    "g_load": 13.5,
+    "name_ru": "Семена (тыквенные)",
+    "name_en": "Seeds (pumpkin)"
+  },
+  {
+    "image_url": "images/t0tqZiR3iM_small.webp",
+    "name_de": "Sanddorn",
+    "g_index": 30,
+    "g_load": 0.8,
+    "name_ru": "Облепиха",
+    "name_en": "Sea buckthorn"
+  },
+  {
+    "image_url": "images/ox6EW17cl6_small.webp",
+    "name_de": "Sauerampfer",
+    "g_index": 15,
+    "g_load": 0,
+    "name_ru": "Щавель",
+    "name_en": "Sorrel"
+  },
+  {
+    "image_url": "images/EWsaroROjG_small.webp",
+    "name_de": "Sauerkraut",
+    "g_index": 15,
+    "g_load": 0.8,
+    "name_ru": "Квашеная капуста",
+    "name_en": "Sauerkraut"
+  },
+  {
+    "image_url": "images/KyGKd7bJKC_small.webp",
+    "name_de": "Sauerrahm",
+    "g_index": 15,
+    "g_load": 0.6,
+    "name_ru": "Сметана",
+    "name_en": "Sour cream"
+  },
+  {
+    "image_url": "images/8CUGCiBN2K_small.webp",
+    "name_de": "Saure Sahne (20%)",
+    "g_index": 25,
+    "g_load": 0.8,
+    "name_ru": "Сметана (20%)",
+    "name_en": "Sour cream (20%)"
+  },
+  {
+    "image_url": "images/JiO03zPMbD_small.webp",
+    "name_de": "Schalotte",
+    "g_index": 15,
+    "g_load": 2.5,
+    "name_ru": "Шалот",
+    "name_en": "Shallot"
+  },
+  {
+    "image_url": "images/sTEKBo09B9_small.webp",
+    "name_de": "Schinken, in Scheiben geschnitten, Würstchen",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Ветчина, нарезанная ломтиками, сосиски",
+    "name_en": "Ham, sliced, sausages"
+  },
+  {
+    "image_url": "images/Ti2hxz0aJk_small.webp",
+    "name_de": "Schmalz",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Смалец",
+    "name_en": "Lard"
+  },
+  {
+    "image_url": "images/NKiCThyGNc_small.webp",
+    "name_de": "Schokolade",
+    "g_index": 49,
+    "g_load": 29.9,
+    "name_ru": "Шоколад",
+    "name_en": "Chocolate"
+  },
+  {
+    "image_url": "images/XmneFBrry6_small.webp",
+    "name_de": "Schokolade (+ 70% Kakao)",
+    "g_index": 25,
+    "g_load": 9,
+    "name_ru": "Шоколад (+ 70% какао)",
+    "name_en": "Chocolate (+ 70% cocoa)"
+  },
+  {
+    "image_url": "images/0FdQ7bqp5M_small.webp",
+    "name_de": "Schokoladenmilch",
+    "g_index": 34,
+    "g_load": 3.7,
+    "name_ru": "Шоколадное молоко",
+    "name_en": "Chocolate milk"
+  },
+  {
+    "image_url": "images/coYa36rEN9_small.webp",
+    "name_de": "Schwarze Johannisbeere (frische Beere)",
+    "g_index": 15,
+    "g_load": 1.1,
+    "name_ru": "Черная смородина (свежая ягода)",
+    "name_en": "Black currant (fresh berry)"
+  },
+  {
+    "image_url": "images/gw0lY0Y3hx_small.webp",
+    "name_de": "Schwarze Oliven",
+    "g_index": 15,
+    "g_load": 4.8,
+    "name_ru": "Черные оливки",
+    "name_en": "Black olives"
+  },
+  {
+    "image_url": "images/huK1SHET9p_small.webp",
+    "name_de": "Schwarzwurzel (Kozelec)",
+    "g_index": 30,
+    "g_load": 0.3,
+    "name_ru": "Скорцонера (Козелец)",
+    "name_en": "Black salsify (Kozelec)"
+  },
+  {
+    "image_url": "images/HZ25wqTgPA_small.webp",
+    "name_de": "Schweinekoteletts",
+    "g_index": 50,
+    "g_load": 9.8,
+    "name_ru": "Свиные отбивные",
+    "name_en": "Pork chops"
+  },
+  {
+    "image_url": "images/u2IbC3csuZ_small.webp",
+    "name_de": "Sellerie (frisch)",
+    "g_index": 15,
+    "g_load": 0.3,
+    "name_ru": "Сельдерей (свежий)",
+    "name_en": "Celery (fresh)"
+  },
+  {
+    "image_url": "images/3Z2guoUaaT_small.webp",
+    "name_de": "Senf (mit Zucker)",
+    "g_index": 55,
+    "g_load": 5.9,
+    "name_ru": "Горчица (с сахаром)",
+    "name_en": "Mustard (with sugar)"
+  },
+  {
+    "image_url": "images/Frgy4vYPKE_small.webp",
+    "name_de": "Sesam",
+    "g_index": 35,
+    "g_load": 8.1,
+    "name_ru": "Кунжут",
+    "name_en": "Sesame"
+  },
+  {
+    "image_url": "images/mxVLQKjE8i_small.webp",
+    "name_de": "Sesampaste, Tahini",
+    "g_index": 40,
+    "g_load": 4.9,
+    "name_ru": "Кунжутная паста, Тахини",
+    "name_en": "Sesame paste, Tahini"
+  },
+  {
+    "image_url": "images/FN7K8PxdJM_small.webp",
+    "name_de": "Sesamsamen",
+    "g_index": 35,
+    "g_load": 4.3,
+    "name_ru": "Семена кунжута",
+    "name_en": "Sesame seeds"
+  },
+  {
+    "image_url": "images/dorInXt9PW_small.webp",
+    "name_de": "Shortbread Cookies (Integral Mehl, zuckerfrei)",
+    "g_index": 40,
+    "g_load": 17.2,
+    "name_ru": "Песочное печенье (цельнозерновая мука, без сахара)",
+    "name_en": "Shortbread cookies (whole grain flour, sugar-free)"
+  },
+  {
+    "image_url": "images/autdrBvHJn_small.webp",
+    "name_de": "Soja-Sahne",
+    "g_index": 20,
+    "g_load": 12.9,
+    "name_ru": "Соевые сливки",
+    "name_en": "Soy cream"
+  },
+  {
+    "image_url": "images/HUdnn7NyoT_small.webp",
+    "name_de": "Sojabohne",
+    "g_index": 15,
+    "g_load": 4.5,
+    "name_ru": "Соевые бобы",
+    "name_en": "Soybean"
+  },
+  {
+    "image_url": "images/4mpMdGu8bT_small.webp",
+    "name_de": "Sojabohnen",
+    "g_index": 15,
+    "g_load": 4.5,
+    "name_ru": "Соевые бобы",
+    "name_en": "Soybeans"
+  },
+  {
+    "image_url": "images/ly78a4t9tc_small.webp",
+    "name_de": "Sojajoghurt (natürlich)",
+    "g_index": 20,
+    "g_load": 1.6,
+    "name_ru": "Соевый йогурт (натуральный)",
+    "name_en": "Soy yogurt (natural)"
+  },
+  {
+    "image_url": "images/oWoZpBIW98_small.webp",
+    "name_de": "Sojamehl",
+    "g_index": 25,
+    "g_load": 4.5,
+    "name_ru": "Соевая мука",
+    "name_en": "Soy flour"
+  },
+  {
+    "image_url": "images/qYDSP9L9Ih_small.webp",
+    "name_de": "Sojamilch",
+    "g_index": 30,
+    "g_load": 1.8,
+    "name_ru": "Соевое молоко",
+    "name_en": "Soy milk"
+  },
+  {
+    "image_url": "images/XieGTQ0hTP_small.webp",
+    "name_de": "Sojamilch-Eis",
+    "g_index": 35,
+    "g_load": 6,
+    "name_ru": "Соевое мороженое",
+    "name_en": "Soy milk ice cream"
+  },
+  {
+    "image_url": "images/taGJN8Gdm1_small.webp",
+    "name_de": "Sojasauce",
+    "g_index": 20,
+    "g_load": 1,
+    "name_ru": "Соевый соус",
+    "name_en": "Soy sauce"
+  },
+  {
+    "image_url": "images/fpPNe8KJ2d_small.webp",
+    "name_de": "Sojasuppennudeln",
+    "g_index": 30,
+    "g_load": 24.6,
+    "name_ru": "Соевая суповая лапша",
+    "name_en": "Soy soup noodles"
+  },
+  {
+    "image_url": "images/0Wj5C8VoUS_small.webp",
+    "name_de": "Sonnenblumenkerne)",
+    "g_index": 35,
+    "g_load": 7,
+    "name_ru": "Семена подсолнечника",
+    "name_en": "Sunflower seeds"
+  },
+  {
+    "image_url": "images/9PeKbAXPB4_small.webp",
+    "name_de": "Sorbet (zuckerfrei)",
+    "g_index": 40,
+    "g_load": 4.8,
+    "name_ru": "Сорбет (без сахара)",
+    "name_en": "Sorbet (sugar-free)"
+  },
+  {
+    "image_url": "images/BJfQ50U8j0_small.webp",
+    "name_de": "Sorbett",
+    "g_index": 50,
+    "g_load": 27.6,
+    "name_ru": "Сорбет",
+    "name_en": "Sorbet"
+  },
+  {
+    "image_url": "images/x3bhaxQ32z_small.webp",
+    "name_de": "Spaghetti (gut gekocht)",
+    "g_index": 55,
+    "g_load": 12.8,
+    "name_ru": "Спагетти (хорошо приготовленные)",
+    "name_en": "Spaghetti (well cooked)"
+  },
+  {
+    "image_url": "images/d01pqDzbfz_small.webp",
+    "name_de": "Spaghetti Bolognese",
+    "g_index": 52,
+    "g_load": 9.9,
+    "name_ru": "Спагетти Болоньезе",
+    "name_en": "Spaghetti Bolognese"
+  },
+  {
+    "image_url": "images/IuYzLarzjB_small.webp",
+    "name_de": "Spaghetti al dente",
+    "g_index": 45,
+    "g_load": 21.5,
+    "name_ru": "Спагетти аль денте",
+    "name_en": "Spaghetti al dente"
+  },
+  {
+    "image_url": "images/aLKUM0nMUM_small.webp",
+    "name_de": "Spargel",
+    "g_index": 15,
+    "g_load": 0.6,
+    "name_ru": "Спаржа",
+    "name_en": "Asparagus"
+  },
+  {
+    "image_url": "images/89tbaL0LU1_small.webp",
+    "name_de": "Spinat",
+    "g_index": 15,
+    "g_load": 0.3,
+    "name_ru": "Шпинат",
+    "name_en": "Spinach"
+  },
+  {
+    "image_url": "images/hJsBIrRB8x_small.webp",
+    "name_de": "Stevia",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Стевия",
+    "name_en": "Stevia"
+  },
+  {
+    "image_url": "images/IwvatkONMQ_small.webp",
+    "name_de": "Suppe mit Hähnchen und Champignons",
+    "g_index": 46,
+    "g_load": 0.7,
+    "name_ru": "Суп с курицей и шампиньонами",
+    "name_en": "Soup with chicken and mushrooms"
+  },
+  {
+    "image_url": "images/soFV3TavEz_small.webp",
+    "name_de": "Surimi (gehackter Fisch in Krabbenstangen)",
+    "g_index": 50,
+    "g_load": 3.4,
+    "name_ru": "Сурими (рубленая рыба в крабовых палочках)",
+    "name_en": "Surimi (chopped fish in crab sticks)"
+  },
+  {
+    "image_url": "images/6H4GzNmHRc_small.webp",
+    "name_de": "Sushi",
+    "g_index": 55,
+    "g_load": 11.6,
+    "name_ru": "Суши",
+    "name_en": "Sushi"
+  },
+  {
+    "image_url": "images/bp0R62KfHq_small.webp",
+    "name_de": "Sushi, Lachs",
+    "g_index": 48,
+    "g_load": 7.3,
+    "name_ru": "Суши, лосось",
+    "name_en": "Sushi, salmon"
+  },
+  {
+    "image_url": "images/KRwj8fdVsw_small.webp",
+    "name_de": "Süße Kirsche",
+    "g_index": 25,
+    "g_load": 0.1,
+    "name_ru": "Сладкая вишня",
+    "name_en": "Sweet cherry"
+  },
+  {
+    "image_url": "images/hW1I5jROrw_small.webp",
+    "name_de": "Süßer Joghurt",
+    "g_index": 52,
+    "g_load": 4.7,
+    "name_ru": "Сладкий йогурт",
+    "name_en": "Sweet yogurt"
+  },
+  {
+    "image_url": "images/MV35pxW8XP_small.webp",
+    "name_de": "Süßer Pfeffer",
+    "g_index": 15,
+    "g_load": 0.8,
+    "name_ru": "Сладкий перец",
+    "name_en": "Sweet pepper"
+  },
+  {
+    "image_url": "images/C8CjgNEt75_small.webp",
+    "name_de": "Tagliatelle (gut gekocht)",
+    "g_index": 55,
+    "g_load": 34.8,
+    "name_ru": "Тальятелле (хорошо приготовленные)",
+    "name_en": "Tagliatelle (well cooked)"
+  },
+  {
+    "image_url": "images/UJlj58QE51_small.webp",
+    "name_de": "Tahin",
+    "g_index": 40,
+    "g_load": 8.4,
+    "name_ru": "Тахини",
+    "name_en": "Tahini"
+  },
+  {
+    "image_url": "images/gtEHCiwP6N_small.webp",
+    "name_de": "Taro",
+    "g_index": 48,
+    "g_load": 12.7,
+    "name_ru": "Таро",
+    "name_en": "Taro"
+  },
+  {
+    "image_url": "images/wFM5C8JtDg_small.webp",
+    "name_de": "Tempeh",
+    "g_index": 15,
+    "g_load": 1.4,
+    "name_ru": "Темпе",
+    "name_en": "Tempeh"
+  },
+  {
+    "image_url": "images/rrzt9xiR0i_small.webp",
+    "name_de": "Tofu, Bohnengallerte",
+    "g_index": 15,
+    "g_load": 0.1,
+    "name_ru": "Тофу, бобовая желе",
+    "name_en": "Tofu, bean curd"
+  },
+  {
+    "image_url": "images/47GfhbjMs2_small.webp",
+    "name_de": "Tofu-Käse",
+    "g_index": 15,
+    "g_load": 0.6,
+    "name_ru": "Сыр Тофу",
+    "name_en": "Tofu cheese"
+  },
+  {
+    "image_url": "images/4E4TABVLrL_small.webp",
+    "name_de": "Tomaten",
+    "g_index": 30,
+    "g_load": 1.1,
+    "name_ru": "Помидоры",
+    "name_en": "Tomatoes"
+  },
+  {
+    "image_url": "images/rKqqPwo8Gv_small.webp",
+    "name_de": "Tomaten (frisch)",
+    "g_index": 30,
+    "g_load": 1.1,
+    "name_ru": "Помидоры (свежие)",
+    "name_en": "Tomatoes (fresh)"
+  },
+  {
+    "image_url": "images/YW5NAuceCx_small.webp",
+    "name_de": "Tomaten (getrocknet)",
+    "g_index": 35,
+    "g_load": 10.2,
+    "name_ru": "Помидоры (сушеные)",
+    "name_en": "Tomatoes (dried)"
+  },
+  {
+    "image_url": "images/7yqx6eo0Mt_small.webp",
+    "name_de": "Tomatenpüree",
+    "g_index": 35,
+    "g_load": 3.1,
+    "name_ru": "Томатное пюре",
+    "name_en": "Tomato puree"
+  },
+  {
+    "image_url": "images/oNTp5iDJJN_small.webp",
+    "name_de": "Tomatensaft",
+    "g_index": 35,
+    "g_load": 1.5,
+    "name_ru": "Томатный сок",
+    "name_en": "Tomato juice"
+  },
+  {
+    "image_url": "images/XGBf8G5Ca5_small.webp",
+    "name_de": "Tomatensauce (natürlich, zuckerfrei)",
+    "g_index": 35,
+    "g_load": 1.3,
+    "name_ru": "Томатный соус (натуральный, без сахара)",
+    "name_en": "Tomato sauce (natural, sugar-free)"
+  },
+  {
+    "image_url": "images/pRbaM1hV6d_small.webp",
+    "name_de": "Tomatensuppe",
+    "g_index": 38,
+    "g_load": 2.7,
+    "name_ru": "Томатный суп",
+    "name_en": "Tomato soup"
+  },
+  {
+    "image_url": "images/dSrjzfXdoR_small.webp",
+    "name_de": "Topinambur (frisch)",
+    "g_index": 50,
+    "g_load": 6.4,
+    "name_ru": "Топинамбур (свежий)",
+    "name_en": "Jerusalem artichoke (fresh)"
+  },
+  {
+    "image_url": "images/KRo2H5Bn7F_small.webp",
+    "name_de": "Tortilla, weißer Mais",
+    "g_index": 49,
+    "g_load": 23.1,
+    "name_ru": "Тортилья, белая кукуруза",
+    "name_en": "Tortilla, white corn"
+  },
+  {
+    "image_url": "images/v9Ohu5nPmA_small.webp",
+    "name_de": "Trauben, grün (roh)",
+    "g_index": 45,
+    "g_load": 5.4,
+    "name_ru": "Виноград, зеленый (сырой)",
+    "name_en": "Grapes, green (raw)"
+  },
+  {
+    "image_url": "images/v9Ohu5nPmA3Os1_small.webp",
+    "name_de": "Trauben, rot (roh)",
+    "g_index": 45,
+    "g_load": 8.1,
+    "name_ru": "Виноград, красный (сырой)",
+    "name_en": "Grapes, red (raw)"
+  },
+  {
+    "image_url": "images/4dUrBbLets_small.webp",
+    "name_de": "Traubensaft (ungesüßt)",
+    "g_index": 45,
+    "g_load": 6.9,
+    "name_ru": "Виноградный сок (без сахара)",
+    "name_en": "Grape juice (unsweetened)"
+  },
+  {
+    "image_url": "images/NY6dnPTsvF_small.webp",
+    "name_de": "Traubensaft (zuckerfrei)",
+    "g_index": 55,
+    "g_load": 9.3,
+    "name_ru": "Виноградный сок (без сахара)",
+    "name_en": "Grape juice (sugar-free)"
+  },
+  {
+    "image_url": "images/UFfWKNL8LX_small.webp",
+    "name_de": "Trockener Apfelwein",
+    "g_index": 40,
+    "g_load": 11.6,
+    "name_ru": "Сухой сидр",
+    "name_en": "Dry cider"
+  },
+  {
+    "image_url": "images/B0KBqk5HqJ_small.webp",
+    "name_de": "Truthahn",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Индейка",
+    "name_en": "Turkey"
+  },
+  {
+    "image_url": "images/nffAzHjmOi_small.webp",
+    "name_de": "Truthahn (gekocht)",
+    "g_index": 0,
+    "g_load": 0,
+    "name_ru": "Индейка (приготовленная)",
+    "name_en": "Turkey (cooked)"
+  },
+  {
+    "image_url": "images/Pc2chqZaW0_small.webp",
+    "name_de": "Ungeschälter Basmatireis",
+    "g_index": 45,
+    "g_load": 33.8,
+    "name_ru": "Неочищенный рис басмати",
+    "name_en": "Unpeeled basmati rice"
+  },
+  {
+    "image_url": "images/8fpDPNHR5j_small.webp",
+    "name_de": "Urd Bean (gedämpft)",
+    "g_index": 43,
+    "g_load": 27.1,
+    "name_ru": "Бобы Урд (приготовленные на пару)",
+    "name_en": "Urd bean (steamed)"
+  },
+  {
+    "image_url": "images/YUGjLexOIh_small.webp",
+    "name_de": "Vanille",
+    "g_index": 5,
+    "g_load": 3.3,
+    "name_ru": "Ваниль",
+    "name_en": "Vanilla"
+  },
+  {
+    "image_url": "images/C89Mc0DwEd_small.webp",
+    "name_de": "Vollkorn (Roggen)",
+    "g_index": 34,
+    "g_load": 19,
+    "name_ru": "Цельнозерновой (рожь)",
+    "name_en": "Whole grain (rye)"
+  },
+  {
+    "image_url": "images/Mlh6v0AMNd_small.webp",
+    "name_de": "Vollkorn-Spaghetti",
+    "g_index": 40,
+    "g_load": 10.6,
+    "name_ru": "Цельнозерновые спагетти",
+    "name_en": "Whole grain spaghetti"
+  },
+  {
+    "image_url": "images/lNb9MAdgI8_small.webp",
+    "name_de": "Vollkornbrot",
+    "g_index": 40,
+    "g_load": 15.9,
+    "name_ru": "Цельнозерновой хлеб",
+    "name_en": "Whole grain bread"
+  },
+  {
+    "image_url": "images/vp1sNEFsje_small.webp",
+    "name_de": "Vollkornnudeln",
+    "g_index": 40,
+    "g_load": 10.6,
+    "name_ru": "Цельнозерновые макароны",
+    "name_en": "Whole grain pasta"
+  },
+  {
+    "image_url": "images/pet0naf4k9_small.webp",
+    "name_de": "Vollkornnudeln",
+    "g_index": 50,
+    "g_load": 32.1,
+    "name_ru": "Цельнозерновые макароны",
+    "name_en": "Whole grain pasta"
+  },
+  {
+    "image_url": "images/mIqW2wwMxP_small.webp",
+    "name_de": "Vollkornnudeln von al dente",
+    "g_index": 40,
+    "g_load": 14.6,
+    "name_ru": "Цельнозерновые макароны аль денте",
+    "name_en": "Whole grain pasta al dente"
+  },
+  {
+    "image_url": "images/fGNwjcRCmT_small.webp",
+    "name_de": "Vollkornweizen",
+    "g_index": 45,
+    "g_load": 26.8,
+    "name_ru": "Цельнозерновая пшеница",
+    "name_en": "Whole grain wheat"
+  },
+  {
+    "image_url": "images/CcjBBjdE4b_small.webp",
+    "name_de": "Vollmilch",
+    "g_index": 34,
+    "g_load": 1.6,
+    "name_ru": "Цельное молоко",
+    "name_en": "Whole milk"
+  },
+  {
+    "image_url": "images/sumn8qertD_small.webp",
+    "name_de": "Vollmilch 3%",
+    "g_index": 27,
+    "g_load": 1.2,
+    "name_ru": "Цельное молоко 3%",
+    "name_en": "Whole milk 3%"
+  },
+  {
+    "image_url": "images/IBuvGflLau_small.webp",
+    "name_de": "Walnüsse",
+    "g_index": 15,
+    "g_load": 1.1,
+    "name_ru": "Грецкие орехи",
+    "name_en": "Walnuts"
+  },
+  {
+    "image_url": "images/LBaDaFsSpc_small.webp",
+    "name_de": "Weizenflocken",
+    "g_index": 45,
+    "g_load": 27.4,
+    "name_ru": "Пшеничные хлопья",
+    "name_en": "Wheat flakes"
+  },
+  {
+    "image_url": "images/PRpCaFdWjA_small.webp",
+    "name_de": "Weiße Bohnen (gekocht)",
+    "g_index": 33,
+    "g_load": 8.3,
+    "name_ru": "Белая фасоль (приготовленная)",
+    "name_en": "White beans (cooked)"
+  },
+  {
+    "image_url": "images/In6joHnczH_small.webp",
+    "name_de": "Weiße Mandelpaste / Püree (ohne Süßstoffe)",
+    "g_index": 35,
+    "g_load": 16.7,
+    "name_ru": "Белая миндальная паста / пюре (без подсластителей)",
+    "name_en": "White almond paste/puree (without sweeteners)"
+  },
+  {
+    "image_url": "images/DfrkGNjkW3_small.webp",
+    "name_de": "Weißer Mais, Zuckermais, gefrorener Mais",
+    "g_index": 55,
+    "g_load": 10.4,
+    "name_ru": "Белая кукуруза, сахарная кукуруза, замороженная кукуруза",
+    "name_en": "White corn, sweet corn, frozen corn"
+  },
+  {
+    "image_url": "images/mXvhCorXZe_small.webp",
+    "name_de": "Weißkohl",
+    "g_index": 15,
+    "g_load": 0.9,
+    "name_ru": "Белокочанная капуста",
+    "name_en": "White cabbage"
+  },
+  {
+    "image_url": "images/2IAq2Vv0K8_small.webp",
+    "name_de": "Wildreis",
+    "g_index": 45,
+    "g_load": 33.8,
+    "name_ru": "Дикий рис",
+    "name_en": "Wild rice"
+  },
+  {
+    "image_url": "images/JjGit16DJq_small.webp",
+    "name_de": "Wildreis (schwarz)",
+    "g_index": 35,
+    "g_load": 26.3,
+    "name_ru": "Дикий рис (черный)",
+    "name_en": "Wild rice (black)"
+  },
+  {
+    "image_url": "images/fIPy3LdaCp_small.webp",
+    "name_de": "Würste",
+    "g_index": 28,
+    "g_load": 6.7,
+    "name_ru": "Колбасы",
+    "name_en": "Sausages"
+  },
+  {
+    "image_url": "images/4CLnVyxdN2_small.webp",
+    "name_de": "Würste",
+    "g_index": 30,
+    "g_load": 0.6,
+    "name_ru": "Колбасы",
+    "name_en": "Sausages"
+  },
+  {
+    "image_url": "images/R9F0rKZWSK_small.webp",
+    "name_de": "Ziegenmilch",
+    "g_index": 24,
+    "g_load": 1.1,
+    "name_ru": "Козье молоко",
+    "name_en": "Goat milk"
+  },
+  {
+    "image_url": "images/yhali4p297_small.webp",
+    "name_de": "Zimt",
+    "g_index": 5,
+    "g_load": 2.9,
+    "name_ru": "Корица",
+    "name_en": "Cinnamon"
+  },
+  {
+    "image_url": "images/4HiWMteTeR_small.webp",
+    "name_de": "Zitrone (frisches Obst)",
+    "g_index": 20,
+    "g_load": 0.6,
+    "name_ru": "Лимон (свежий фрукт)",
+    "name_en": "Lemon (fresh fruit)"
+  },
+  {
+    "image_url": "images/iYbYuHuo26_small.webp",
+    "name_de": "Zitronensaft (ungesüßt)",
+    "g_index": 20,
+    "g_load": 0.6,
+    "name_ru": "Лимонный сок (без сахара)",
+    "name_en": "Lemon juice (unsweetened)"
+  },
+  {
+    "image_url": "images/Gjg89KhEjc_small.webp",
+    "name_de": "Zucchini",
+    "g_index": 15,
+    "g_load": 0.5,
+    "name_ru": "Цуккини",
+    "name_en": "Zucchini"
+  },
+  {
+    "image_url": "images/JYdUyUKExr_small.webp",
+    "name_de": "Zwiebel (frisch)",
+    "g_index": 15,
+    "g_load": 1.6,
+    "name_ru": "Лук (свежий)",
+    "name_en": "Onion (fresh)"
+  },
+  {
+    "image_url": "images/bJuS6MzOHV_small.webp",
+    "name_de": "brauner Reis",
+    "g_index": 50,
+    "g_load": 36.5,
+    "name_ru": "Коричневый рис",
+    "name_en": "Brown rice"
+  },
+  {
+    "image_url": "images/ZrKrG8Noiu_small.webp",
+    "name_de": "chinesische Nudeln",
+    "g_index": 35,
+    "g_load": 23.4,
+    "name_ru": "Китайская лапша",
+    "name_en": "Chinese noodles"
+  },
+  {
+    "image_url": "images/TWElHhyyLn_small.webp",
+    "name_de": "dijon Senf",
+    "g_index": 35,
+    "g_load": 3.3,
+    "name_ru": "Дижонская горчица",
+    "name_en": "Dijon mustard"
+  },
+  {
+    "image_url": "images/ylVEkxRjYr_small.webp",
+    "name_de": "rote Bohnen",
+    "g_index": 35,
+    "g_load": 18.4,
+    "name_ru": "Красная фасоль",
+    "name_en": "Red beans"
+  },
+  {
+    "image_url": "images/GOhNvdqaVw_small.webp",
+    "name_de": "roter Reis",
+    "g_index": 55,
+    "g_load": 38.8,
+    "name_ru": "Красный рис",
+    "name_en": "Red rice"
+  },
+  {
+    "image_url": "images/aTDRzbstov_small.webp",
+    "name_de": "weiße Bohnen",
+    "g_index": 35,
+    "g_load": 21.4,
+    "name_ru": "Белая фасоль",
+    "name_en": "White beans"
+  },
+  {
+    "image_url": "images/RnY7mve9on_small.webp",
+    "name_de": "weiße Bohnen",
+    "g_index": 35,
+    "g_load": 22.4,
+    "name_ru": "Белая фасоль",
+    "name_en": "White beans"
+  },
+  {
+    "image_url": "images/WtC5GO8bse_small.webp",
+    "name_de": "weiße Schokolade",
+    "g_index": 44,
+    "g_load": 26,
+    "name_ru": "Белый шоколад",
+    "name_en": "White chocolate"
+  },
+  {
+    "image_url": "images/pUxrArCQGL_small.webp",
+    "name_de": "Überfliegen Sie Käse",
+    "g_index": 30,
+    "g_load": 0.4,
+    "name_ru": "Сыр (мягкий)",
+    "name_en": "Soft cheese"
+  },
+  {
+    "image_url": "images/hx1NpTnj1I_small.webp",
+    "name_de": "Ahornsirup",
+    "g_index": 65,
+    "g_load": 43.5,
+    "name_ru": "Кленовый сироп",
+    "name_en": "Maple syrup"
+  },
+  {
+    "image_url": "images/0a37JgGQOB_small.webp",
+    "name_de": "Ananas",
+    "g_index": 66,
+    "g_load": 8.6,
+    "name_ru": "Ананас",
+    "name_en": "Pineapple"
+  },
+  {
+    "image_url": "images/xCmLJ6O3IK_small.webp",
+    "name_de": "Ananas (in Sirup konserviert)",
+    "g_index": 65,
+    "g_load": 10.1,
+    "name_ru": "Ананас (консервированный в сиропе)",
+    "name_en": "Pineapple (canned in syrup)"
+  },
+  {
+    "image_url": "images/gyPa5fH3eT_small.webp",
+    "name_de": "Aprikosen (in Sirup konserviert)",
+    "g_index": 60,
+    "g_load": 12.9,
+    "name_ru": "Абрикосы (консервированные в сиропе)",
+    "name_en": "Apricots (canned in syrup)"
+  },
+  {
+    "image_url": "images/XrJXyk3SWR_small.webp",
+    "name_de": "Beef Stroganoff",
+    "g_index": 56,
+    "g_load": 7.3,
+    "name_ru": "Бефстроганов",
+    "name_en": "Beef Stroganoff"
+  },
+  {
+    "image_url": "images/j6ZsyWsRUx_small.webp",
+    "name_de": "Brotfrucht",
+    "g_index": 65,
+    "g_load": 17.6,
+    "name_ru": "Хлебное дерево",
+    "name_en": "Breadfruit"
+  },
+  {
+    "image_url": "images/CIj5N57PeH_small.webp",
+    "name_de": "Brown Hefebrot",
+    "g_index": 65,
+    "g_load": 26,
+    "name_ru": "Коричневый дрожжевой хлеб",
+    "name_en": "Brown yeast bread"
+  },
+  {
+    "image_url": "images/XgwvsOISwR_small.webp",
+    "name_de": "Buchweizennudeln",
+    "g_index": 59,
+    "g_load": 41.6,
+    "name_ru": "Гречневая лапша",
+    "name_en": "Buckwheat noodles"
+  },
+  {
+    "image_url": "images/kxh00IHEJk_small.webp",
+    "name_de": "Couscous",
+    "g_index": 60,
+    "g_load": 12,
+    "name_ru": "Кус-кус",
+    "name_en": "Couscous"
+  },
+  {
+    "image_url": "images/SPHN3Fxzm0_small.webp",
+    "name_de": "Dessert Banane (reif)",
+    "g_index": 60,
+    "g_load": 13.1,
+    "name_ru": "Десертный банан (спелый)",
+    "name_en": "Dessert banana (ripe)"
+  },
+  {
+    "image_url": "images/vErOVlpzPz_small.webp",
+    "name_de": "Eipulver",
+    "g_index": 60,
+    "g_load": 2.7,
+    "name_ru": "Яичный порошок",
+    "name_en": "Egg powder"
+  },
+  {
+    "image_url": "images/vUFiyRIJp7_small.webp",
+    "name_de": "Eis",
+    "g_index": 62,
+    "g_load": 14.9,
+    "name_ru": "Мороженое",
+    "name_en": "Ice cream"
+  },
+  {
+    "image_url": "images/ka0WbGBCUS_small.webp",
+    "name_de": "Erbsensuppe",
+    "g_index": 60,
+    "g_load": 3.7,
+    "name_ru": "Гороховый суп",
+    "name_en": "Pea soup"
+  },
+  {
+    "image_url": "images/lSD2G4ZRoX_small.webp",
+    "name_de": "Erdbeermarmelade (hoher Zucker)",
+    "g_index": 65,
+    "g_load": 45.5,
+    "name_ru": "Клубничное варенье (высокое содержание сахара)",
+    "name_en": "Strawberry jam (high sugar)"
+  },
+  {
+    "image_url": "images/RP9LVrO94B_small.webp",
+    "name_de": "Erfrischungsgetränke (Soda, Cola)",
+    "g_index": 60,
+    "g_load": 6,
+    "name_ru": "Прохладительные напитки (газировка, кола)",
+    "name_en": "Soft drinks (soda, cola)"
+  },
+  {
+    "image_url": "images/u7yFMMk5TU_small.webp",
+    "name_de": "Falafel (Kichererbse)",
+    "g_index": 65,
+    "g_load": 28.1,
+    "name_ru": "Фалафель (нут)",
+    "name_en": "Falafel (chickpea)"
+  },
+  {
+    "image_url": "images/LG0GCz9phG_small.webp",
+    "name_de": "Fladenbrot",
+    "g_index": 69,
+    "g_load": 38.6,
+    "name_ru": "Пита",
+    "name_en": "Flatbread"
+  },
+  {
+    "image_url": "images/erYdd1oADQ_small.webp",
+    "name_de": "Gekochter Zuckermais",
+    "g_index": 60,
+    "g_load": 13.5,
+    "name_ru": "Вареная сахарная кукуруза",
+    "name_en": "Cooked sweet corn"
+  },
+  {
+    "image_url": "images/USWwP2d7iv_small.webp",
+    "name_de": "Gelber Mais",
+    "g_index": 65,
+    "g_load": 10.1,
+    "name_ru": "Желтая кукуруза",
+    "name_en": "Yellow corn"
+  },
+  {
+    "image_url": "images/SMOuRVJ8CI_small.webp",
+    "name_de": "Gemüsekonserven (Fabrik)",
+    "g_index": 65,
+    "g_load": 3.4,
+    "name_ru": "Овощные консервы (заводские)",
+    "name_en": "Canned vegetables (factory)"
+  },
+  {
+    "image_url": "images/ZZgjz2Wsiy_small.webp",
+    "name_de": "Gemüsesuppe",
+    "g_index": 60,
+    "g_load": 2.2,
+    "name_ru": "Овощной суп",
+    "name_en": "Vegetable soup"
+  },
+  {
+    "image_url": "images/2DpPfqD4qQ_small.webp",
+    "name_de": "Geschältes Weizenmehl (Vollkorn)",
+    "g_index": 65,
+    "g_load": 44.8,
+    "name_ru": "Очищенная пшеничная мука (цельнозерновая)",
+    "name_en": "Peeled wheat flour (whole grain)"
+  },
+  {
+    "image_url": "images/rfbQO4Zvrg_small.webp",
+    "name_de": "Getrocknete Früchte",
+    "g_index": 60,
+    "g_load": 49.8,
+    "name_ru": "Сушеные фрукты",
+    "name_en": "Dried fruits"
+  },
+  {
+    "image_url": "images/JpkEqRDZqw_small.webp",
+    "name_de": "Hafer, Herkules",
+    "g_index": 59,
+    "g_load": 36,
+    "name_ru": "Овес, Геркулес",
+    "name_en": "Oats, Hercules"
+  },
+  {
+    "image_url": "images/70e4GfsVn9_small.webp",
+    "name_de": "Haferbrei (zerkleinert), Haferflockengerichte",
+    "g_index": 60,
+    "g_load": 9,
+    "name_ru": "Овсяная каша (измельченная), овсяные блюда",
+    "name_en": "Oatmeal (chopped), oat dishes"
+  },
+  {
+    "image_url": "images/KYY120pdI9_small.webp",
+    "name_de": "Haferflocken (auf dem Wasser gekocht)",
+    "g_index": 60,
+    "g_load": 9,
+    "name_ru": "Овсяные хлопья (сваренные на воде)",
+    "name_en": "Oat flakes (cooked in water)"
+  },
+  {
+    "image_url": "images/5u9ctaSrmh_small.webp",
+    "name_de": "Hamburger",
+    "g_index": 66,
+    "g_load": 1.3,
+    "name_ru": "Гамбургер",
+    "name_en": "Hamburger"
+  },
+  {
+    "image_url": "images/9AjnElHjW1_small.webp",
+    "name_de": "Hamburgerbrötchen",
+    "g_index": 61,
+    "g_load": 30.1,
+    "name_ru": "Булочка для гамбургера",
+    "name_en": "Hamburger bun"
+  },
+  {
+    "image_url": "images/QykUwLozkc_small.webp",
+    "name_de": "Hartweizengrieß",
+    "g_index": 60,
+    "g_load": 42.4,
+    "name_ru": "Манная крупа из твердых сортов пшеницы",
+    "name_en": "Durum wheat semolina"
+  },
+  {
+    "image_url": "images/RMDApm86k2_small.webp",
+    "name_de": "Honig",
+    "g_index": 60,
+    "g_load": 45.8,
+    "name_ru": "Мед",
+    "name_en": "Honey"
+  },
+  {
+    "image_url": "images/y5OG6PbpkS_small.webp",
+    "name_de": "Kastanie",
+    "g_index": 60,
+    "g_load": 26.5,
+    "name_ru": "Каштан",
+    "name_en": "Chestnut"
+  },
+  {
+    "image_url": "images/Lwabbo6jIs_small.webp",
+    "name_de": "Kastanienmehl",
+    "g_index": 65,
+    "g_load": 46.1,
+    "name_ru": "Каштановая мука",
+    "name_en": "Chestnut flour"
+  },
+  {
+    "image_url": "images/Rk4YASGlDx_small.webp",
+    "name_de": "Kleiebrot",
+    "g_index": 65,
+    "g_load": 29.4,
+    "name_ru": "Хлеб с отрубями",
+    "name_en": "Bran bread"
+  },
+  {
+    "image_url": "images/DuBlOhOvH0_small.webp",
+    "name_de": "Kondensmilch",
+    "g_index": 61,
+    "g_load": 32.9,
+    "name_ru": "Сгущенное молоко",
+    "name_en": "Condensed milk"
+  },
+  {
+    "image_url": "images/TZKyQbd6CP_small.webp",
+    "name_de": "Kürbis",
+    "g_index": 65,
+    "g_load": 4.5,
+    "name_ru": "Тыква",
+    "name_en": "Pumpkin"
+  },
+  {
+    "image_url": "images/WdF8qhD0Vo_small.webp",
+    "name_de": "Langkornreis",
+    "g_index": 60,
+    "g_load": 46.8,
+    "name_ru": "Длиннозерный рис",
+    "name_en": "Long grain rice"
+  },
+  {
+    "image_url": "images/Z3bm3z9k2B_small.webp",
+    "name_de": "Maischips",
+    "g_index": 63,
+    "g_load": 28.8,
+    "name_ru": "Кукурузные чипсы",
+    "name_en": "Corn chips"
+  },
+  {
+    "image_url": "images/4PlycJCZzw_small.webp",
+    "name_de": "Maisteigwaren",
+    "g_index": 68,
+    "g_load": 46.4,
+    "name_ru": "Кукурузные макароны",
+    "name_en": "Corn pasta"
+  },
+  {
+    "image_url": "images/GjyXdrhDeQ_small.webp",
+    "name_de": "Mango",
+    "g_index": 56,
+    "g_load": 8.4,
+    "name_ru": "Манго",
+    "name_en": "Mango"
+  },
+  {
+    "image_url": "images/1IMqUlEzmM_small.webp",
+    "name_de": "Marmelade mit Zucker",
+    "g_index": 65,
+    "g_load": 49.8,
+    "name_ru": "Мармелад с сахаром",
+    "name_en": "Marmalade with sugar"
+  },
+  {
+    "image_url": "images/6DxXC4mWiA_small.webp",
+    "name_de": "Mayonnaise (gesüßt)",
+    "g_index": 60,
+    "g_load": 0.2,
+    "name_ru": "Майонез (подслащенный)",
+    "name_en": "Mayonnaise (sweetened)"
+  },
+  {
+    "image_url": "images/ZrLfAv7vun_small.webp",
+    "name_de": "Melone",
+    "g_index": 65,
+    "g_load": 5.2,
+    "name_ru": "Дыня",
+    "name_en": "Melon"
+  },
+  {
+    "image_url": "images/FZOfamIeW1_small.webp",
+    "name_de": "Milchbrot",
+    "g_index": 60,
+    "g_load": 29.9,
+    "name_ru": "Молочный хлеб",
+    "name_en": "Milk bread"
+  },
+  {
+    "image_url": "images/Paau8TtTTo_small.webp",
+    "name_de": "Müsli",
+    "g_index": 56,
+    "g_load": 31.6,
+    "name_ru": "Мюсли",
+    "name_en": "Muesli"
+  },
+  {
+    "image_url": "images/9AJli1lvL9_small.webp",
+    "name_de": "Müsli (mit Zucker oder Honig)",
+    "g_index": 65,
+    "g_load": 43.8,
+    "name_ru": "Мюсли (с сахаром или медом)",
+    "name_en": "Muesli (with sugar or honey)"
+  },
+  {
+    "image_url": "images/dJXxO0LTMg_small.webp",
+    "name_de": "Papaya (frisch)",
+    "g_index": 60,
+    "g_load": 5.5,
+    "name_ru": "Папайя (свежая)",
+    "name_en": "Papaya (fresh)"
+  },
+  {
+    "image_url": "images/GMDIa0nKMe_small.webp",
+    "name_de": "Perlgerste (gedämpft)",
+    "g_index": 60,
+    "g_load": 40.1,
+    "name_ru": "Перловая крупа (приготовленная на пару)",
+    "name_en": "Pearl barley (steamed)"
+  },
+  {
+    "image_url": "images/kDsILe8Ikw_small.webp",
+    "name_de": "Pfannkuchen",
+    "g_index": 66,
+    "g_load": 16.6,
+    "name_ru": "Блины",
+    "name_en": "Pancakes"
+  },
+  {
+    "image_url": "images/9zwTGMvNjC_small.webp",
+    "name_de": "Pita-Brot",
+    "g_index": 57,
+    "g_load": 31.9,
+    "name_ru": "Пита-хлеб",
+    "name_en": "Pita bread"
+  },
+  {
+    "image_url": "images/DWNRAHikTn_small.webp",
+    "name_de": "Pizza",
+    "g_index": 60,
+    "g_load": 19.8,
+    "name_ru": "Пицца",
+    "name_en": "Pizza"
+  },
+  {
+    "image_url": "images/SUcktOtukg_small.webp",
+    "name_de": "Quitte (Dose / Gelee mit Zucker)",
+    "g_index": 65,
+    "g_load": 7.2,
+    "name_ru": "Айва (консервированная / желе с сахаром)",
+    "name_en": "Quince (canned/jelly with sugar)"
+  },
+  {
+    "image_url": "images/EmHph95itV_small.webp",
+    "name_de": "Reis Jasmin",
+    "g_index": 60,
+    "g_load": 44,
+    "name_ru": "Рис Жасмин",
+    "name_en": "Jasmine rice"
+  },
+  {
+    "image_url": "images/n3cALhEbzZ_small.webp",
+    "name_de": "Reisnudeln",
+    "g_index": 65,
+    "g_load": 16.2,
+    "name_ru": "Рисовая лапша",
+    "name_en": "Rice noodles"
+  },
+  {
+    "image_url": "images/IIpvhCrZUk_small.webp",
+    "name_de": "Reiswaffeln",
+    "g_index": 64,
+    "g_load": 52.3,
+    "name_ru": "Рисовые лепешки",
+    "name_en": "Rice cakes"
+  },
+  {
+    "image_url": "images/xEVRLZ9gy0_small.webp",
+    "name_de": "Roggenbrot",
+    "g_index": 65,
+    "g_load": 31.2,
+    "name_ru": "Ржаной хлеб",
+    "name_en": "Rye bread"
+  },
+  {
+    "image_url": "images/6c7JkJrSwq_small.webp",
+    "name_de": "Roggencracker",
+    "g_index": 64,
+    "g_load": 44.8,
+    "name_ru": "Ржаные крекеры",
+    "name_en": "Rye crackers"
+  },
+  {
+    "image_url": "images/cojlILemdp_small.webp",
+    "name_de": "Rosinen",
+    "g_index": 65,
+    "g_load": 51.5,
+    "name_ru": "Изюм",
+    "name_en": "Raisins"
+  },
+  {
+    "image_url": "images/rTDmfMztpn_small.webp",
+    "name_de": "Rosinen (rot und gold)",
+    "g_index": 65,
+    "g_load": 46.8,
+    "name_ru": "Изюм (красный и золотой)",
+    "name_en": "Raisins (red and gold)"
+  },
+  {
+    "image_url": "images/fIy763CLpa_small.webp",
+    "name_de": "Rote-Bete-Saft",
+    "g_index": 64,
+    "g_load": 0,
+    "name_ru": "Свекольный сок",
+    "name_en": "Beetroot juice"
+  },
+  {
+    "image_url": "images/DNDiU8uZwI_small.webp",
+    "name_de": "Rüben (Gekocht)",
+    "g_index": 65,
+    "g_load": 7,
+    "name_ru": "Свекла (приготовленная)",
+    "name_en": "Beets (cooked)"
+  },
+  {
+    "image_url": "images/i5BE2P6fW6_small.webp",
+    "name_de": "Schmelzkäse",
+    "g_index": 57,
+    "g_load": 15.4,
+    "name_ru": "Плавленый сыр",
+    "name_en": "Processed cheese"
+  },
+  {
+    "image_url": "images/DLoSAjk5jT_small.webp",
+    "name_de": "Schokoladenpulver mit Zucker",
+    "g_index": 60,
+    "g_load": 19.1,
+    "name_ru": "Шоколадный порошок с сахаром",
+    "name_en": "Chocolate powder with sugar"
+  },
+  {
+    "image_url": "images/Sv1J2eaU7E_small.webp",
+    "name_de": "Shortbread",
+    "g_index": 60,
+    "g_load": 32.2,
+    "name_ru": "Песочное печенье",
+    "name_en": "Shortbread"
+  },
+  {
+    "image_url": "images/iiJFUlsp2Q_small.webp",
+    "name_de": "Sorbet",
+    "g_index": 65,
+    "g_load": 52.5,
+    "name_ru": "Сорбет",
+    "name_en": "Sorbet"
+  },
+  {
+    "image_url": "images/HQd44fM1XC_small.webp",
+    "name_de": "Sorbet (mit Zucker)",
+    "g_index": 65,
+    "g_load": 17.9,
+    "name_ru": "Сорбет (с сахаром)",
+    "name_en": "Sorbet (with sugar)"
+  },
+  {
+    "image_url": "images/D9jDWErZqn_small.webp",
+    "name_de": "Stroh",
+    "g_index": 60,
+    "g_load": 41.6,
+    "name_ru": "Солома",
+    "name_en": "Straw"
+  },
+  {
+    "image_url": "images/cNjjUr7CnF_small.webp",
+    "name_de": "Süßkartoffel",
+    "g_index": 65,
+    "g_load": 18.2,
+    "name_ru": "Сладкий картофель",
+    "name_en": "Sweet potato"
+  },
+  {
+    "image_url": "images/aswJADQQTd_small.webp",
+    "name_de": "Tamarinde (süß)",
+    "g_index": 65,
+    "g_load": 40.8,
+    "name_ru": "Тамаринд (сладкий)",
+    "name_en": "Tamarind (sweet)"
+  },
+  {
+    "image_url": "images/gw8NS5HckZ_small.webp",
+    "name_de": "Trauben",
+    "g_index": 56,
+    "g_load": 9.6,
+    "name_ru": "Виноград",
+    "name_en": "Grapes"
+  },
+  {
+    "image_url": "images/LOsiyYKzB5_small.webp",
+    "name_de": "Trauben, schwarz",
+    "g_index": 59,
+    "g_load": 11,
+    "name_ru": "Виноград, черный",
+    "name_en": "Grapes, black"
+  },
+  {
+    "image_url": "images/Kc7lw2I1SN_small.webp",
+    "name_de": "Udon-Nudeln",
+    "g_index": 62,
+    "g_load": 8.5,
+    "name_ru": "Удон лапша",
+    "name_en": "Udon noodles"
+  },
+  {
+    "image_url": "images/G0cIgo1Kb3_small.webp",
+    "name_de": "Vanilleeis (normal, mit Zucker)",
+    "g_index": 60,
+    "g_load": 14.4,
+    "name_ru": "Ванильное мороженое (обычное, с сахаром)",
+    "name_en": "Vanilla ice cream (normal, with sugar)"
+  },
+  {
+    "image_url": "images/JzXU9TeY5Z_small.webp",
+    "name_de": "Vollkornbrot",
+    "g_index": 65,
+    "g_load": 31.2,
+    "name_ru": "Цельнозерновой хлеб",
+    "name_en": "Whole grain bread"
+  },
+  {
+    "image_url": "images/bY5dz2wm26_small.webp",
+    "name_de": "Vollkornmehl",
+    "g_index": 60,
+    "g_load": 33.5,
+    "name_ru": "Цельнозерновая мука",
+    "name_en": "Whole grain flour"
+  },
+  {
+    "image_url": "images/yYvB4vnIl4_small.webp",
+    "name_de": "Zucker",
+    "g_index": 58,
+    "g_load": 58,
+    "name_ru": "Сахар",
+    "name_en": "Sugar"
+  },
+  {
+    "image_url": "images/HG5v8rvGxG_small.webp",
+    "name_de": "Сorn (in Dosen)",
+    "g_index": 65,
+    "g_load": 26.6,
+    "name_ru": "Кукуруза (консервированная)",
+    "name_en": "Corn (canned)"
+  },
+  {
+    "image_url": "images/SeQsN3aQGr_small.webp",
+    "name_de": "Amaranth (analog zu Popcorn)",
+    "g_index": 70,
+    "g_load": 43.4,
+    "name_ru": "Амарант (аналог попкорна)",
+    "name_en": "Amaranth (similar to popcorn)"
+  },
+  {
+    "image_url": "images/2ZoWmxlMzy_small.webp",
+    "name_de": "Aromatisierter Reis",
+    "g_index": 70,
+    "g_load": 56,
+    "name_ru": "Ароматизированный рис",
+    "name_en": "Flavored rice"
+  },
+  {
+    "image_url": "images/wAvwnNegxY_small.webp",
+    "name_de": "Arroroot Mehl",
+    "g_index": 85,
+    "g_load": 72,
+    "name_ru": "Мука из аррорута",
+    "name_en": "Arrowroot flour"
+  },
+  {
+    "image_url": "images/maDth31oxn_small.webp",
+    "name_de": "Backwaren (Weizen)",
+    "g_index": 90,
+    "g_load": 33.9,
+    "name_ru": "Хлебобулочные изделия (пшеница)",
+    "name_en": "Bakery products (wheat)"
+  },
+  {
+    "image_url": "images/ZKf9MlK8Xv_small.webp",
+    "name_de": "Bagel (Weizen)",
+    "g_index": 70,
+    "g_load": 35.4,
+    "name_ru": "Бейгл (пшеничный)",
+    "name_en": "Bagel (wheat)"
+  },
+  {
+    "image_url": "images/3t56uEo8h4_small.webp",
+    "name_de": "Bagels, Bagels",
+    "g_index": 70,
+    "g_load": 48.1,
+    "name_ru": "Бейглы, бублики",
+    "name_en": "Bagels, bagels"
+  },
+  {
+    "image_url": "images/a9QuVsuUee_small.webp",
+    "name_de": "Baguette (Vollkorn)",
+    "g_index": 73,
+    "g_load": 28.3,
+    "name_ru": "Багет (цельнозерновой)",
+    "name_en": "Baguette (whole grain)"
+  },
+  {
+    "image_url": "images/km3qgnoJUj_small.webp",
+    "name_de": "Baguette (weiß)",
+    "g_index": 95,
+    "g_load": 46.5,
+    "name_ru": "Багет (белый)",
+    "name_en": "Baguette (white)"
+  },
+  {
+    "image_url": "images/J3NNntqqRp_small.webp",
+    "name_de": "Bier",
+    "g_index": 70,
+    "g_load": 2.5,
+    "name_ru": "Пиво",
+    "name_en": "Beer"
+  },
+  {
+    "image_url": "images/fpEMNt47f0_small.webp",
+    "name_de": "Biscotti (trockene Kekse)",
+    "g_index": 70,
+    "g_load": 35,
+    "name_ru": "Бискотти (сухое печенье)",
+    "name_en": "Biscotti (dry cookies)"
+  },
+  {
+    "image_url": "images/BwzZxXhuLA_small.webp",
+    "name_de": "Bohnen (gekocht)",
+    "g_index": 80,
+    "g_load": 17.2,
+    "name_ru": "Бобы (приготовленные)",
+    "name_en": "Beans (cooked)"
+  },
+  {
+    "image_url": "images/aVqmAGjVTX_small.webp",
+    "name_de": "Brioche (Brötchen)",
+    "g_index": 70,
+    "g_load": 32.9,
+    "name_ru": "Бриошь (булочка)",
+    "name_en": "Brioche (bun)"
+  },
+  {
+    "image_url": "images/UQMe4LTyl7_small.webp",
+    "name_de": "Cornflakes",
+    "g_index": 85,
+    "g_load": 55.3,
+    "name_ru": "Кукурузные хлопья",
+    "name_en": "Cornflakes"
+  },
+  {
+    "image_url": "images/glPLlX2NZo_small.webp",
+    "name_de": "Cracker",
+    "g_index": 80,
+    "g_load": 10,
+    "name_ru": "Крекеры",
+    "name_en": "Crackers"
+  },
+  {
+    "image_url": "images/3Vk9PxpEAm_small.webp",
+    "name_de": "Cracker",
+    "g_index": 70,
+    "g_load": 50.4,
+    "name_ru": "Крекеры",
+    "name_en": "Crackers"
+  },
+  {
+    "image_url": "images/B7fuVM0MML_small.webp",
+    "name_de": "Croissant",
+    "g_index": 70,
+    "g_load": 21.7,
+    "name_ru": "Круассан",
+    "name_en": "Croissant"
+  },
+  {
+    "image_url": "images/MkHavmQFZu_small.webp",
+    "name_de": "Donuts",
+    "g_index": 75,
+    "g_load": 38.3,
+    "name_ru": "Пончики",
+    "name_en": "Donuts"
+  },
+  {
+    "image_url": "images/UKImnQ8pIo_small.webp",
+    "name_de": "Eine Mischung aus raffiniertem Getreide mit Zucker",
+    "g_index": 70,
+    "g_load": 16.2,
+    "name_ru": "Смесь очищенных зерен с сахаром",
+    "name_en": "A mixture of refined grains with sugar"
+  },
+  {
+    "image_url": "images/PBIXPmSNN3_small.webp",
+    "name_de": "Französisches Baguette aus Weizenmehl",
+    "g_index": 70,
+    "g_load": 23.4,
+    "name_ru": "Французский багет из пшеничной муки",
+    "name_en": "French baguette from wheat flour"
+  },
+  {
+    "image_url": "images/PN9Yh8OJVA_small.webp",
+    "name_de": "Gebratene Kartoffel",
+    "g_index": 95,
+    "g_load": 19.1,
+    "name_ru": "Жареный картофель",
+    "name_en": "Fried potato"
+  },
+  {
+    "image_url": "images/oi4HVSFUo6_small.webp",
+    "name_de": "Gekochte Kartoffeln",
+    "g_index": 70,
+    "g_load": 12.3,
+    "name_ru": "Вареный картофель",
+    "name_en": "Boiled potatoes"
+  },
+  {
+    "image_url": "images/6MEHjwpdAw_small.webp",
+    "name_de": "Gerstenbrei",
+    "g_index": 70,
+    "g_load": 46.1,
+    "name_ru": "Ячменная каша",
+    "name_en": "Barley porridge"
+  },
+  {
+    "image_url": "images/vDMgRd52UP_small.webp",
+    "name_de": "Glucose",
+    "g_index": 96,
+    "g_load": 94.1,
+    "name_ru": "Глюкоза",
+    "name_en": "Glucose"
+  },
+  {
+    "image_url": "images/Mz5hRjqt43_small.webp",
+    "name_de": "Glucosesirup",
+    "g_index": 100,
+    "g_load": 70.5,
+    "name_ru": "Глюкозный сироп",
+    "name_en": "Glucose syrup"
+  },
+  {
+    "image_url": "images/xCUTQuChu8_small.webp",
+    "name_de": "Glukose (Dextrose)",
+    "g_index": 100,
+    "g_load": 95,
+    "name_ru": "Глюкоза (декстроза)",
+    "name_en": "Glucose (dextrose)"
+  },
+  {
+    "image_url": "images/PF77NCPzEW_small.webp",
+    "name_de": "Glutenfreies Weißbrot",
+    "g_index": 90,
+    "g_load": 14,
+    "name_ru": "Безглютеновый белый хлеб",
+    "name_en": "Gluten-free white bread"
+  },
+  {
+    "image_url": "images/ayuloHjTUj_small.webp",
+    "name_de": "Gnocchi",
+    "g_index": 70,
+    "g_load": 14,
+    "name_ru": "Ньокки",
+    "name_en": "Gnocchi"
+  },
+  {
+    "image_url": "images/GEtAxp2ZNA_small.webp",
+    "name_de": "Hafer, Haferbrei, Instantkochen",
+    "g_index": 74,
+    "g_load": 41.4,
+    "name_ru": "Овес, овсяная каша, быстрое приготовление",
+    "name_en": "Oats, oatmeal, instant cooking"
+  },
+  {
+    "image_url": "images/844AiYOQhL_small.webp",
+    "name_de": "Hirse",
+    "g_index": 70,
+    "g_load": 51.1,
+    "name_ru": "Просо",
+    "name_en": "Millet"
+  },
+  {
+    "image_url": "images/unVTpamxef_small.webp",
+    "name_de": "Hirsebrei",
+    "g_index": 70,
+    "g_load": 18.9,
+    "name_ru": "Пшенная каша",
+    "name_en": "Millet porridge"
+  },
+  {
+    "image_url": "images/BfRX6pbHvo_small.webp",
+    "name_de": "Instant-Kartoffeln",
+    "g_index": 87,
+    "g_load": 66.1,
+    "name_ru": "Картофель быстрого приготовления",
+    "name_en": "Instant potatoes"
+  },
+  {
+    "image_url": "images/G5OWj96E4s_small.webp",
+    "name_de": "Instant-Reis",
+    "g_index": 85,
+    "g_load": 65.5,
+    "name_ru": "Рис быстрого приготовления",
+    "name_en": "Instant rice"
+  },
+  {
+    "image_url": "images/wBd1ti8CFq_small.webp",
+    "name_de": "Karotte (gekocht)",
+    "g_index": 85,
+    "g_load": 4.3,
+    "name_ru": "Морковь (приготовленная)",
+    "name_en": "Carrot (cooked)"
+  },
+  {
+    "image_url": "images/BfbbSH9czf_small.webp",
+    "name_de": "Kartoffelchips",
+    "g_index": 70,
+    "g_load": 37,
+    "name_ru": "Картофельные чипсы",
+    "name_en": "Potato chips"
+  },
+  {
+    "image_url": "images/huD5FbEjr9_small.webp",
+    "name_de": "Kartoffelmehl (Stärke)",
+    "g_index": 95,
+    "g_load": 78.9,
+    "name_ru": "Картофельная мука (крахмал)",
+    "name_en": "Potato flour (starch)"
+  },
+  {
+    "image_url": "images/5T9Y0CC6bD_small.webp",
+    "name_de": "Kartoffelpüree",
+    "g_index": 83,
+    "g_load": 11.4,
+    "name_ru": "Картофельное пюре",
+    "name_en": "Mashed potatoes"
+  },
+  {
+    "image_url": "images/pajkDcy7fN_small.webp",
+    "name_de": "Keks",
+    "g_index": 70,
+    "g_load": 34,
+    "name_ru": "Печенье",
+    "name_en": "Cookie"
+  },
+  {
+    "image_url": "images/eA1bA7JfWt_small.webp",
+    "name_de": "Kekse (Gebäck)",
+    "g_index": 70,
+    "g_load": 46.2,
+    "name_ru": "Печенье (выпечка)",
+    "name_en": "Cookies (pastry)"
+  },
+  {
+    "image_url": "images/AcIZXsUwO8_small.webp",
+    "name_de": "Klebreis",
+    "g_index": 90,
+    "g_load": 73.8,
+    "name_ru": "Клейкий рис",
+    "name_en": "Sticky rice"
+  },
+  {
+    "image_url": "images/FUVHmFdwBd_small.webp",
+    "name_de": "Knödel",
+    "g_index": 86,
+    "g_load": 24.9,
+    "name_ru": "Кнедлики",
+    "name_en": "Dumplings"
+  },
+  {
+    "image_url": "images/ibu51LJqP8_small.webp",
+    "name_de": "Kondensmilch mit Zucker",
+    "g_index": 80,
+    "g_load": 6.8,
+    "name_ru": "Сгущенное молоко с сахаром",
+    "name_en": "Condensed milk with sugar"
+  },
+  {
+    "image_url": "images/rw9aSUpj3j_small.webp",
+    "name_de": "Kürbis (gekocht)",
+    "g_index": 75,
+    "g_load": 5.3,
+    "name_ru": "Тыква (приготовленная)",
+    "name_en": "Pumpkin (cooked)"
+  },
+  {
+    "image_url": "images/QRTCr5Hs81_small.webp",
+    "name_de": "Kürbis Kaviar",
+    "g_index": 75,
+    "g_load": 3.6,
+    "name_ru": "Тыквенная икра",
+    "name_en": "Pumpkin caviar"
+  },
+  {
+    "image_url": "images/F6WYOqPxes_small.webp",
+    "name_de": "Luftreis (analog zu Popcorn)",
+    "g_index": 85,
+    "g_load": 76.3,
+    "name_ru": "Воздушный рис (аналог попкорна)",
+    "name_en": "Puffed rice (similar to popcorn)"
+  },
+  {
+    "image_url": "images/vzZv7xYRqo_small.webp",
+    "name_de": "Lychee (Sirup aus der Dose)",
+    "g_index": 79,
+    "g_load": 14.8,
+    "name_ru": "Личи (сироп из банки)",
+    "name_en": "Lychee (syrup from can)"
+  },
+  {
+    "image_url": "images/9c7MGyNnmB_small.webp",
+    "name_de": "Maismehl",
+    "g_index": 70,
+    "g_load": 53.8,
+    "name_ru": "Кукурузная мука",
+    "name_en": "Cornmeal"
+  },
+  {
+    "image_url": "images/xGK1LPzM8Y_small.webp",
+    "name_de": "Maismehlbrei (Mamalyga)",
+    "g_index": 70,
+    "g_load": 14.7,
+    "name_ru": "Кукурузная каша (мамалыга)",
+    "name_en": "Cornmeal porridge (mamalyga)"
+  },
+  {
+    "image_url": "images/VJzrDCGQgP_small.webp",
+    "name_de": "Maissirup (dunkel)",
+    "g_index": 115,
+    "g_load": 89.2,
+    "name_ru": "Кукурузный сироп (темный)",
+    "name_en": "Corn syrup (dark)"
+  },
+  {
+    "image_url": "images/COn109xmws_small.webp",
+    "name_de": "Maisstärke",
+    "g_index": 95,
+    "g_load": 80.8,
+    "name_ru": "Кукурузный крахмал",
+    "name_en": "Corn starch"
+  },
+  {
+    "image_url": "images/4O3iltBCDY_small.webp",
+    "name_de": "Maisstärke",
+    "g_index": 85,
+    "g_load": 72.3,
+    "name_ru": "Кукурузный крахмал",
+    "name_en": "Corn starch"
+  },
+  {
+    "image_url": "images/74GDlGoEgs_small.webp",
+    "name_de": "Maltodextrin",
+    "g_index": 95,
+    "g_load": 94,
+    "name_ru": "Мальтодекстрин",
+    "name_en": "Maltodextrin"
+  },
+  {
+    "image_url": "images/L8WNIDfAna_small.webp",
+    "name_de": "Matzo (Weißmehl)",
+    "g_index": 70,
+    "g_load": 58.8,
+    "name_ru": "Маца (белая мука)",
+    "name_en": "Matzo (white flour)"
+  },
+  {
+    "image_url": "images/3Y2IIYAa2A_small.webp",
+    "name_de": "Melasse",
+    "g_index": 70,
+    "g_load": 52.5,
+    "name_ru": "Меласса",
+    "name_en": "Molasses"
+  },
+  {
+    "image_url": "images/1xUDpRImuE_small.webp",
+    "name_de": "Obstriegel (Erdbeere)",
+    "g_index": 90,
+    "g_load": 60.8,
+    "name_ru": "Фруктовый батончик (клубника)",
+    "name_en": "Fruit bar (strawberry)"
+  },
+  {
+    "image_url": "images/PfFpjyCX67_small.webp",
+    "name_de": "Ofenkartoffel",
+    "g_index": 95,
+    "g_load": 20,
+    "name_ru": "Печеный картофель",
+    "name_en": "Baked potato"
+  },
+  {
+    "image_url": "images/uBWy5f1Dky_small.webp",
+    "name_de": "Pastinake",
+    "g_index": 85,
+    "g_load": 15.3,
+    "name_ru": "Пастернак",
+    "name_en": "Parsnip"
+  },
+  {
+    "image_url": "images/cfhAGI3YFn_small.webp",
+    "name_de": "Pfannkuchen mit Hüttenkäse",
+    "g_index": 70,
+    "g_load": 8.4,
+    "name_ru": "Блины с творогом",
+    "name_en": "Pancakes with cottage cheese"
+  },
+  {
+    "image_url": "images/ZTVdhnMMjY_small.webp",
+    "name_de": "Platano (gekocht)",
+    "g_index": 70,
+    "g_load": 27.4,
+    "name_ru": "Платано (приготовленный)",
+    "name_en": "Platano (cooked)"
+  },
+  {
+    "image_url": "images/qv7Mku6eZJ_small.webp",
+    "name_de": "Platano (nur gekocht)",
+    "g_index": 70,
+    "g_load": 22.4,
+    "name_ru": "Платано (только приготовленный)",
+    "name_en": "Platano (only cooked)"
+  },
+  {
+    "image_url": "images/Mlh5GfqgHd_small.webp",
+    "name_de": "Pommes frittes",
+    "g_index": 75,
+    "g_load": 22.6,
+    "name_ru": "Картофель фри",
+    "name_en": "French fries"
+  },
+  {
+    "image_url": "images/01sqMRHCKr_small.webp",
+    "name_de": "Premium Weizenmehl",
+    "g_index": 85,
+    "g_load": 58.6,
+    "name_ru": "Премиальная пшеничная мука",
+    "name_en": "Premium wheat flour"
+  },
+  {
+    "image_url": "images/NUF1lnAdJl_small.webp",
+    "name_de": "Ravioli (aus Weichweizen)",
+    "g_index": 70,
+    "g_load": 20.8,
+    "name_ru": "Равиоли (из мягкой пшеницы)",
+    "name_en": "Ravioli (from soft wheat)"
+  },
+  {
+    "image_url": "images/Wcub3iN8hK_small.webp",
+    "name_de": "Reisbrei mit Milch (mit Zucker)",
+    "g_index": 75,
+    "g_load": 13.6,
+    "name_ru": "Рисовая каша с молоком (с сахаром)",
+    "name_en": "Rice porridge with milk (with sugar)"
+  },
+  {
+    "image_url": "images/0scaIlEz2Z_small.webp",
+    "name_de": "Reisbrot",
+    "g_index": 70,
+    "g_load": 48,
+    "name_ru": "Рисовый хлеб",
+    "name_en": "Rice bread"
+  },
+  {
+    "image_url": "images/tvcnRnAAr2_small.webp",
+    "name_de": "Reisflocken",
+    "g_index": 80,
+    "g_load": 61.6,
+    "name_ru": "Рисовые хлопья",
+    "name_en": "Rice flakes"
+  },
+  {
+    "image_url": "images/O1mOJwne6V_small.webp",
+    "name_de": "Reiskekse",
+    "g_index": 85,
+    "g_load": 58.6,
+    "name_ru": "Рисовое печенье",
+    "name_en": "Rice cookies"
+  },
+  {
+    "image_url": "images/Oe6K3ZDkwz_small.webp",
+    "name_de": "Reiskuchen",
+    "g_index": 85,
+    "g_load": 69.7,
+    "name_ru": "Рисовые лепешки",
+    "name_en": "Rice cakes"
+  },
+  {
+    "image_url": "images/vqDNTitb75_small.webp",
+    "name_de": "Reismehl",
+    "g_index": 95,
+    "g_load": 76.1,
+    "name_ru": "Рисовая мука",
+    "name_en": "Rice flour"
+  },
+  {
+    "image_url": "images/6YahKCXm9i_small.webp",
+    "name_de": "Reismilch",
+    "g_index": 85,
+    "g_load": 5.5,
+    "name_ru": "Рисовое молоко",
+    "name_en": "Rice milk"
+  },
+  {
+    "image_url": "images/jS5TN2lXTh_small.webp",
+    "name_de": "Reissirup",
+    "g_index": 100,
+    "g_load": 77,
+    "name_ru": "Рисовый сироп",
+    "name_en": "Rice syrup"
+  },
+  {
+    "image_url": "images/AKCZL3GXd3_small.webp",
+    "name_de": "Risotto",
+    "g_index": 70,
+    "g_load": 22.1,
+    "name_ru": "Ризотто",
+    "name_en": "Risotto"
+  },
+  {
+    "image_url": "images/C1Uv9qZg7C_small.webp",
+    "name_de": "Rutabaga, Futterrüben",
+    "g_index": 70,
+    "g_load": 6.1,
+    "name_ru": "Брюква, кормовая свекла",
+    "name_en": "Rutabaga, fodder beets"
+  },
+  {
+    "image_url": "images/uHWJIVcRM7_small.webp",
+    "name_de": "Rübe (gekocht, gekocht)",
+    "g_index": 85,
+    "g_load": 3.9,
+    "name_ru": "Репа (приготовленная, вареная)",
+    "name_en": "Turnip (cooked, boiled)"
+  },
+  {
+    "image_url": "images/jiG8OjhXWw_small.webp",
+    "name_de": "Rübe, Rübe (gekocht)",
+    "g_index": 85,
+    "g_load": 5.1,
+    "name_ru": "Репа, репа (приготовленная)",
+    "name_en": "Turnip, turnip (cooked)"
+  },
+  {
+    "image_url": "images/Yx6702Slmh_small.webp",
+    "name_de": "Sandwichbrot, weiß",
+    "g_index": 75,
+    "g_load": 39.4,
+    "name_ru": "Сэндвич-хлеб, белый",
+    "name_en": "Sandwich bread, white"
+  },
+  {
+    "image_url": "images/wthslYkU89_small.webp",
+    "name_de": "Schokoriegel (mit Zucker)",
+    "g_index": 70,
+    "g_load": 38.1,
+    "name_ru": "Шоколадный батончик (с сахаром)",
+    "name_en": "Chocolate bar (with sugar)"
+  },
+  {
+    "image_url": "images/rMI2gltinn_small.webp",
+    "name_de": "Sellerie (gekocht, ohne Salz)",
+    "g_index": 85,
+    "g_load": 4,
+    "name_ru": "Сельдерей (приготовленный, без соли)",
+    "name_en": "Celery (cooked, without salt)"
+  },
+  {
+    "image_url": "images/Buo1liHtxx_small.webp",
+    "name_de": "Sirup",
+    "g_index": 70,
+    "g_load": 54.8,
+    "name_ru": "Сироп",
+    "name_en": "Syrup"
+  },
+  {
+    "image_url": "images/dh4BkgP3vI_small.webp",
+    "name_de": "Sorghum",
+    "g_index": 70,
+    "g_load": 46.5,
+    "name_ru": "Сорго",
+    "name_en": "Sorghum"
+  },
+  {
+    "image_url": "images/zBi6qlNnBV_small.webp",
+    "name_de": "Sportgetränke",
+    "g_index": 75,
+    "g_load": 2.9,
+    "name_ru": "Спортивные напитки",
+    "name_en": "Sports drinks"
+  },
+  {
+    "image_url": "images/RUwbjuezTD_small.webp",
+    "name_de": "Süßkartoffel (Batata, Yam)",
+    "g_index": 70,
+    "g_load": 11.1,
+    "name_ru": "Сладкий картофель (Батата, Ям)",
+    "name_en": "Sweet potato (Batata, Yam)"
+  },
+  {
+    "image_url": "images/eUksdh2pTi_small.webp",
+    "name_de": "Tacos",
+    "g_index": 70,
+    "g_load": 14,
+    "name_ru": "Тако",
+    "name_en": "Tacos"
+  },
+  {
+    "image_url": "images/w4OeMhPDp7_small.webp",
+    "name_de": "Tapioka (getrocknet)",
+    "g_index": 85,
+    "g_load": 74.6,
+    "name_ru": "Тапиока (сушеная)",
+    "name_en": "Tapioca (dried)"
+  },
+  {
+    "image_url": "images/rvUGchFjPr_small.webp",
+    "name_de": "Termine",
+    "g_index": 70,
+    "g_load": 48.4,
+    "name_ru": "Финики",
+    "name_en": "Dates"
+  },
+  {
+    "image_url": "images/KA0omnjciw_small.webp",
+    "name_de": "Waffeln",
+    "g_index": 75,
+    "g_load": 54.3,
+    "name_ru": "Вафли",
+    "name_en": "Waffles"
+  },
+  {
+    "image_url": "images/8qDGgIWMAs_small.webp",
+    "name_de": "Wassermelone",
+    "g_index": 75,
+    "g_load": 5.6,
+    "name_ru": "Арбуз",
+    "name_en": "Watermelon"
+  },
+  {
+    "image_url": "images/Vy2XOOtMlA_small.webp",
+    "name_de": "Weizenbrot",
+    "g_index": 70,
+    "g_load": 34.3,
+    "name_ru": "Пшеничный хлеб",
+    "name_en": "Wheat bread"
+  },
+  {
+    "image_url": "images/zwQQH8Nxsv_small.webp",
+    "name_de": "Weizenmehl, weiß (nicht angereichert)",
+    "g_index": 85,
+    "g_load": 62.6,
+    "name_ru": "Пшеничная мука, белая (необогащенная)",
+    "name_en": "Wheat flour, white (not enriched)"
+  },
+  {
+    "image_url": "images/fA7MrEbvvU_small.webp",
+    "name_de": "Weizensirup",
+    "g_index": 100,
+    "g_load": 78,
+    "name_ru": "Пшеничный сироп",
+    "name_en": "Wheat syrup"
+  },
+  {
+    "image_url": "images/AYB2keTe4N_small.webp",
+    "name_de": "Weizensirup, Reissirup",
+    "g_index": 100,
+    "g_load": 77,
+    "name_ru": "Пшеничный сироп, рисовый сироп",
+    "name_en": "Wheat syrup, rice syrup"
+  },
+  {
+    "image_url": "images/7glZbxWPcy_small.webp",
+    "name_de": "Weißbrot \"Baguette",
+    "g_index": 70,
+    "g_load": 36,
+    "name_ru": "Белый хлеб \"Багет",
+    "name_en": "White bread \"Baguette"
+  },
+  {
+    "image_url": "images/IId383BQgI_small.webp",
+    "name_de": "Weißer Reis Standard",
+    "g_index": 70,
+    "g_load": 56,
+    "name_ru": "Белый рис стандартный",
+    "name_en": "White rice standard"
+  },
+  {
+    "image_url": "images/WBtmLBI95R_small.webp",
+    "name_de": "Weißmehlbrot",
+    "g_index": 90,
+    "g_load": 43.9,
+    "name_ru": "Хлеб из белой муки",
+    "name_en": "White flour bread"
+  },
+  {
+    "image_url": "images/c2cnuHldAk_small.webp",
+    "name_de": "brauner Zucker",
+    "g_index": 70,
+    "g_load": 68.6,
+    "name_ru": "Коричневый сахар",
+    "name_en": "Brown sugar"
+  }
+]

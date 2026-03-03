@@ -1,0 +1,16 @@
+{
+  "references": [
+    {
+      "path": "../../apps/app/tsconfig.app.json"
+    },
+    {
+      "path": "../../apps/app/tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src"]
+}

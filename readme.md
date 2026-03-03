@@ -2,7 +2,7 @@
 
 Monorepo starter-Kit is a monorepo created with all the essential configurations to help you build and scale applications easily and efficiently
 
-With Monorepo Starter-Kit, you will work with: 
+With Monorepo Starter-Kit, you will work with:
 
 - Package Manager (pnpm)
 - Frontend App (React + vite)
@@ -38,7 +38,6 @@ pnpm run dev
 
 Launching your postgres database in local
 
-
 Execute the command below:
 
 ```
@@ -47,6 +46,34 @@ Execute the command below:
 
 docker run -dp 5432:5432  --name postgresdb  -e POSTGRES_USER=raburuz  -e POSTGRES_PASSWORD=mysecretpassword  -e POSTGRES_DB=dev  -v postgresql:/var/lib/postgresql/data  postgres:15-alpine
 
+```
+
+OR
+
+```bash
+docker compose up --build -d
+docker exec -it postgresdb bash
+```
+
+Inside psql:
+
+```
+psql -U raburuz -d dev
+CREATE EXTENSION pg_uuidv7;
+\q
+```
+
+Verify PostgreSQL is working:
+
+```bash
+docker exec -it postgresdb psql -U raburuz -d dev
+```
+
+Inside psql:
+
+```sql
+\dx                          -- list installed extensions
+SELECT uuid_generate_v7();   -- generate UUIDv7
 ```
 
 Postgresql string connection
@@ -62,7 +89,6 @@ postgresql://raburuz:mysecretpassword@localhost/dev
 Download the Stripe CLI
 
 https://docs.stripe.com/stripe-cli
-
 
 Unzip the file in your desktop and open the window terminal (Command Prompt)
 

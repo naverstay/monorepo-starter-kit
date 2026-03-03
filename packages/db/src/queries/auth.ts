@@ -1,13 +1,13 @@
 import { eq } from "drizzle-orm";
 import { db } from "../db";
-import { user } from "../schemas/auth";
+import { user } from "../schemas/user";
 
-export const updateUserInformationByUserId = async ( userId: string, data: { name?: string, image?: string } ) => {
-	await db
-		.update(user)
-		.set({
-			name: data.name, 
-			image: data.image
-		})
-		.where(eq(user.id, userId));
-}
+export const updateUserInformationByUserId = async (userId: string, data: { name?: string; image?: string }) => {
+  await db
+    .update(user)
+    .set({
+      name: data.name,
+      image: data.image,
+    })
+    .where(eq(user.id, userId));
+};

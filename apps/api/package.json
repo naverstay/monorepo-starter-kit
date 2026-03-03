@@ -11,13 +11,15 @@
     "email:dev": "email dev"
   },
   "engines": {
-    "node": "24.3.0"
+    "node": "^24.3.0"
   },
   "dependencies": {
+    "@types/cookie-parser": "^1.4.9",
     "auth": "workspace:*",
     "body-parser": "^1.20.3",
     "concurrently": "catalog:",
     "config": "workspace:*",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "db": "workspace:*",
     "dotenv-cli": "^8.0.0",

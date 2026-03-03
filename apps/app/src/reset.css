@@ -1,0 +1,43 @@
+/******************************************************************************
+  Global
+******************************************************************************/
+
+/*** Global classes ***/
+html {
+  /*font-size: 10px;*/
+  scroll-behavior: smooth;
+  overflow-y: hidden !important;
+  overflow-x: clip !important;
+  height: 100%;
+  /*scrollbar-gutter: stable;*/
+}
+
+html body[data-scroll-locked] {
+  overflow-y: scroll !important;
+  /*--removed-body-scroll-bar-size: 0 !important;*/
+  /*margin-right: 0 !important;*/
+}
+
+body {
+  position: relative;
+  font-weight: 400;
+  /*font-size: 1.6rem;*/
+  line-height: normal;
+
+  overflow-y: scroll !important;
+  overflow-x: clip !important;
+  height: 100%;
+}
+
+.dev-log {
+  display: none;
+  overflow: auto;
+}
+
+/*** Global adaptive style ***/
+@media (max-width: 375px) {
+  /* small mobile zoom fix */
+  html {
+    font-size: calc(100vw / 37.5);
+  }
+}

@@ -2,18 +2,17 @@ import { useEffect } from "react";
 /* LIBRARIES */
 import { Outlet, useNavigate } from "@tanstack/react-router";
 /* APP */
-import { LoadingPage } from "@/shared/pages/Loading";
-import { useSession } from "../hooks/useAuth"
+import { LoadingPage } from "@modules/shared/pages/Loading";
+import { useSession } from "@modules/auth";
 
 /* COMPONENT */
 export const Protected = () => {
-
   const navigate = useNavigate();
   const { data: session, isPending } = useSession();
-  
+
   useEffect(() => {
     if (!isPending && !session) {
-      navigate({ to:'/auth/login'} );
+      navigate({ to: "/auth/login" });
     }
   }, [isPending, session, navigate]);
 
@@ -22,4 +21,4 @@ export const Protected = () => {
   }
 
   return session ? <Outlet /> : null;
-}
+};

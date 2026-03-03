@@ -1,0 +1,15 @@
+{
+  "name": "qr",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "main": "index.ts",
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "dependencies": {
+    "qrcode.react": "^3.1.0",
+    "@capacitor-community/barcode-scanner": "^4.0.1"
+  }
+}

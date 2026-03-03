@@ -1,12 +1,13 @@
-import { Providers } from "@/shared/providers/Providers";
+import { Providers } from "@modules/shared/providers/Providers";
+import { Toaster } from "react-hot-toast";
 
 function App() {
-
   return (
     <>
-      <Providers/>
+      <Providers />
+      <Toaster />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

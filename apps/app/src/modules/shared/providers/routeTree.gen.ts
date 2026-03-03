@@ -14,6 +14,10 @@ import { Route as rootRouteImport } from './../../../routes/__root'
 import { Route as ProtectedRouteImport } from './../../../routes/_protected'
 import { Route as ProtectedIndexRouteImport } from './../../../routes/_protected/index'
 import { Route as AuthAuthRouteImport } from './../../../routes/auth/_auth'
+import { Route as ProtectedUsersRouteImport } from './../../../routes/_protected/users'
+import { Route as ProtectedQrRouteImport } from './../../../routes/_protected/qr'
+import { Route as ProtectedProductsRouteImport } from './../../../routes/_protected/products'
+import { Route as ProtectedNutritionRouteImport } from './../../../routes/_protected/nutrition'
 import { Route as AuthAuthSignupRouteImport } from './../../../routes/auth/_auth/signup'
 import { Route as AuthAuthLoginRouteImport } from './../../../routes/auth/_auth/login'
 
@@ -37,6 +41,26 @@ const AuthAuthRoute = AuthAuthRouteImport.update({
   id: '/_auth',
   getParentRoute: () => AuthRoute,
 } as any)
+const ProtectedUsersRoute = ProtectedUsersRouteImport.update({
+  id: '/users',
+  path: '/users',
+  getParentRoute: () => ProtectedRoute,
+} as any)
+const ProtectedQrRoute = ProtectedQrRouteImport.update({
+  id: '/qr',
+  path: '/qr',
+  getParentRoute: () => ProtectedRoute,
+} as any)
+const ProtectedProductsRoute = ProtectedProductsRouteImport.update({
+  id: '/products',
+  path: '/products',
+  getParentRoute: () => ProtectedRoute,
+} as any)
+const ProtectedNutritionRoute = ProtectedNutritionRouteImport.update({
+  id: '/nutrition',
+  path: '/nutrition',
+  getParentRoute: () => ProtectedRoute,
+} as any)
 const AuthAuthSignupRoute = AuthAuthSignupRouteImport.update({
   id: '/signup',
   path: '/signup',
@@ -49,12 +73,20 @@ const AuthAuthLoginRoute = AuthAuthLoginRouteImport.update({
 } as any)
 
 export interface FileRoutesByFullPath {
+  '/nutrition': typeof ProtectedNutritionRoute
+  '/products': typeof ProtectedProductsRoute
+  '/qr': typeof ProtectedQrRoute
+  '/users': typeof ProtectedUsersRoute
   '/auth': typeof AuthAuthRouteWithChildren
   '/': typeof ProtectedIndexRoute
   '/auth/login': typeof AuthAuthLoginRoute
   '/auth/signup': typeof AuthAuthSignupRoute
 }
 export interface FileRoutesByTo {
+  '/nutrition': typeof ProtectedNutritionRoute
+  '/products': typeof ProtectedProductsRoute
+  '/qr': typeof ProtectedQrRoute
+  '/users': typeof ProtectedUsersRoute
   '/auth': typeof AuthAuthRouteWithChildren
   '/': typeof ProtectedIndexRoute
   '/auth/login': typeof AuthAuthLoginRoute
@@ -63,6 +95,10 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_protected': typeof ProtectedRouteWithChildren
+  '/_protected/nutrition': typeof ProtectedNutritionRoute
+  '/_protected/products': typeof ProtectedProductsRoute
+  '/_protected/qr': typeof ProtectedQrRoute
+  '/_protected/users': typeof ProtectedUsersRoute
   '/auth': typeof AuthRouteWithChildren
   '/auth/_auth': typeof AuthAuthRouteWithChildren
   '/_protected/': typeof ProtectedIndexRoute
@@ -71,12 +107,32 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/auth' | '/' | '/auth/login' | '/auth/signup'
+  fullPaths:
+    | '/nutrition'
+    | '/products'
+    | '/qr'
+    | '/users'
+    | '/auth'
+    | '/'
+    | '/auth/login'
+    | '/auth/signup'
   fileRoutesByTo: FileRoutesByTo
-  to: '/auth' | '/' | '/auth/login' | '/auth/signup'
+  to:
+    | '/nutrition'
+    | '/products'
+    | '/qr'
+    | '/users'
+    | '/auth'
+    | '/'
+    | '/auth/login'
+    | '/auth/signup'
   id:
     | '__root__'
     | '/_protected'
+    | '/_protected/nutrition'
+    | '/_protected/products'
+    | '/_protected/qr'
+    | '/_protected/users'
     | '/auth'
     | '/auth/_auth'
     | '/_protected/'
@@ -119,6 +175,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthAuthRouteImport
       parentRoute: typeof AuthRoute
     }
+    '/_protected/users': {
+      id: '/_protected/users'
+      path: '/users'
+      fullPath: '/users'
+      preLoaderRoute: typeof ProtectedUsersRouteImport
+      parentRoute: typeof ProtectedRoute
+    }
+    '/_protected/qr': {
+      id: '/_protected/qr'
+      path: '/qr'
+      fullPath: '/qr'
+      preLoaderRoute: typeof ProtectedQrRouteImport
+      parentRoute: typeof ProtectedRoute
+    }
+    '/_protected/products': {
+      id: '/_protected/products'
+      path: '/products'
+      fullPath: '/products'
+      preLoaderRoute: typeof ProtectedProductsRouteImport
+      parentRoute: typeof ProtectedRoute
+    }
+    '/_protected/nutrition': {
+      id: '/_protected/nutrition'
+      path: '/nutrition'
+      fullPath: '/nutrition'
+      preLoaderRoute: typeof ProtectedNutritionRouteImport
+      parentRoute: typeof ProtectedRoute
+    }
     '/auth/_auth/signup': {
       id: '/auth/_auth/signup'
       path: '/signup'
@@ -137,10 +221,18 @@ declare module '@tanstack/react-router' {
 }
 
 interface ProtectedRouteChildren {
+  ProtectedNutritionRoute: typeof ProtectedNutritionRoute
+  ProtectedProductsRoute: typeof ProtectedProductsRoute
+  ProtectedQrRoute: typeof ProtectedQrRoute
+  ProtectedUsersRoute: typeof ProtectedUsersRoute
   ProtectedIndexRoute: typeof ProtectedIndexRoute
 }
 
 const ProtectedRouteChildren: ProtectedRouteChildren = {
+  ProtectedNutritionRoute: ProtectedNutritionRoute,
+  ProtectedProductsRoute: ProtectedProductsRoute,
+  ProtectedQrRoute: ProtectedQrRoute,
+  ProtectedUsersRoute: ProtectedUsersRoute,
   ProtectedIndexRoute: ProtectedIndexRoute,
 }
 

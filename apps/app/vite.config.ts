@@ -1,28 +1,47 @@
-/* NODE */
-import path from 'path'
+import path from "path";
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import { tanstackRouter } from "@tanstack/router-plugin/vite";
+import dotenv from "dotenv";
+import detect from "detect-port";
 
-/* VITE */
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-import { tanstackRouter } from '@tanstack/router-plugin/vite'
+dotenv.config({ path: path.resolve(__dirname, "../api/.env") });
 
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [
-    // Please make sure that '@tanstack/router-plugin' is passed before '@vitejs/plugin-react'
-    tanstackRouter({
-      target: 'react',
-      autoCodeSplitting: true,
-      generatedRouteTree: './src/modules/shared/providers/routeTree.gen.ts'
-    }),
-    react(),
-    tailwindcss(),
-  ],
-  resolve:{
-    alias: [
-      { find: '~', replacement: path.resolve(__dirname, 'src') },
-      { find: '@', replacement: path.resolve(__dirname, 'src/modules') },
-    ]
-  },
-})
+const DEFAULT_PORT = 8080;
+
+export default defineConfig(async () => {
+  const resolvedPort = await detect(DEFAULT_PORT);
+  const apiUrl = process.env.BETTER_AUTH_URL || "http://localhost";
+
+  console.log("resolvedPort", resolvedPort);
+
+  return {
+    plugins: [
+      tanstackRouter({
+        target: "react",
+        autoCodeSplitting: true,
+        generatedRouteTree: "./src/modules/shared/providers/routeTree.gen.ts",
+      }),
+      react(),
+      tailwindcss(),
+    ],
+    resolve: {
+      alias: [
+        { find: "@", replacement: path.resolve(__dirname, "src") },
+        { find: "@qr", replacement: path.resolve(__dirname, "../../packages/qr/src") },
+        { find: "@modules", replacement: path.resolve(__dirname, "src/modules") },
+      ],
+    },
+    server: {
+      port: resolvedPort,
+      proxy: {
+        "/api": {
+          target: apiUrl,
+          changeOrigin: true,
+          secure: false,
+        },
+      },
+    },
+  };
+});

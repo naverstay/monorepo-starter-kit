@@ -1,8 +1,10 @@
 packages:
-  - 'apps/*'
-  - 'packages/*'
+  - apps/*
+  - packages/*
 
 catalog:
-  express: ^5.1.0
-  '@types/express': ^5.0.3
+  "@types/express": ^5.0.3
   concurrently: ^9.2.0
+  express: ^5.1.0
+
+nodeLinker: hoisted
