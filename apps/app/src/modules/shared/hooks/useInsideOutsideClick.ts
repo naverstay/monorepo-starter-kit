@@ -2,9 +2,9 @@ import {useEffect} from "react";
 
 export function useInsideOutsideClick(
   ref: React.RefObject<HTMLElement | null>,
-  onInside: () => void,
-  onOutside: () => void,
-  onMove?: () => void
+  onInside: (e: MouseEvent | TouchEvent) => void,
+  onOutside: (e: MouseEvent | TouchEvent) => void,
+  onMove?: (e: MouseEvent | TouchEvent) => void
 ) {
   useEffect(() => {
     let touchStartX = 0;
@@ -30,7 +30,7 @@ export function useInsideOutsideClick(
 
       if (dx > TOUCH_TOLERANCE || dy > TOUCH_TOLERANCE) {
         moved = true;
-        onMove?.(); // ✅ вызываем колбэк движения
+        onMove?.(e); // ✅ вызываем колбэк движения
       }
     }
 
@@ -42,8 +42,8 @@ export function useInsideOutsideClick(
       const el = ref.current;
       if (!el) return;
 
-      if (el.contains(target)) onInside();
-      else onOutside();
+      if (el.contains(target)) onInside(e);
+      else onOutside(e);
     }
 
     function onClick(e: MouseEvent) {
@@ -56,8 +56,8 @@ export function useInsideOutsideClick(
       const el = ref.current;
       if (!el) return;
 
-      if (el.contains(target)) onInside();
-      else onOutside();
+      if (el.contains(target)) onInside(e);
+      else onOutside(e);
     }
 
     document.addEventListener("touchstart", onTouchStart, {passive: true});

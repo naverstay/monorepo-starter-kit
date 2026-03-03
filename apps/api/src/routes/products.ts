@@ -1,14 +1,14 @@
-import { Router } from "express";
-import { getAllProducts } from "db/src/lib/products";
-import { product } from "db";
+import {Router} from "express";
+import {getAllProducts} from "db/src/lib/products";
+import {product} from "db";
 
 const router = Router();
 
 router.get("/api/products", async (req, res) => {
   try {
     const {
-      page = "1",
-      pageSize = "20",
+      page,
+      pageSize,
       name_de,
       name_ru,
       name_en,
@@ -32,10 +32,12 @@ router.get("/api/products", async (req, res) => {
 
     const orderBy = orderByField
       ? {
-          field: orderByField as keyof typeof product,
-          direction: orderByDirection === "asc" ? "asc" : "desc",
-        }
+        field: orderByField as keyof typeof product,
+        direction: orderByDirection === "asc" ? "asc" : "desc",
+      }
       : undefined;
+
+    console.log('pageSize', pageSize, req.query);
 
     const products = await getAllProducts({
       filters,
@@ -47,8 +49,8 @@ router.get("/api/products", async (req, res) => {
     res.json(products);
   } catch (err) {
     console.error("Ошибка при получении продуктов:", err);
-    res.status(500).json({ error: "Не удалось получить продукты" });
+    res.status(500).json({error: "Не удалось получить продукты"});
   }
 });
 
-export { router as productsRouter };
+export {router as productsRouter};

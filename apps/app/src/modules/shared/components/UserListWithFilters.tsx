@@ -50,7 +50,7 @@ export const UserListWithFilters = () => {
   };
 
   useEffect(() => {
-    refetch().then(() => {});
+    refetch();
   }, [activeFilters, page]);
 
   return (

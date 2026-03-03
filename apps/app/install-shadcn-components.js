@@ -5,6 +5,8 @@ const components = [
   "badge",
   "button",
   "card",
+  "checkbox",
+  "command",
   "dialog",
   "input",
   "pagination",

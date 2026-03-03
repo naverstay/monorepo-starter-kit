@@ -1,7 +1,7 @@
 import {useEffect, useState, type RefObject} from "react";
 
 export function useElementPosition(
-  ref: RefObject<HTMLDivElement | null>
+  ref: RefObject<HTMLElement | undefined | null>
 ): "top" | "bottom" {
   const [position, setPosition] = useState<"top" | "bottom">("bottom");
 

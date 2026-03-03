@@ -1,23 +1,21 @@
-import {useEffect, useMemo, useState} from "react";
+import {useEffect, useState} from "react";
 import {Input} from "@/shadcn/ui/input";
 import {Button} from "@/shadcn/ui/button";
 import {Spinner} from "@/shadcn/ui/spinner";
 import {Slider} from "@/shadcn/ui/slider";
-import {ProductList} from "./ProductList";
-import {PaginationControls} from "./PaginationControls";
-import {useProducts} from "@modules/shared/queries/useProducts";
-import {Search, X} from "lucide-react";
+import {useNutrition} from "@modules/shared/queries/useNutrition";
+import {Search} from "lucide-react";
 
 import {cn} from "@/lib/utils.ts";
+import {PrettyJSON} from "@modules/shared/components/PrettyJSON";
 
 const G_INDEX_MAX = 120;
 const G_LOAD_MAX = 100;
 
-export const ProductListWithFilters = () => {
-  const pageSize = 30;
-  const [page, setPage] = useState(1);
+export const NutritionHelper = () => {
   const [filters, setFilters] = useState({
-    name: "",
+    text: "",
+    ids: ["019b1e71-8dd6-7485-b9be-56c649030d96"],
     g_index_min: 0,
     g_load_min: 0,
     g_index_max: G_INDEX_MAX,
@@ -25,47 +23,32 @@ export const ProductListWithFilters = () => {
   });
 
   const [activeFilters, setActiveFilters] = useState(filters);
+  const [selected, setSelected] = useState<string[]>([]);
 
-  // const { data, refetch } = useProductsPage({
-  //   filters: {
-  //     name: filters.name || undefined,
-  //     email: filters.email || undefined,
-  //     role: filters.role || undefined,
-  //   },
-  //   page: 1,
-  //   pageSize: 20,
-  // });
-
-  const {data, isLoading, refetch} = useProducts({
+  const {data, isLoading, refetch, error} = useNutrition({
     enabled: false,
     filters: {
-      name_ru: activeFilters.name || undefined,
-      name_en: activeFilters.name || undefined,
-      name_de: activeFilters.name || undefined,
+      text: activeFilters.text,
+      ids: activeFilters.ids?.length ? activeFilters.ids : undefined,
       g_index_min: activeFilters.g_index_min,
       g_index_max: activeFilters.g_index_max,
       g_load_min: activeFilters.g_load_min,
       g_load_max: activeFilters.g_load_max,
     },
-    page,
-    pageSize,
-    orderBy: {field: "createdAt", direction: "desc"},
   });
-
-  const productList = useMemo(() => data?.productList ?? [], [data]);
 
   const handleChange = (field: keyof typeof filters, value: string | number) => {
     setFilters((prev) => ({...prev, [field]: value}));
   };
 
   const handleSearch = () => {
-    setPage(1);
     setActiveFilters(filters);
   };
 
   useEffect(() => {
-    refetch();
-  }, [activeFilters, page]);
+    refetch().then(() => {
+    });
+  }, [activeFilters]);
 
   useEffect(() => {
     handleSearch();
@@ -131,11 +114,15 @@ export const ProductListWithFilters = () => {
           </div>
 
           <div className="relative pr-12">
+            <Button onClick={handleSearch} className="cursor-pointer absolute w-10 top-0 right-0">
+              <Search className="size-4"/>
+            </Button>
+
             <Input
               id="name"
-              placeholder="Поиск по имени"
-              value={filters.name}
-              onChange={(e) => handleChange("name", e.target.value)}
+              placeholder="Дополнительный текст"
+              value={filters.text}
+              onChange={(e) => handleChange("text", e.target.value)}
               onKeyUp={(e) => {
                 if (e.key.toLowerCase() === "enter") {
                   handleSearch();
@@ -149,24 +136,11 @@ export const ProductListWithFilters = () => {
         </div>
       </div>
 
-      {productList.length ? (
-        <div className="flex-1">
-          <ProductList productList={productList}/>
-        </div>
-      ) : isLoading ? null : (
-        <div className="text-center p-10 flex-1 flex items-center justify-center">
-          -= <X/> <Search/> <X/> =-
-        </div>
-      )}
-
-      <div className="sticky bg-background bottom-0 p-4 mx-[-1rem] z-10">
-        {data?.total > pageSize && (
-          <div className="flex justify-center">
-            <PaginationControls total={data.total} page={page} pageSize={pageSize}
-                                onPageChange={(newPage) => setPage(newPage)}/>
-          </div>
-        )}
-      </div>
+      {error ?
+        <div className="flex-1 error"><PrettyJSON json={error}></PrettyJSON></div>
+        : <div className="flex-1">
+          {data?.recommendation ? JSON.stringify(data.recommendation) : null}
+        </div>}
     </>
   );
 };
